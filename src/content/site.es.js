@@ -22,7 +22,7 @@ export const site = {
   repoUrl: '',
   // Se define cuando el sitio esté publicado, p. ej. 'https://la-carta.pages.dev'.
   // Vacío usa la dirección actual del navegador al compartir.
-  canonicalUrl: '',
+  canonicalUrl: 'https://lacarta.nspired.cc/',
 }
 
 export const hero = {

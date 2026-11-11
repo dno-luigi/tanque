@@ -7,7 +7,7 @@ export const ui = {
     label: 'Español',
     short: 'ES',
     lang: 'es',
-    href: '',
+    href: 'https://lacarta.nspired.cc/',
     aria: 'Ver esta página en español',
   },
   skip: 'Skip to the record',
