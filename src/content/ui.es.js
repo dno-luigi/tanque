@@ -1,6 +1,14 @@
 /** Interfaz en español: navegación, botones, leyendas y etiquetas aria. */
 
 export const ui = {
+  // La otra edición: el sitio en inglés, ya publicado en su propio dominio.
+  altLocale: {
+    label: 'English',
+    short: 'EN',
+    lang: 'en',
+    href: 'https://tanque.nspired.cc/',
+    aria: 'Read this page in English',
+  },
   skip: 'Ir al expediente',
   nav: {
     story: 'Historia',
@@ -51,6 +59,5 @@ export const ui = {
     dispatch: 'Enviar documentos',
     source: 'Código fuente',
     notLegal: 'No es asesoría legal',
-    altLocale: { label: 'English', lang: 'en', href: 'https://tanque.ai-n.workers.dev' },
   },
 }

@@ -1,6 +1,15 @@
 /** English interface chrome: navigation, buttons, captions, aria labels. */
 
 export const ui = {
+  // The other edition. An empty href hides the switch; fill it in once that
+  // edition has a public address.
+  altLocale: {
+    label: 'Español',
+    short: 'ES',
+    lang: 'es',
+    href: '',
+    aria: 'Ver esta página en español',
+  },
   skip: 'Skip to the record',
   nav: {
     story: 'Story',
@@ -51,6 +60,5 @@ export const ui = {
     dispatch: 'Send records',
     source: 'Source',
     notLegal: 'Not legal advice',
-    altLocale: { label: 'Español', lang: 'es', href: '' },
   },
 }

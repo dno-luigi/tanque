@@ -316,6 +316,33 @@ h3 {
   background: var(--bar);
 }
 
+/* Language switch: the other edition. Shortened to EN/ES on phones so it
+   never crowds the three links that survive the narrow breakpoints. */
+.nav-lang {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 13px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--bone-dim);
+  white-space: nowrap;
+  transition: border-color 0.3s var(--ease), background 0.3s var(--ease), color 0.3s;
+}
+
+.nav-lang:hover {
+  color: var(--bone);
+  border-color: rgba(233, 180, 106, 0.55);
+  background: var(--sun-wash);
+}
+
+.nav-lang-short {
+  display: none;
+}
+
 /* ── layout ─────────────────────────────────────────────────────────────── */
 
 .wrap {
@@ -2173,6 +2200,20 @@ h3 {
   .brand-sub,
   .nav-cta {
     display: none;
+  }
+
+  .nav-lang {
+    padding: 6px 9px;
+    font-size: 0.58rem;
+    letter-spacing: 0.08em;
+  }
+
+  .nav-lang-full {
+    display: none;
+  }
+
+  .nav-lang-short {
+    display: inline;
   }
 
   .nav-links {

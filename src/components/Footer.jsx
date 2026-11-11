@@ -19,13 +19,14 @@ export default function Footer() {
             <a href="#gate">{ui.footer.gate}</a>
             <a href="#dispatch">{ui.footer.dispatch}</a>
             <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
-            {ui.footer.altLocale.href ? (
+            {ui.altLocale.href ? (
               <a
-                href={ui.footer.altLocale.href}
-                hrefLang={ui.footer.altLocale.lang}
-                lang={ui.footer.altLocale.lang}
+                href={ui.altLocale.href}
+                hrefLang={ui.altLocale.lang}
+                lang={ui.altLocale.lang}
+                aria-label={ui.altLocale.aria}
               >
-                {ui.footer.altLocale.label}
+                {ui.altLocale.label}
               </a>
             ) : null}
             {site.repoUrl ? (

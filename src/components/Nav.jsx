@@ -67,6 +67,19 @@ export default function Nav() {
         <a className="nav-cta" href="#dispatch">
           {ui.nav.cta}
         </a>
+
+        {ui.altLocale.href ? (
+          <a
+            className="nav-lang"
+            href={ui.altLocale.href}
+            hrefLang={ui.altLocale.lang}
+            lang={ui.altLocale.lang}
+            aria-label={ui.altLocale.aria}
+          >
+            <span className="nav-lang-full">{ui.altLocale.label}</span>
+            <span className="nav-lang-short">{ui.altLocale.short}</span>
+          </a>
+        ) : null}
       </div>
     </header>
   )

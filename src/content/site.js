@@ -22,7 +22,7 @@ export const site = {
   repoUrl: '',
   // Set once the site is live, e.g. 'https://the-letter.pages.dev'.
   // Leave empty to fall back to the browser's current address when sharing.
-  canonicalUrl: '',
+  canonicalUrl: 'https://tanque.nspired.cc/',
 }
 
 export const hero = {
