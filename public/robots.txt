@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# A public record. Indexed on purpose.

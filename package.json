@@ -1,0 +1,23 @@
+{
+  "name": "the-letter-that-never-arrived",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A public record of a suppressed lab result, a misdirected letter, and five years and eight months of custody.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/instrument-serif": "^5.0.0",
+    "@fontsource-variable/inter-tight": "^5.0.0",
+    "@fontsource-variable/jetbrains-mono": "^5.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
+  }
+}
