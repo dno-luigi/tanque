@@ -108,14 +108,16 @@ button {
 
 .kicker {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
   margin: 0;
 }
 
 .kicker-dot {
+  flex: none;
   width: 6px;
   height: 6px;
+  margin-top: 0.45em;
   border-radius: 50%;
   background: var(--sun);
   box-shadow: 0 0 0 4px rgba(233, 180, 106, 0.15);
