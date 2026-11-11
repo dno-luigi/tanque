@@ -1,4 +1,4 @@
-import { immunity } from '../content/site.js'
+import { immunity, ui } from '../content/active.js'
 import { SectionHead } from './Shared.jsx'
 
 export default function Immunity() {
@@ -29,7 +29,7 @@ export default function Immunity() {
         </div>
 
         <blockquote className="takeaway reveal">
-          <span>The sentence that matters</span>
+          <span>{ui.immunity.takeawayLabel}</span>
           &ldquo;{immunity.takeaway}&rdquo;
         </blockquote>
       </div>

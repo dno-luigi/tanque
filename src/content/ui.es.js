@@ -1,0 +1,56 @@
+/** Interfaz en español: navegación, botones, leyendas y etiquetas aria. */
+
+export const ui = {
+  skip: 'Ir al expediente',
+  nav: {
+    story: 'Historia',
+    gate: 'Barrera',
+    plan: 'Plan',
+    archive: 'Archivo',
+    dispatch: 'Difusión',
+    sections: 'Secciones',
+    cta: 'Difusión',
+    brandSub: '/ expediente abierto',
+    topOfPage: 'inicio de la página',
+  },
+  hero: {
+    readRecord: 'Leer el expediente',
+    whyCannotSue: 'Por qué aún no podemos demandar',
+    paperRef: 'FORMULARIO 12-B',
+    paperNote: 'Dirección registrada en el departamento.',
+  },
+  story: {
+    custody: 'Prisión cumplida',
+    custodyValue: '5 años, 8 meses',
+    conviction: 'Condena',
+    convictionValue: 'vigente',
+    nextFiling: 'Próxima presentación',
+    nextFilingValue: 'moción para anular',
+  },
+  heck: { groupAria: 'Estado de la condena penal', ourRoute: 'Nuestra ruta' },
+  phases: { label: 'Etapa', output: 'Resultado' },
+  evidence: { proves: 'Qué demuestra' },
+  immunity: { takeawayLabel: 'La frase que importa' },
+  archive: {
+    footCertified: '{held} de {total} documentos certificados y publicados',
+    footUpdated: 'Última actualización al publicarse cada documento · sin cargas sin verificar',
+  },
+  dispatch: {
+    copySummary: 'Copiar el resumen',
+    copyLink: 'Copiar el enlace',
+    emailRecord: 'Escribir por correo',
+    mailSubjectSuffix: 'registros y pistas',
+    copyFailed: 'No se pudo copiar — selecciona manualmente',
+    linkCopied: 'Enlace copiado',
+    summaryCopied: 'Resumen copiado',
+  },
+  footer: {
+    aria: 'Pie de página',
+    archive: 'El archivo',
+    gate: 'La barrera legal',
+    dispatch: 'Enviar documentos',
+    source: 'Código fuente',
+    notLegal: 'No es asesoría legal',
+    altLocale: { label: 'English', lang: 'en', href: 'https://tanque.ai-n.workers.dev' },
+  },
+}

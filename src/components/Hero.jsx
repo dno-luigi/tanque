@@ -1,4 +1,4 @@
-import { hero } from '../content/site.js'
+import { hero, ui } from '../content/active.js'
 import { Arrow } from './Shared.jsx'
 
 function LetterArtifact() {
@@ -10,14 +10,14 @@ function LetterArtifact() {
         <span className="tape" aria-hidden="true" />
         <div className="paper-head">
           <span>{artifact.header}</span>
-          <span className="paper-ref">FORM 12-B</span>
+          <span className="paper-ref">{ui.hero.paperRef}</span>
         </div>
 
         <dl className="paper-rows">
-          {artifact.rows.map(([key, value]) => (
-            <div className="paper-row" key={key}>
-              <dt>{key}</dt>
-              <dd className={key === 'Result' ? 'neg' : undefined}>{value}</dd>
+          {artifact.rows.map((row) => (
+            <div className="paper-row" key={row.label}>
+              <dt>{row.label}</dt>
+              <dd className={row.neg ? 'neg' : undefined}>{row.value}</dd>
             </div>
           ))}
         </dl>
@@ -25,7 +25,7 @@ function LetterArtifact() {
         <div className="paper-foot">
           <span className="redact w-70" aria-hidden="true" />
           <span className="redact w-45" aria-hidden="true" />
-          <p className="paper-note">Subject address on file with the department.</p>
+          <p className="paper-note">{ui.hero.paperNote}</p>
         </div>
 
         <div className="stamp">
@@ -64,10 +64,10 @@ export default function Hero() {
 
             <div className="hero-actions">
               <a className="btn btn-primary" href="#story">
-                Read the record
+                {ui.hero.readRecord}
               </a>
               <a className="btn btn-ghost" href="#gate">
-                Why we can&rsquo;t sue yet <Arrow />
+                {ui.hero.whyCannotSue} <Arrow />
               </a>
             </div>
 

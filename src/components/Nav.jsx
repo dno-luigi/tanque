@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
-import { site } from '../content/site.js'
+import { site, ui } from '../content/active.js'
 
 const links = [
-  { id: 'story', label: 'Story' },
-  { id: 'gate', label: 'Gate' },
-  { id: 'plan', label: 'Plan' },
-  { id: 'archive', label: 'Archive' },
-  { id: 'dispatch', label: 'Dispatch' },
+  { id: 'story', label: ui.nav.story },
+  { id: 'gate', label: ui.nav.gate },
+  { id: 'plan', label: ui.nav.plan },
+  { id: 'archive', label: ui.nav.archive },
+  { id: 'dispatch', label: ui.nav.dispatch },
 ]
 
 export default function Nav() {
@@ -44,15 +44,15 @@ export default function Nav() {
   return (
     <header className={`nav${scrolled ? ' is-scrolled' : ''}`}>
       <div className="nav-inner">
-        <a className="brand" href="#top" aria-label={`${site.name} — top of page`}>
+        <a className="brand" href="#top" aria-label={`${site.name} — ${ui.nav.topOfPage}`}>
           <span className="brand-mark" aria-hidden="true">
             §
           </span>
           {site.short}
-          <span className="brand-sub">/ open record</span>
+          <span className="brand-sub">{ui.nav.brandSub}</span>
         </a>
 
-        <nav className="nav-links" aria-label="Sections">
+        <nav className="nav-links" aria-label={ui.nav.sections}>
           {links.map((link) => (
             <a
               key={link.id}
@@ -65,7 +65,7 @@ export default function Nav() {
         </nav>
 
         <a className="nav-cta" href="#dispatch">
-          Dispatch
+          {ui.nav.cta}
         </a>
       </div>
     </header>

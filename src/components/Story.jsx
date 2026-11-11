@@ -1,4 +1,4 @@
-import { story } from '../content/site.js'
+import { story, ui } from '../content/active.js'
 import { SectionHead } from './Shared.jsx'
 
 export default function Story() {
@@ -12,13 +12,13 @@ export default function Story() {
             <p className="pull">{story.pull}</p>
             <div className="aside-meta">
               <span>
-                Custody <strong>5 years, 8 months</strong>
+                {ui.story.custody} <strong>{ui.story.custodyValue}</strong>
               </span>
               <span>
-                Conviction <strong>standing</strong>
+                {ui.story.conviction} <strong>{ui.story.convictionValue}</strong>
               </span>
               <span>
-                Next filing <strong>motion to vacate</strong>
+                {ui.story.nextFiling} <strong>{ui.story.nextFilingValue}</strong>
               </span>
             </div>
           </aside>

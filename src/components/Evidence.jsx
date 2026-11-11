@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { evidence } from '../content/site.js'
+import { evidence, ui } from '../content/active.js'
 import { SectionHead } from './Shared.jsx'
 
 export default function Evidence() {
@@ -39,7 +39,7 @@ export default function Evidence() {
                 <div className="ev-proof" id={`ev-body-${i}`}>
                   <div className="ev-proof-inner">
                     <p>
-                      <span>What it proves</span>
+                      <span>{ui.evidence.proves}</span>
                       {row.proof}
                     </p>
                   </div>

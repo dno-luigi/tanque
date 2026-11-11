@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { heck } from '../content/site.js'
+import { heck, ui } from '../content/active.js'
 import { SectionHead } from './Shared.jsx'
 
 export default function HeckGate() {
@@ -19,7 +19,7 @@ export default function HeckGate() {
           </div>
 
           <div className={`gate-panel reveal${open ? ' is-open' : ''}`}>
-            <div className="gate-toggle" role="group" aria-label="Status of the criminal conviction">
+            <div className="gate-toggle" role="group" aria-label={ui.heck.groupAria}>
               <button type="button" aria-pressed={!open} onClick={() => setOpen(false)}>
                 {heck.closedLabel}
               </button>
@@ -52,7 +52,7 @@ export default function HeckGate() {
                     <strong>{key.title}</strong>
                     <p>{key.detail}</p>
                   </div>
-                  {key.ours ? <span className="key-ours">Our route</span> : null}
+                  {key.ours ? <span className="key-ours">{ui.heck.ourRoute}</span> : null}
                 </li>
               ))}
             </ul>

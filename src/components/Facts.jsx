@@ -1,4 +1,4 @@
-import { facts } from '../content/site.js'
+import { facts } from '../content/active.js'
 import { SectionHead } from './Shared.jsx'
 
 export default function Facts() {

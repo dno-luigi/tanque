@@ -1,4 +1,4 @@
-import { footer, site } from '../content/site.js'
+import { footer, site, ui } from '../content/active.js'
 
 const words = site.name.split(' ')
 const lastWord = words.pop()
@@ -14,14 +14,23 @@ export default function Footer() {
             {words.join(' ')} <em>{lastWord}</em>
           </p>
 
-          <nav className="footer-links" aria-label="Footer">
-            <a href="#archive">The archive</a>
-            <a href="#gate">The legal gate</a>
-            <a href="#dispatch">Send records</a>
+          <nav className="footer-links" aria-label={ui.footer.aria}>
+            <a href="#archive">{ui.footer.archive}</a>
+            <a href="#gate">{ui.footer.gate}</a>
+            <a href="#dispatch">{ui.footer.dispatch}</a>
             <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
+            {ui.footer.altLocale.href ? (
+              <a
+                href={ui.footer.altLocale.href}
+                hrefLang={ui.footer.altLocale.lang}
+                lang={ui.footer.altLocale.lang}
+              >
+                {ui.footer.altLocale.label}
+              </a>
+            ) : null}
             {site.repoUrl ? (
               <a href={site.repoUrl} target="_blank" rel="noreferrer noopener">
-                Source
+                {ui.footer.source}
               </a>
             ) : null}
           </nav>
@@ -36,7 +45,7 @@ export default function Footer() {
             {year} · {site.name}
           </span>
           <span className="closing">{footer.closing}</span>
-          <span>Not legal advice</span>
+          <span>{ui.footer.notLegal}</span>
         </div>
       </div>
     </footer>

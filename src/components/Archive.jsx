@@ -1,4 +1,4 @@
-import { archive } from '../content/site.js'
+import { archive, ui } from '../content/active.js'
 import { SectionHead } from './Shared.jsx'
 
 export default function Archive() {
@@ -33,9 +33,11 @@ export default function Archive() {
 
         <div className="archive-foot">
           <span>
-            {held} of {archive.docs.length} documents certified and published
+            {ui.archive.footCertified
+              .replace('{held}', String(held))
+              .replace('{total}', String(archive.docs.length))}
           </span>
-          <span>Last updated on publication of each record · no unverified uploads</span>
+          <span>{ui.archive.footUpdated}</span>
         </div>
       </div>
     </section>

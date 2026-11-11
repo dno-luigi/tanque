@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { phases } from '../content/site.js'
+import { phases, ui } from '../content/active.js'
 import { SectionHead } from './Shared.jsx'
 
 export default function Phases() {
@@ -33,7 +33,7 @@ export default function Phases() {
                     </span>
                     <span className="phase-titles">
                       <span className="phase-kicker">
-                        Phase {phase.n} · {phase.kicker}
+                        {ui.phases.label} {phase.n} · {phase.kicker}
                       </span>
                       <span className="phase-title">{phase.title}</span>
                     </span>
@@ -51,7 +51,7 @@ export default function Phases() {
                         ))}
                       </ul>
                       <p className="phase-output">
-                        <span>Output</span>
+                        <span>{ui.phases.output}</span>
                         {phase.output}
                       </p>
                     </div>

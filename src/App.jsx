@@ -13,6 +13,7 @@ import Protocol from './components/Protocol.jsx'
 import Dispatch from './components/Dispatch.jsx'
 import Footer from './components/Footer.jsx'
 import { useReveal } from './hooks/useReveal.js'
+import { ui } from './content/active.js'
 
 function ScrollProgress() {
   const bar = useRef(null)
@@ -51,7 +52,7 @@ export default function App() {
   return (
     <>
       <a className="skip" href="#story">
-        Skip to the record
+        {ui.skip}
       </a>
       <ScrollProgress />
       <div className="grain" aria-hidden="true" />

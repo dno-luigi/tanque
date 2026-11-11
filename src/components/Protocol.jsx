@@ -1,4 +1,4 @@
-import { protocol } from '../content/site.js'
+import { protocol } from '../content/active.js'
 import { SectionHead } from './Shared.jsx'
 
 export default function Protocol() {

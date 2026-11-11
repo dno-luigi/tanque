@@ -7,6 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:es": "VITE_LOCALE=es vite build",
+    "build:all": "npm run build && npm run build:es",
     "preview": "vite preview"
   },
   "dependencies": {

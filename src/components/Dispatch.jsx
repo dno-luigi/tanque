@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { dispatch, site } from '../content/site.js'
+import { dispatch, site, ui } from '../content/active.js'
 
 async function copyText(text) {
   try {
@@ -72,7 +72,7 @@ export default function Dispatch() {
                 reset()
               }}
             >
-              Copy the summary
+              {ui.dispatch.copySummary}
             </button>
             <button
               type="button"
@@ -82,21 +82,21 @@ export default function Dispatch() {
                 reset()
               }}
             >
-              Copy the link
+              {ui.dispatch.copyLink}
             </button>
-            <a className="btn btn-ghost" href={`mailto:${site.contactEmail}?subject=${encodeURIComponent(site.name + ' — records and leads')}`}>
-              Email the record
+            <a className="btn btn-ghost" href={`mailto:${site.contactEmail}?subject=${encodeURIComponent(site.name + ' — ' + ui.dispatch.mailSubjectSuffix)}`}>
+              {ui.dispatch.emailRecord}
               <span className="arrow" aria-hidden="true">
                 →
               </span>
             </a>
             <span className="copy-state" role="status" aria-live="polite">
               {failed
-                ? 'Copy failed — select manually'
+                ? ui.dispatch.copyFailed
                 : copied === 'link'
-                  ? 'Link copied'
+                  ? ui.dispatch.linkCopied
                   : copied === 'summary'
-                    ? 'Summary copied'
+                    ? ui.dispatch.summaryCopied
                     : ''}
             </span>
           </div>
