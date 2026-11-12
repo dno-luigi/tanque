@@ -423,7 +423,7 @@ export const archive = {
       title: 'Declaración PC 859A y transcripción de la taquígrafa',
       type: 'Registro judicial',
       status: 'requested',
-      note: 'La minuta dice que se estableció una base fáctica y que el formulario se presentó. Ni el formulario ni la transcripción están en nuestro poder; la transcripción es lo que termina la discusión.',
+      note: 'La minuta dice que se estableció una base fáctica y que el formulario se presentó. Ni el formulario ni la transcripción están en mi poder; la transcripción es lo que termina la discusión.',
     },
     {
       title: 'Registros de alojamiento y correo',
