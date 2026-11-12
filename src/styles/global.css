@@ -910,13 +910,13 @@ h3 {
   color: #d6d0c6;
 }
 
-.prose p:first-child {
+.prose > p:first-child {
   font-size: clamp(1.15rem, 1.5vw, 1.32rem);
   line-height: 1.66;
   color: var(--bone);
 }
 
-.prose p:first-child::first-letter {
+.prose > p:first-child::first-letter {
   float: left;
   font-family: var(--serif);
   font-size: 3.9em;
