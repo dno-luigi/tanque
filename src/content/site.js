@@ -8,6 +8,13 @@
  *  printed 11/10/2026. Where a date or entry is quoted below it is transcribed
  *  from that docket. Everything the docket does not establish is labelled as a
  *  claim, not a fact.
+ *
+ *  CORRECTION OF RECORD (binding): the notice was mailed to his mother's
+ *  address. His mother gave it to his sister, who read it to him by telephone
+ *  while he was in custody. He learned the analysis was negative from his
+ *  sister, not from the letter, which he has never read. The family believes
+ *  the letter was kept, most likely by his mother; that is unconfirmed, so the
+ *  site calls it unconfirmed rather than lost.
  * ─────────────────────────────────────────────────────────────────────────────
  */
 
@@ -29,14 +36,14 @@ export const hero = {
   kicker: 'People v. Campos · San Bernardino Superior Court No. FVI802230',
   line1: 'The test came back',
   line2: 'negative.',
-  line3: 'They mailed the result to the wrong house.',
-  sub: 'Six years imposed. Five years and eight months served. A laboratory result he says he was never shown, a request he made from prison in 2010, and a denial by minute order. The notice went to his sister — who died before he came home, and with her the letter.',
+  line3: 'He pleaded guilty before he knew it.',
+  sub: 'Six years imposed. Five years and eight months served. The laboratory analysis of what was seized came back negative. He asked the court for it from prison in 2010 and was refused by minute order. The notice went to his mother’s address; she gave it to his sister, who read it to him over the phone. The result reached him — late, secondhand, after the plea was already final.',
   note: 'Filed in his own name, in pro per. Built by two people who are not going to stop.',
   stats: [
     { value: '5y 8m', label: 'custody served' },
     { value: '6 yrs', label: 'term imposed, 2009' },
-    { value: 'Negative', label: 'lab result withheld' },
-    { value: '2010', label: 'request denied, no hearing' },
+    { value: 'Negative', label: 'analysis of the seized items' },
+    { value: '2010', label: 'request for the report, denied' },
   ],
   artifact: {
     label: 'Illustrative reconstruction',
@@ -47,11 +54,11 @@ export const hero = {
       { label: 'Case', value: 'FVI802230' },
       { label: 'Analysis', value: 'Controlled substance screening' },
       { label: 'Result', value: 'Negative — none detected', neg: true },
-      { label: 'Mailed to', value: 'Residential address' },
-      { label: 'Not mailed to', value: 'Custodial facility' },
+      { label: 'Mailed to', value: 'Family address — his mother' },
+      { label: 'On file', value: 'Custodial address, county records' },
     ],
-    stamp: 'Delivered to the wrong address',
-    stampSub: 'Subject in state custody at time of mailing',
+    stamp: 'Reached him secondhand',
+    stampSub: 'Read to him by phone while in custody',
   },
 }
 
@@ -61,10 +68,10 @@ export const story = {
   title: 'A deal is only as honest as what they show you first.',
   paragraphs: [
     'On 3 March 2009, at a preliminary hearing in Victorville, Horacio Campos withdrew a plea of not guilty and pleaded guilty to one count of possession of a controlled substance for sale. The same afternoon he was sentenced to six years in state prison. He served five years and eight months of it.',
-    'The laboratory analysis of the seized items came back negative — no controlled substance detected. That is the claim this record exists to prove, and the document that would settle it is the certificate of analysis. The county has not produced it.',
+    'The laboratory analysis of the seized items came back negative — no controlled substance detected. That is the claim this record exists to prove, and the document that would settle it is the certificate of analysis. If it holds, the factual basis recited for the plea could not have been true: Penal Code section 1192.5 requires the court to find one, and where there is no controlled substance there is no corpus delicti.',
     'He asked from inside. On 14 October 2010 he wrote to the court about the results of the laboratory drug testing. The court received the letter on 21 October 2010. On 1 November 2010 a minute order denied the request, and he was notified. No hearing. No appointment of counsel. No report.',
-    'Meanwhile, the notice about that analysis went to a family address, where a relative with limited English did her best with a document that was never meant for her. He was in state custody the entire time, in a facility the county had already written to. They had his address. They mailed it to someone else\u2019s.',
-    'His sister is the one who received it. She died before he came home. He has never read it, and no one has been able to find it since. That is the hole this site sits inside — and the reason everything else goes into public view, where it can be checked by anyone.',
+    'The notice about that analysis went to his mother’s address, not to the facility. His mother gave it to his sister. His sister read it to him over the phone while he was in custody. That is how he learned the analysis was negative — not from the page, which he has never read.',
+    'His sister died before he came home, but she had already told him what the paper said. The family believes the letter was kept, most likely by his mother. We have not seen it, so we describe it as unconfirmed rather than lost.',
     'We are not asking you to take our word for it. We are asking for the paper.',
   ],
   pull: 'Five years and eight months is not a sentence you serve and finish. It is a room you are still standing in.',
@@ -73,9 +80,9 @@ export const story = {
 export const timeline = {
   number: '02',
   eyebrow: 'Sequence',
-  title: 'How the letter missed him.',
+  title: 'How the result reached him — and how late.',
   intro:
-    'Dates and entries below are transcribed from the case docket for No. FVI802230. Two things the docket does not show — the negative result itself, and where the notice was mailed — are marked as claims. Certified copies are being obtained.',
+    'Dates and entries below are transcribed from the case docket for No. FVI802230. Where the docket is silent — the negative result itself, the route the notice took — the claim is labelled a claim. The family’s account of the notice is testimony, not a document, until a declaration or the letter is produced.',
   events: [
     {
       marker: '10 / 27 / 2008',
@@ -87,14 +94,14 @@ export const timeline = {
     {
       marker: 'Before the plea',
       title: 'The lab returns a negative result.',
-      body: 'Analytical testing for controlled substances comes back negative. If that is right, the state held a document that undercut its own case — and the man it charged had no idea it existed. This is the claim the certificate of analysis will confirm or destroy.',
+      body: 'Analytical testing for controlled substances comes back negative. If that is right, the state held a document that undercut the factual basis for its own charge — and the man it charged had no idea it existed. This is the claim the certificate of analysis will confirm or destroy.',
       tag: 'Contested',
       kind: 'contested',
     },
     {
       marker: '03 / 03 / 2009',
       title: 'He pleads guilty at the preliminary hearing. Sentenced the same day.',
-      body: 'He withdraws his not-guilty plea and pleads to count one. The minute order records the court finding the plea knowing and intelligent, imposes four years doubled under the prior strike plus two consecutive years, and fixes a total term of six years, with 195 days of credit. The prison packet is forwarded to West Valley Detention Center the following week.',
+      body: 'He withdraws his not-guilty plea and pleads to count one. The minute order records the court finding the plea knowing and intelligent, imposes four years doubled under the prior strike plus two consecutive years, and fixes a total term of six years, with 195 days of credit. The prison packet is forwarded to West Valley Detention Center the following week. The PC 859A plea form — the only contemporaneous record of the factual basis — is not in hand.',
       tag: 'Docket entry',
       kind: 'docket',
     },
@@ -120,10 +127,10 @@ export const timeline = {
       kind: 'record',
     },
     {
-      marker: 'Now',
-      title: 'His sister is gone. The letter is gone with her.',
-      body: 'The recipient of the notice has died. The letter cannot be produced by us — only by the institutions that sent and tracked it. That is what the § 1473.7 motion and the records demands are for.',
-      tag: 'Open',
+      marker: '2010 → now',
+      title: 'The result reached him secondhand.',
+      body: 'The notice went to his mother’s address. She gave it to his sister, who read it to him by phone while he was in custody; he learned the analysis was negative from her, not from the letter. His sister died before he came home. The family believes the letter was kept. Until it is produced, that is where the record stands.',
+      tag: 'Family account',
       kind: 'open',
     },
   ],
@@ -152,21 +159,52 @@ export const facts = {
     },
     {
       n: '03',
-      title: 'Misdirected notice',
-      claim: 'Critical correspondence went to a private home.',
+      title: 'Notice to a family address',
+      claim: 'The notice went to his mother’s home, not the facility.',
       detail:
-        'Official correspondence about the analysis was addressed to a family residence occupied by a relative with limited English proficiency, rather than served to him at the facility where the county had already forwarded his prison packet. The mailing itself is what the mail ledger has to prove.',
-      source: 'Mail ledgers, transmittal sheets, returned-mail receipts',
+        'Mullane requires notice reasonably calculated to reach him. The county had his custodial address — its own transmittals show that. But the family did reach him: his mother handed the letter to his sister, and his sister read it to him by phone. That makes this a due-process problem about delay and indirection, not a notice that never arrived. It is the weaker of the claims, and the site says so.',
+      source: 'Mail ledgers, transmittal sheets, DOC letters of 4/23/2009 and 4/29/2009',
     },
     {
       n: '04',
-      title: 'A negative finding',
-      claim: 'The report said no controlled substance.',
+      title: 'A negative finding — and a false factual basis',
+      claim: 'No controlled substance means no corpus delicti.',
       detail:
-        'The laboratory analysis returned a negative result — the evidentiary anchor of the motion and of any § 1983 count that follows. Until the certificate of analysis is produced, this remains the central contested fact of the record, not a proven one.',
-      source: 'Bench notes, certificate of analysis, chain of custody',
+        'Penal Code § 1192.5 requires the court to find a factual basis for the plea, on the record. If the analysis was negative, the factual basis for Health and Safety Code § 11378 was false: no substance, no crime. A plea entered on a basis the state’s own evidence contradicts is not a knowing plea under Boykin. This — not the notice — is the strongest argument in the file.',
+      source: 'Certificate of analysis, PC 859A form, plea colloquy',
     },
   ],
+  floor: {
+    title: 'The rules those facts engage.',
+    intro:
+      'Plea bargaining is lawful: Brady v. United States (1970), Santobello v. New York (1971), Corbitt v. New Jersey (1978). The argument here is not that a deal was a deal. It is that this plea failed the floor every plea has to meet.',
+    rules: [
+      {
+        cite: 'Boykin v. Alabama (1969)',
+        text: 'A guilty plea must be knowing, intelligent and voluntary — and the record has to show it, not assume it.',
+      },
+      {
+        cite: 'Henderson v. Morgan (1976)',
+        text: 'The defendant must be informed of the nature of the charge before pleading.',
+      },
+      {
+        cite: 'Cal. Penal Code § 1192.5',
+        text: 'The court must find a factual basis for the plea. A negative analysis leaves none for a possession-for-sale count.',
+      },
+      {
+        cite: 'Brady v. Maryland (1963)',
+        text: 'Exculpatory evidence must be disclosed. Withholding the negative analysis before the plea is the due-process violation.',
+      },
+      {
+        cite: 'Napue v. Illinois (1959)',
+        text: 'The state may not let false evidence stand uncorrected — including a false factual basis it recited itself.',
+      },
+      {
+        cite: 'Mullane v. Central Hanover Bank (1950)',
+        text: 'Notice must be reasonably calculated to reach the person. Supporting argument, not the lead: the family did reach him.',
+      },
+    ],
+  },
 }
 
 export const heck = {
@@ -225,9 +263,11 @@ export const phases = {
         'One objective: an order vacating the 3 March 2009 judgment in No. FVI802230. Nothing else in this plan works until that order exists.',
       bullets: [
         'File a motion to vacate under Penal Code § 1473.7(a)(1), in pro per, on the prejudicial error that damaged his ability to understand the case and knowingly enter the plea.',
+        'Lead with the factual basis, not the notice. Section 1192.5 required the court to find one; a negative analysis means the substance element of Health and Safety Code § 11378 — and the corpus delicti — was absent. A plea entered on a false factual basis is not a knowing plea under Boykin v. Alabama.',
+        'Anchor the disclosure claim in Brady v. Maryland: the negative analysis was suppressed before the plea. Brady v. United States (1970) and Santobello confirm that plea bargaining itself is lawful — the argument is that this plea rested on evidence the state knew was false. Napue v. Illinois: false evidence cannot be left standing uncorrected.',
+        'Demand the PC 859A plea form and the plea colloquy. They are the only contemporaneous record of the factual basis recited, and the motion turns on what they do or do not say.',
+        'Attach the docket as an exhibit. The 10/21/2010 letter and the 11/01/2010 denial answer any laches or due-diligence argument. Argue notice separately and modestly: Mullane requires notice reasonably calculated to reach him, but the family did reach him, so the claim is about delay and indirection rather than non-delivery.',
         'File a parallel habeas petition on Form MC-275 under § 1473(b)(3)(A) — substantial material evidence that was not reasonably available at the time of the plea.',
-        'Anchor the plea claim in Brady v. Maryland: a defendant cannot knowingly waive trial rights while the state withholds the test that undercuts its case. The minute order\u2019s finding that the plea was knowing and intelligent is the finding to be attacked.',
-        'Attach the docket as an exhibit. The 10/21/2010 letter and the 11/01/2010 denial answer any laches or due-diligence argument: he asked, from prison, and was refused by minute order.',
         'Ask for appointed counsel and an evidentiary hearing once a prima facie showing is on the page. Pro se status does not waive the right to be heard.',
       ],
       output: 'An order vacating the judgment, or a hearing date on the motion.',
@@ -239,14 +279,15 @@ export const phases = {
       summary:
         'A pro se petitioner has no subpoena power before a case is filed. Public records law does the work instead — and every request puts the agency on notice that a human is watching.',
       bullets: [
-        'Superior Court clerk, Victorville: a certified copy of the case summary for No. FVI802230, including the 10/21/2010 letter entry and the 11/1/2010 minute order.',
-        'Sheriff\u2019s Department: booking logs, property receipts, custodial transport records, and incoming mail logs for the full term.',
-        'District Attorney\u2019s Office: mail ledger entries, case intake notes, and discovery transmittal sheets for the case.',
+        'Superior Court clerk, Victorville: a certified copy of the case summary for No. FVI802230, including the 10/21/2010 letter entry, the 11/1/2010 minute order, and the PC 859A plea form with its colloquy.',
+        'Sheriff’s Department: booking logs, property receipts, custodial transport records, and incoming mail logs for the full term.',
+        'District Attorney’s Office: mail ledger entries, case intake notes, discovery transmittal sheets, and any record of what the People knew about the analysis before 3 March 2009.',
         'Forensic laboratory: bench notes, the toxicology certificate, delivery receipts, and the chain-of-custody record for the seized items.',
+        'Department of Corrections: the 23 April 2009 letter and the 29 April 2009 copy to the parole unit — the state’s own proof that it held his custodial address.',
         'Every request goes out with a litigation-hold paragraph. Build one chronological dossier with a named custodian and a date for every page.',
       ],
       output:
-        'Three certified anchor documents: the docket, the certificate of analysis, and the mail and notice log.',
+        'Three certified anchor documents: the docket, the certificate of analysis, and the plea form.',
     },
     {
       n: 'III',
@@ -258,7 +299,7 @@ export const phases = {
         'CalVCB claim under Penal Code § 4900 et seq. once the conviction is vacated and factual innocence is established: $140 per day × 2,068 days ≈ $289,520 at the current statutory rate, before any adjustment. Vacatur alone may not satisfy the Board; the factual-innocence finding is a separate step.',
         'Count I — Fourteenth Amendment due process: deliberate suppression of the negative analysis before the plea (Brady).',
         'Count II — Fourth Amendment malicious prosecution: proceedings maintained after the exculpatory result was known.',
-        'Count III — Monell v. Department of Social Services: if notice routing to a family address instead of a custodial one reflects a practice rather than a one-off, the county\u2019s policy is the claim.',
+        'Count III — Monell v. Department of Social Services: if routing notice to a family address instead of a custodial one reflects a practice rather than a one-off, the county’s policy is the claim.',
         'Watch accrual. Under Heck the § 1983 claim does not accrue until invalidation; in California the personal-injury period is two years (Code Civ. Proc. § 335.1), so the complaint is drafted before vacatur and filed the same week.',
       ],
       output: 'A filed § 1983 complaint and a compensation claim on the clock.',
@@ -284,16 +325,16 @@ export const phases = {
 export const evidence = {
   number: '06',
   eyebrow: 'What we are demanding',
-  title: 'Four institutions. Four questions only paper can answer.',
+  title: 'Five institutions. Five questions only paper can answer.',
   intro:
     'Every row below is a public records request, a preservation demand, and a future subpoena target. Expand a row for what it proves.',
   rows: [
     {
       entity: 'Superior Court clerk · No. FVI802230',
       objective:
-        'A certified copy of the case summary docket, including the 10/21/2010 letter entry, the 11/01/2010 minute order, and the 3 March 2009 plea and sentencing minutes.',
+        'A certified copy of the case summary docket, the 3 March 2009 plea and sentencing minutes, and the PC 859A plea form with the colloquy that recites the factual basis.',
       proof:
-        'That he raised the lab result himself, from prison, years before any lawyer took the case — the diligence and timeliness foundation for § 1473.7 relief.',
+        'What factual basis was actually placed on the record before the plea — and whether the court had any basis at all once the analysis is set beside it.',
       status: 'Certification request',
     },
     {
@@ -309,16 +350,24 @@ export const evidence = {
       objective:
         'Booking and property logs, custodial transportation records, housing history, and incoming mail logs for the full period of confinement.',
       proof:
-        'That the county had continuous, documented knowledge of his location while official notice went to a residential address.',
+        'That the county had continuous, documented knowledge of his location while official notice went to a family address.',
       status: 'CPRA request',
     },
     {
-      entity: 'District Attorney\u2019s Office',
+      entity: 'District Attorney’s Office',
       objective:
-        'Mail ledger entries, case intake notes, discovery transmittal sheets, and any routing record for the notice.',
+        'Mail ledger entries, case intake notes, discovery transmittal sheets, and any record of what the People knew about the analysis before 3 March 2009.',
       proof:
-        'Whether the misdirection was a clerical failure or deliberate indifference — the difference between negligence and a pierceable immunity.',
+        'Whether the negative result was known and unshared — the difference between a clerical failure and indifference to a false factual basis.',
       status: 'Preservation demand',
+    },
+    {
+      entity: 'Department of Corrections and Rehabilitation',
+      objective:
+        'The 23 April 2009 letter, the 29 April 2009 copy to the parole unit, and the department’s address-of-record entries for the full term.',
+      proof:
+        'The state’s own proof that it held his custodial address — which makes a family mailing a choice, not a necessity.',
+      status: 'CPRA request',
     },
   ],
 }
@@ -341,7 +390,7 @@ export const immunity = {
     {
       kind: 'Qualified',
       title: 'Investigative & administrative immunity',
-      scope: 'Labs, mail rooms, clerks, sheriff\u2019s staff, and prosecutors outside advocacy',
+      scope: 'Labs, mail rooms, clerks, sheriff’s staff, and prosecutors outside advocacy',
       body: 'Qualified immunity falls when the conduct violates a clearly established right — or when the record shows deliberate indifference rather than a mistake. Routing mandatory notice away from a known custodial address is the kind of fact that lives here.',
       canPierce: true,
       note: 'This is where the pleading has to land.',
@@ -356,7 +405,7 @@ export const archive = {
   eyebrow: 'The archive',
   title: 'What we have. What we are owed.',
   intro:
-    'The docket printout dated 10 November 2026 is the only record currently in hand, and it is not certified. Nothing on this page is described as verified until a certified copy is. The 2010 entries quoted above come from that printout.',
+    'The docket printout dated 10 November 2026 is the only record currently in hand, and it is not certified. Nothing on this page is described as verified until a certified copy is. The family’s account of the notice — mother received it, sister read it to him by phone — is testimony, not a document, and stays labelled that way until a declaration or the letter is produced.',
   docs: [
     {
       title: 'Certified case summary docket — FVI802230',
@@ -371,10 +420,16 @@ export const archive = {
       note: 'The anchor document. Requested with bench notes, chain of custody and transmittal timestamps.',
     },
     {
+      title: 'PC 859A plea form and plea colloquy',
+      type: 'Court record',
+      status: 'requested',
+      note: 'The only contemporaneous record of the factual basis recited for the plea — and the document the motion turns on.',
+    },
+    {
       title: 'Custodial housing & mail logs',
       type: 'Custody record',
       status: 'demand',
-      note: 'The state\u2019s own proof that it knew his address for 68 months.',
+      note: 'The state’s own proof that it knew his address for 68 months.',
     },
     {
       title: 'Notice & transmittal log',
@@ -383,16 +438,10 @@ export const archive = {
       note: 'Where the notice was addressed, and when it left the building.',
     },
     {
-      title: 'Plea colloquy & change-of-plea form',
-      type: 'Court record',
+      title: 'The notice, as kept by the family',
+      type: 'Family record',
       status: 'requested',
-      note: 'The declaration and plea form behind the 3 March 2009 minute order.',
-    },
-    {
-      title: 'The letter his sister received',
-      type: 'Unrecovered',
-      status: 'missing',
-      note: 'She died before he came home. We do not have it. Somebody\u2019s file does.',
+      note: 'The family believes his mother kept it. If it exists it settles the mailing question; until then it is unconfirmed, not lost.',
     },
   ],
   statusLabels: {
@@ -426,7 +475,7 @@ export const protocol = {
       n: '03',
       statement: 'Call an allegation an allegation.',
       detail:
-        'Until a court rules, contested facts are labeled contested. Confidence is not evidence.',
+        'The planted-drugs claim is an allegation. The negative analysis is the evidence. The notice is the narrative. They are not the same weight, and this site does not present them as if they were.',
     },
     {
       n: '04',
@@ -452,17 +501,17 @@ export const dispatch = {
     {
       title: 'Post-conviction counsel',
       detail:
-        'A lawyer who has actually vacated a plea on withheld exculpatory evidence. The filings go in his name; the help behind them matters.',
+        'A lawyer who has vacated a plea on a false factual basis or on withheld exculpatory evidence. The filings go in his name; the help behind them matters.',
     },
     {
       title: 'Certified records',
       detail:
-        'Anyone who can help pry the lab file, the mail log, or the 68-month housing record loose from a county that has had eighteen years to lose it.',
+        'Anyone who can help pry the lab file, the PC 859A plea form, the mail log, or the 68-month housing record loose from a county that has had eighteen years to lose it.',
     },
     {
-      title: 'The letter itself',
+      title: 'The letter and the plea file',
       detail:
-        'If you ever saw, copied, photographed or received correspondence about this case, that is the thing we are looking for.',
+        'If you ever saw, copied, photographed or received correspondence about this case — or you hold the plea paperwork — that is what we are looking for.',
     },
     {
       title: 'Distribution',
@@ -471,11 +520,11 @@ export const dispatch = {
     },
   ],
   shareSummary:
-    'People v. Horacio Campos, San Bernardino Superior Court No. FVI802230: six years imposed on a plea entered in a single afternoon, and a laboratory result he says was never shown to him. He wrote to the court from prison in October 2010; it was received on 21 October and denied by minute order on 1 November. His sister received the notice at a family address and died before he came home. The letter is gone. The docket is not.',
+    'People v. Horacio Campos, San Bernardino Superior Court No. FVI802230: six years imposed on a plea entered in a single afternoon, and a laboratory analysis of the seized items that came back negative. If that result is real, the factual basis for the plea was false and the corpus delicti was never there. He wrote to the court from prison in October 2010 asking for the report; it was received on 21 October and denied by minute order on 1 November. The notice went to his mother’s address, she gave it to his sister, and his sister read it to him over the phone — so he learned the result secondhand, after the plea was final. The letter is believed kept by the family. The docket is not in doubt.',
 }
 
 export const footer = {
   disclaimer:
-    'This site is an independent public record and advocacy archive, maintained by the person named in the case and by supporters. It is not legal representation, does not give legal advice, and creates no attorney-client relationship. All pleadings are filed in pro per, in the petitioner\u2019s own name. Docket entries are transcribed from a case summary printout dated 10 November 2026 and are not yet certified. Statements about contested events — including the negative laboratory result and the mailing of notice to a family address — are allegations until a court or the records establish them, and are published for the purpose of accountability and redress. The six-year term is the sentence recited in the 3 March 2009 minute order; five years and eight months is the custody actually served. The § 4900 figure is a statutory-rate estimate, not an entitlement or a promise of recovery. Statutes, immunities and deadlines vary by jurisdiction and change; nothing here substitutes for licensed counsel in California.',
+    'This site is an independent public record and advocacy archive, maintained by the person named in the case and by supporters. It is not legal representation, does not give legal advice, and creates no attorney-client relationship. All pleadings are filed in pro per, in the petitioner’s own name. Docket entries are transcribed from a case summary printout dated 10 November 2026 and are not yet certified. The account of the notice — that it was mailed to his mother’s address, that she gave it to his sister, and that his sister read it to him by telephone — is the family’s testimony, is unconfirmed by any document we hold, and is published as such; the letter is believed kept by the family, not lost. Statements about contested events — including the negative laboratory result and any claim that the drugs were planted — are allegations until a court or the records establish them, and are published for the purpose of accountability and redress. The negative analysis is the evidence in this file; the planting claim is an allegation and is not presented as established. The six-year term is the sentence recited in the 3 March 2009 minute order; five years and eight months is the custody actually served. The factual-basis argument under Penal Code section 1192.5 and the corpus delicti argument are legal contentions, not findings. The § 4900 figure is a statutory-rate estimate, not an entitlement or a promise of recovery. Statutes, immunities and deadlines vary by jurisdiction and change; nothing here substitutes for licensed counsel in California.',
   closing: 'Nothing about this is over.',
 }

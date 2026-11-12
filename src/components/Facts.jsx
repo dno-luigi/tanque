@@ -22,6 +22,23 @@ export default function Facts() {
             </article>
           ))}
         </div>
+
+        {facts.floor ? (
+          <div className="floor reveal">
+            <div className="floor-head">
+              <p className="floor-title">{facts.floor.title}</p>
+              <p className="floor-intro">{facts.floor.intro}</p>
+            </div>
+            <ul className="floor-rules">
+              {facts.floor.rules.map((rule) => (
+                <li key={rule.cite}>
+                  <strong>{rule.cite}</strong>
+                  <span>{rule.text}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
       </div>
     </section>
   )

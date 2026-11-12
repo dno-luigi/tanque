@@ -2421,3 +2421,75 @@ h3 {
     transform: none;
   }
 }
+
+/* ── constitutional floor ──────────────────────────────────────────────── */
+
+.floor {
+  margin-top: 56px;
+  padding-top: 36px;
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 44px;
+}
+
+.floor-title {
+  font-family: var(--serif);
+  font-size: 1.55rem;
+  line-height: 1.2;
+  color: var(--bone);
+  margin: 0 0 14px;
+}
+
+.floor-intro {
+  color: var(--bone-dim);
+  font-size: 0.94rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.floor-rules {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.floor-rules li {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: 18px;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.floor-rules li:first-child {
+  border-top: 1px solid var(--line);
+}
+
+.floor-rules strong {
+  font-family: var(--mono);
+  font-size: 0.63rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--sun);
+}
+
+.floor-rules span {
+  color: var(--bone-dim);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 860px) {
+  .floor {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 40px;
+  }
+
+  .floor-rules li {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+}
