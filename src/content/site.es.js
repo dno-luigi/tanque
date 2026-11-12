@@ -30,21 +30,6 @@ export const hero = {
     { value: 'Negativo', label: 'análisis de laboratorio' },
     { value: '2010', label: 'pedido negado' },
   ],
-  artifact: {
-    label: 'Reconstrucción ilustrativa',
-    caption:
-      'Aquí no se reproduce ningún documento oficial. Esto es un esquema de lo que el expediente supuestamente muestra. Las copias certificadas lo reemplazarán a medida que se obtengan.',
-    header: 'Aviso oficial — análisis de laboratorio',
-    rows: [
-      { label: 'Formulario', value: 'FORM 12-B' },
-      { label: 'Caso', value: 'FVI802230' },
-      { label: 'Análisis', value: 'Detección de sustancias controladas' },
-      { label: 'Resultado', value: 'Negativo — no se detectó nada', neg: true },
-      { label: 'Enviado a', value: 'Dirección de la familia — mi madre' },
-    ],
-    stamp: 'Me llegó de segunda mano',
-    stampSub: 'Me lo dijeron por teléfono',
-  },
   note: 'Jugaron al póker conmigo y no me explicaron las reglas.',
 }
 
@@ -54,6 +39,14 @@ export const sections = [
     number: '01',
     title: 'La declaración',
     blocks: [
+      {
+        type: 'p',
+        text: 'El 23 de octubre de 2008, en Apple Valley, yo iba de pasajero en un carro que fue detenido. Me arrestaron por posesión de sustancia controlada para la venta.',
+      },
+      {
+        type: 'p',
+        text: 'La línea del arresto en el expediente está en blanco. Ni fecha de arresto, ni número de registro, ni agencia. La primera entrada es el arraigo del 27 de octubre de 2008, donde aparecí por video desde la cárcel del condado y fijaron la fianza en $250,000.',
+      },
       { type: 'p', text: 'El 3 de marzo de 2009 me presenté en una audiencia preliminar en Victorville.' },
       {
         type: 'p',
@@ -64,17 +57,14 @@ export const sections = [
         type: 'p',
         text: 'Para entonces llevaba casi un año en la cárcel. Tenía miedo. Estaba convencido de que me enfrentaba a treinta años. Así que retiré mi declaración de inocencia y me declaré culpable. ¿Por qué haría alguien eso?',
       },
-      {
-        type: 'p',
-        text: 'El expediente nunca registra un arresto. Empieza en el arraigo, dos meses después de que comiencen los 195 días de abono. Treinta años en el papel, y papel era lo que tenían.',
-      },
+      { type: 'p', text: 'Imagínese jugar al póker contra alguien que no sabía que se podía mentir.', strong: true },
       {
         type: 'p',
         text: 'La minuta refleja una declaración libre y consciente, una base fáctica y una sentencia de cuatro años base duplicados más dos años consecutivos. También registra 195 días de abono.',
       },
       {
         type: 'p',
-        text: 'La acusación había alegado una agravante de pandilla y una condena previa. La condena previa duplicó la base. Esas alegaciones se apilaron sobre un cargo de posesión cuya sustancia dio negativo.',
+        text: 'La acusación llevaba tres agravantes de pandilla — dos bajo el artículo 186.22(b) y una bajo el 186.22(a) —, dos condenas previas de prisión y una condena previa grave. La condena previa duplicó la base. Todo eso se apiló sobre un cargo de posesión cuya sustancia dio negativo.',
       },
       { type: 'p', text: 'Cumplí cinco años y ocho meses.' },
       {

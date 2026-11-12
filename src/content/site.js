@@ -30,21 +30,6 @@ export const hero = {
     { value: 'Negative', label: 'laboratory analysis' },
     { value: '2010', label: 'request denied' },
   ],
-  artifact: {
-    label: 'Illustrative reconstruction',
-    caption:
-      'No official document is reproduced here. This is a diagram of what the record is alleged to show. Certified copies will replace it as they are obtained.',
-    header: 'Official notice — laboratory analysis',
-    rows: [
-      { label: 'Form', value: 'FORM 12-B' },
-      { label: 'Case', value: 'FVI802230' },
-      { label: 'Analysis', value: 'Controlled substance screening' },
-      { label: 'Result', value: 'Negative — none detected', neg: true },
-      { label: 'Mailed to', value: 'Family address — my mother' },
-    ],
-    stamp: 'Reached me secondhand',
-    stampSub: 'Told to me by phone',
-  },
   note: 'They played poker with me and didn’t explain the rules.',
 }
 
@@ -54,6 +39,14 @@ export const sections = [
     number: '01',
     title: 'The plea',
     blocks: [
+      {
+        type: 'p',
+        text: 'On October 23, 2008, in Apple Valley, I was a passenger in a car that was pulled over. I was arrested for possession of a controlled substance for sale.',
+      },
+      {
+        type: 'p',
+        text: 'The arrest line on the docket is blank. No arrest date, no booking number, no arresting agency. The first entry is the arraignment on October 27, 2008, where I appeared by video from the county jail and bail was set at $250,000.',
+      },
       { type: 'p', text: 'On March 3, 2009, I appeared at a preliminary hearing in Victorville.' },
       {
         type: 'p',
@@ -64,17 +57,14 @@ export const sections = [
         type: 'p',
         text: 'I had been in jail for almost a year by then. I was scared. I was convinced I was looking at thirty years. So I withdrew my not-guilty plea and pled guilty. Why would anyone do that?',
       },
-      {
-        type: 'p',
-        text: 'The docket never records an arrest. It starts at the arraignment, two months after the 195 days of credit begin. Thirty years on paper, and paper was what they had.',
-      },
+      { type: 'p', text: 'Imagine playing poker against someone who didn’t know you could bluff.', strong: true },
       {
         type: 'p',
         text: 'The minute order reflects a knowing and intelligent plea, a factual basis, and a sentence consisting of a doubled four-year base term plus two consecutive years. It also records 195 days of credit.',
       },
       {
         type: 'p',
-        text: 'The complaint had alleged a gang enhancement and a prior strike. The strike doubled the base term. Those allegations were stacked on a possession count whose substance tested negative.',
+        text: 'The complaint carried three gang allegations — two under Penal Code 186.22(b) and one under 186.22(a) — two prior prison terms, and a strike. The strike doubled the base term. All of it sat on a possession count whose substance tested negative.',
       },
       { type: 'p', text: 'I served five years and eight months.' },
       {
