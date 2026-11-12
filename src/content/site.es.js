@@ -152,7 +152,7 @@ export const sections = [
       { type: 'p', text: 'Supe del resultado de segunda mano.' },
       {
         type: 'p',
-        text: 'Mi hermana murió antes de que yo saliera. Mi familia cree que mi madre guardó la carta. Su ubicación actual no está confirmada.',
+        text: 'Mi hermana murió antes de que yo saliera.',
       },
       { type: 'p', text: 'Yo nunca he leído la carta personalmente.' },
       {

@@ -152,7 +152,7 @@ export const sections = [
       { type: 'p', text: 'I learned about the result secondhand.' },
       {
         type: 'p',
-        text: 'My sister died before I came home. My family believes the letter was kept by my mother. Its present location has not been confirmed.',
+        text: 'My sister died before I came home.',
       },
       { type: 'p', text: 'I have never personally read the letter.' },
       {
