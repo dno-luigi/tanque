@@ -69,7 +69,7 @@ export const sections = [
       { type: 'p', text: 'Ese resultado va al centro del cargo del que me declaré culpable.' },
       {
         type: 'p',
-        text: '¿Cuánto tarda analizar lo incautado? El expediente abona 195 días en custodia antes de mi declaración, más de seis meses. Ahí está la parte de la cronología que hay que apretar: el resultado era negativo, y hubo tiempo para que llegara al caso antes de que yo me declarara.',
+        text: '¿Cuánto tarda analizar lo incautado? El expediente abona 195 días al sentenciar. Contados hacia atrás desde el 3 de marzo de 2009, eso cae en el 20 de agosto de 2008: seis meses y doce días en custodia antes de retirar mi declaración, y 127 días después del arraigo del 27 de octubre de 2008. El resultado era negativo, y el caso estuvo abierto el tiempo suficiente para que llegara.',
       },
       {
         type: 'p',

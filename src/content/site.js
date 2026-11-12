@@ -69,7 +69,7 @@ export const sections = [
       { type: 'p', text: 'That result goes to the heart of the charge to which I pled guilty.' },
       {
         type: 'p',
-        text: 'How long does it take to test seized items? The docket credits 195 days in custody before my plea, more than six months. That is the part of the timeline worth pressing: the result was negative, and there was time for it to reach the case before I pleaded.',
+        text: 'How long does it take to test seized items? The docket credits 195 days at sentencing. Counted back from March 3, 2009, that lands on August 20, 2008 — six months and twelve days in custody before I withdrew my plea, and 127 days after the October 27, 2008 arraignment. The result was negative, and the case sat long enough for it to arrive.',
       },
       {
         type: 'p',
