@@ -23,12 +23,7 @@ export const hero = {
   line1: 'A letter',
   line2: 'never read.',
   line3: 'I pled guilty anyway.',
-  paragraphs: [
-    'I served five years and eight months in state prison. The court record shows that I later asked for the laboratory results from prison. The court denied my request.',
-    'A notice about the result was sent to my family. My sister understood enough of the letter to tell me I was coming home early. She died before I came home.',
-    'I have never read that letter myself.',
-    'This is the record of what happened, what the court docket shows, and the documents that remain central to understanding my case.',
-  ],
+  paragraphs: [],
   note: '',
 }
 

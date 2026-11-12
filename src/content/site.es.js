@@ -23,12 +23,7 @@ export const hero = {
   line1: 'Una carta',
   line2: 'que nunca se leyó.',
   line3: 'Me declaré culpable de todos modos.',
-  paragraphs: [
-    'Cumplí cinco años y ocho meses en prisión estatal. El expediente de la corte muestra que después, desde prisión, pedí los resultados del laboratorio. La corte negó mi pedido.',
-    'Un aviso sobre el resultado se envió a mi familia. Mi hermana entendió lo suficiente de la carta para decirme que iba a salir antes. Ella murió antes de que yo saliera.',
-    'Yo nunca he leído esa carta.',
-    'Este es el registro de lo que pasó, de lo que muestra el expediente de la corte y de los documentos que siguen siendo centrales para entender mi caso.',
-  ],
+  paragraphs: [],
   note: '',
 }
 

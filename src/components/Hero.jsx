@@ -18,11 +18,13 @@ export default function Hero() {
             <span className="line line-alt">{hero.line3}</span>
           </h1>
 
-          <div className="hero-body">
-            {hero.paragraphs.map((paragraph, i) => (
-              <p key={i}>{paragraph}</p>
-            ))}
-          </div>
+          {hero.paragraphs.length ? (
+            <div className="hero-body">
+              {hero.paragraphs.map((paragraph, i) => (
+                <p key={i}>{paragraph}</p>
+              ))}
+            </div>
+          ) : null}
         </div>
       </div>
     </section>
