@@ -23,7 +23,7 @@ export const ui = {
   },
   hero: {
     readRecord: 'Leer el expediente',
-    whyCannotSue: 'Por qué aún él no puede demandar',
+    whyCannotSue: 'Por qué él todavía no puede demandar',
     paperRef: 'FORMULARIO 12-B',
     paperNote: 'Dirección registrada en el departamento.',
   },
