@@ -1,17 +1,16 @@
-/** Interfaz en español: navegación, botones, leyendas y etiquetas aria. */
+/** Textos de interfaz en español: navegación, botones, leyendas, etiquetas aria. */
 
 export const ui = {
-  // La otra edición: el sitio en inglés, ya publicado en su propio dominio.
   altLocale: {
     label: 'English',
     short: 'EN',
     lang: 'en',
     href: 'https://tanque.nspired.cc/',
-    aria: 'Read this page in English',
+    aria: 'Ver esta página en inglés',
   },
   skip: 'Ir al expediente',
   nav: {
-    story: 'Historia',
+    story: 'Relato',
     archive: 'Archivo',
     dispatch: 'Difusión',
     sections: 'Secciones',
@@ -21,46 +20,42 @@ export const ui = {
   },
   hero: {
     readRecord: 'Leer el expediente',
-    paperRef: 'FORMULARIO 12-B',
-    paperNote: 'Dirección registrada en el departamento.',
+    paperRef: 'FORM 12-B',
+    paperNote: 'Dirección del sujeto registrada ante el departamento.',
   },
   story: {
-    custody: 'Prisión cumplida',
+    custody: 'Custodia',
     custodyValue: '5 años, 8 meses',
     conviction: 'Condena',
-    convictionValue: 'vigente',
+    convictionValue: 'en pie',
     nextFiling: 'Próxima presentación',
     nextFilingValue: 'moción para anular',
   },
-  evidence: { proves: 'Qué demuestra' },
-  immunity: { takeawayLabel: 'La frase que importa' },
+  evidence: { proves: 'Qué prueba' },
   archive: {
-    footCertified: '{held} de {total} documentos certificados y publicados',
-    footUpdated: 'Última actualización al publicarse cada documento · sin cargas sin verificar',
+    footPublished: '{held} de {total} documentos publicados',
+    footUpdated: 'Se actualiza con la publicación de cada registro',
   },
   docket: {
-    eyebrow: 'El registro mismo',
-    title: 'Lea el expediente.',
-    note: 'El resumen del caso tal como se imprimió el 10 de noviembre de 2026, reproducido sin ediciones, incluidas las entradas de 2010 citadas arriba. No está certificado. Donde el expediente calla —el análisis, el envío, la base fáctica— aquí también calla.',
     open: 'Abrir el resumen del caso — n.º FVI802230',
     download: 'Descargar el texto',
-    meta: '13.6 KB · impresión sin certificar · 10 de noviembre de 2026',
+    meta: '13.6 KB · 10 de noviembre de 2026',
     file: '/record/FVI802230-case-summary.txt',
   },
   dispatch: {
     copySummary: 'Copiar el resumen',
     copyLink: 'Copiar el enlace',
-    emailRecord: 'Escribir por correo',
+    emailRecord: 'Mandar el expediente',
     mailSubjectSuffix: 'registros y pistas',
-    copyFailed: 'No se pudo copiar — selecciona manualmente',
+    copyFailed: 'No se pudo copiar — selecciona a mano',
     linkCopied: 'Enlace copiado',
     summaryCopied: 'Resumen copiado',
   },
   footer: {
     aria: 'Pie de página',
     archive: 'El archivo',
-    dispatch: 'Enviar documentos',
-    source: 'Código fuente',
+    dispatch: 'Mandar registros',
+    source: 'Fuente',
     notLegal: 'No es asesoría legal',
   },
 }

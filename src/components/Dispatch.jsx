@@ -58,6 +58,7 @@ export default function Dispatch() {
           <p className="section-num">
             {dispatch.number} <span className="slash">/</span> {dispatch.eyebrow}
           </p>
+          <p className="dispatch-lead">{dispatch.lead}</p>
           <h2>
             {words.join(' ')} <em>{lastWord}.</em>
           </h2>

@@ -7,20 +7,20 @@
 export const meta = {
   en: {
     lang: 'en',
-    title: 'The Letter That Never Arrived — a public record',
+    title: 'The Letter I Never Read',
     description:
-      'Five years and eight months in custody, a negative lab result that was never disclosed, and an exoneration notice mailed to the wrong address. A public reconstruction of the record, one certified document at a time.',
-    ogTitle: 'The Letter That Never Arrived',
+      'Six years on a plea entered in one afternoon, and a negative laboratory analysis I was never shown. The record, in my own words.',
+    ogTitle: 'The Letter I Never Read',
     ogDescription:
-      'A suppressed negative lab result. A notice sent to the wrong address. Five years and eight months. The record, assembled in public.',
+      'A negative lab result I never saw. Five years and eight months served. The record, assembled in public.',
   },
   es: {
     lang: 'es',
-    title: 'La carta que nunca llegó — un expediente público',
+    title: 'La carta que nunca leí',
     description:
-      'Cinco años y ocho meses en prisión, un resultado de laboratorio negativo que nunca se le mostró y un aviso enviado a la dirección equivocada. Una reconstrucción pública del expediente, un documento certificado a la vez.',
-    ogTitle: 'La carta que nunca llegó',
+      'Seis años por una declaración hecha en una sola tarde, y un análisis de laboratorio negativo que nunca vi. El expediente, en mis propias palabras.',
+    ogTitle: 'La carta que nunca leí',
     ogDescription:
-      'Un resultado negativo que se retuvo. Un aviso enviado a la casa equivocada. Cinco años y ocho meses. El expediente, armado en público.',
+      'Un resultado de laboratorio negativo que nunca vi. Cinco años y ocho meses. El expediente, armado en público.',
   },
 }

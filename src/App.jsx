@@ -4,10 +4,11 @@ import Hero from './components/Hero.jsx'
 import Story from './components/Story.jsx'
 import Timeline from './components/Timeline.jsx'
 import Facts from './components/Facts.jsx'
+import Question from './components/Question.jsx'
+import Deal from './components/Deal.jsx'
 import Evidence from './components/Evidence.jsx'
-import Immunity from './components/Immunity.jsx'
 import Archive from './components/Archive.jsx'
-import Protocol from './components/Protocol.jsx'
+import Record from './components/Record.jsx'
 import Dispatch from './components/Dispatch.jsx'
 import Footer from './components/Footer.jsx'
 import { useReveal } from './hooks/useReveal.js'
@@ -61,10 +62,11 @@ export default function App() {
         <Story />
         <Timeline />
         <Facts />
+        <Question />
+        <Deal />
         <Evidence />
-        <Immunity />
         <Archive />
-        <Protocol />
+        <Record />
         <Dispatch />
       </main>
       <Footer />

@@ -2587,3 +2587,13 @@ h3 {
   text-transform: uppercase;
   color: var(--mute);
 }
+
+/* ── dispatch lead ─────────────────────────────────────────────────────── */
+
+.dispatch-lead {
+  max-width: 60ch;
+  margin: 0 0 22px;
+  color: var(--bone-dim);
+  font-size: 1.02rem;
+  line-height: 1.7;
+}

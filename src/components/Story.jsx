@@ -5,11 +5,16 @@ export default function Story() {
   return (
     <section className="section" id="story">
       <div className="wrap">
-        <SectionHead number={story.number} eyebrow={story.eyebrow} title={story.title} />
+        <SectionHead
+          number={story.number}
+          eyebrow={story.eyebrow}
+          title={story.title}
+          intro={story.intro}
+        />
 
         <div className="story-grid">
           <aside className="story-aside reveal">
-            <p className="pull">{story.pull}</p>
+            {story.pull ? <p className="pull">{story.pull}</p> : null}
             <div className="aside-meta">
               <span>
                 {ui.story.custody} <strong>{ui.story.custodyValue}</strong>

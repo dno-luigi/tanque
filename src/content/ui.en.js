@@ -1,8 +1,6 @@
 /** English interface chrome: navigation, buttons, captions, aria labels. */
 
 export const ui = {
-  // The other edition. An empty href hides the switch; fill it in once that
-  // edition has a public address.
   altLocale: {
     label: 'Español',
     short: 'ES',
@@ -34,18 +32,14 @@ export const ui = {
     nextFilingValue: 'motion to vacate',
   },
   evidence: { proves: 'What it proves' },
-  immunity: { takeawayLabel: 'The sentence that matters' },
   archive: {
-    footCertified: '{held} of {total} documents certified and published',
-    footUpdated: 'Last updated on publication of each record · no unverified uploads',
+    footPublished: '{held} of {total} documents published',
+    footUpdated: 'Last updated on publication of each record',
   },
   docket: {
-    eyebrow: 'The record itself',
-    title: 'Read the docket.',
-    note: 'The case summary as printed on 10 November 2026, reproduced without edits, including the 2010 entries quoted above. It is not certified. Where the docket is silent — the analysis, the mailing, the factual basis — it is silent here too.',
     open: 'Open the case summary — No. FVI802230',
     download: 'Download the plain text',
-    meta: '13.6 KB · uncertified printout · 10 November 2026',
+    meta: '13.6 KB · 10 November 2026',
     file: '/record/FVI802230-case-summary.txt',
   },
   dispatch: {

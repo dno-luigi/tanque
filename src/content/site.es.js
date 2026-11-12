@@ -1,135 +1,131 @@
 /**
  * ─────────────────────────────────────────────────────────────────────────────
  *  EDICIÓN EN ESPAÑOL.
- *  Misma estructura exacta que site.js. Todo hecho, etiqueta, documento y
- *  enlace de la edición en español sale de aquí.
+ *  Misma estructura que site.js. Cada dato, etiqueta y documento sale de aquí.
  *
- *  FUENTE DE REGISTRO: resumen del caso de la Corte Superior de San Bernardino,
- *  n.º FVI802230, impreso el 10/11/2026. Las fechas y entradas citadas están
- *  transcritas de ese expediente. Lo que el expediente no establece se marca
- *  como alegato, no como hecho.
- *
- *  CORRECCIÓN DEL REGISTRO (vinculante): el aviso se envió a la dirección de su
- *  madre. Su madre se lo dio a su hermana, y su hermana se lo leyó por teléfono
- *  mientras él estaba bajo custodia. Se enteró de que el análisis era negativo
- *  por su hermana, no por la carta, que nunca ha leído. La familia cree que la
- *  carta se guardó, probablemente en casa de su madre; eso no está confirmado,
- *  así que el sitio lo llama no confirmado, no perdido.
+ *  FUENTE: resumen del caso, Corte Superior de San Bernardino, n.º FVI802230,
+ *  impreso el 10/11/2026. Lo que el expediente no establece se presenta como
+ *  alegato, no como hecho.
  * ─────────────────────────────────────────────────────────────────────────────
  */
 
 export const site = {
-  name: 'La carta que nunca llegó',
+  name: 'La carta que nunca leí',
   short: 'La carta',
-  tagline:
-    'El Pueblo contra Horacio Campos · Corte Superior del Condado de San Bernardino, caso n.º FVI802230 — un expediente público, armado documento por documento.',
-  // Se usa en el pie y en el botón de correo. MARCADOR — reemplazar.
+  tagline: 'Nada de esto ha terminado.',
   contactEmail: 'record@example.com',
-  // Opcional. Vacío oculta el enlace al repositorio en el pie.
   repoUrl: '',
-  // Se define cuando el sitio esté publicado, p. ej. 'https://la-carta.pages.dev'.
-  // Vacío usa la dirección actual del navegador al compartir.
   canonicalUrl: 'https://lacarta.nspired.cc/',
 }
 
 export const hero = {
-  kicker: 'El Pueblo contra Campos · Corte Superior de San Bernardino, caso n.º FVI802230',
-  line1: 'La prueba salió',
-  line2: 'negativa.',
-  line3: 'Se declaró culpable antes de saberlo.',
-  sub: 'Seis años de condena. Cinco años y ocho meses en prisión. El análisis de laboratorio de lo que le incautaron salió negativo. En 2010 pidió el informe desde la cárcel y se lo negaron por orden minutada. El aviso llegó a la dirección de su madre; ella se lo dio a su hermana, y su hermana se lo leyó por teléfono. El resultado le llegó tarde, de segunda mano, cuando la declaración ya era definitiva.',
-  note: 'Esta es su historia. Yo la cuento.',
+  kicker: 'People v. Campos · Corte Superior de San Bernardino, caso n.º FVI802230',
+  line1: 'El examen salió',
+  line2: 'negativo.',
+  line3: 'Me declaré culpable sin saberlo.',
+  sub: 'El laboratorio analizó lo que se incautó y no encontró sustancia controlada. Pedí ese informe desde prisión en 2010. Una orden lo negó. El aviso llegó a la casa de mi madre. Ella se lo dio a mi hermana. Mi hermana no leía bien el inglés: no pudo leer la carta completa. Pero entendió lo suficiente para saber qué significaba, que yo iba a salir antes. Me lo dijo por teléfono. Yo nunca la he leído.',
+  note: 'Este es mi relato.',
   stats: [
-    { value: '5a 8m', label: 'tiempo en prisión' },
+    { value: '5a 8m', label: 'tiempo cumplido' },
     { value: '6 años', label: 'condena impuesta, 2009' },
     { value: 'Negativo', label: 'análisis de lo incautado' },
-    { value: '2010', label: 'pidió el informe, se lo negaron' },
+    { value: '2010', label: 'pedido del informe, negado' },
   ],
   artifact: {
     label: 'Reconstrucción ilustrativa',
     caption:
-      'Aquí no se reproduce ningún documento oficial. Esto es un esquema de lo que, según la versión que sostiene este expediente, muestran los registros. Las copias certificadas lo irán sustituyendo conforme se obtengan.',
+      'Aquí no se reproduce ningún documento oficial. Esto es un esquema de lo que el expediente supuestamente muestra. Las copias certificadas lo reemplazarán a medida que se obtengan.',
     header: 'Aviso oficial — análisis de laboratorio',
     rows: [
+      { label: 'Formulario', value: 'FORM 12-B' },
       { label: 'Caso', value: 'FVI802230' },
-      { label: 'Análisis', value: 'Prueba de sustancias controladas' },
-      { label: 'Resultado', value: 'Negativo — no se detectó ninguna', neg: true },
-      { label: 'Enviado a', value: 'Dirección familiar — su madre' },
-      { label: 'Registrada', value: 'Dirección custodial, registros del condado' },
+      { label: 'Análisis', value: 'Detección de sustancias controladas' },
+      { label: 'Resultado', value: 'Negativo — no se detectó nada', neg: true },
+      { label: 'Enviado a', value: 'Dirección de la familia — mi madre' },
+      {
+        label: 'En archivo',
+        value: 'Dirección en custodia, registros del condado — mi dirección registrada ante el departamento',
+      },
+      {
+        label: 'Cómo me llegó',
+        value:
+          'De segunda mano: me lo dijeron por teléfono. Mi hermana no pudo leer la carta completa, pero entendió lo suficiente para saber qué significaba',
+      },
     ],
-    stamp: 'Le llegó de segunda mano',
-    stampSub: 'Se lo leyeron por teléfono estando bajo custodia',
+    stamp: 'Me llegó de segunda mano',
+    stampSub: 'Me lo dijeron por teléfono',
   },
 }
 
 export const story = {
   number: '01',
   eyebrow: 'La versión corta',
-  title: 'Un acuerdo solo es honesto si te muestran todo antes de firmarlo.',
+  title: 'Un acuerdo solo es tan honesto como lo que te muestran primero.',
+  intro: 'La custodia terminó. La condena no.',
   paragraphs: [
-    'El 3 de marzo de 2009, en una audiencia preliminar en Victorville, Horacio Campos retiró su declaración de inocencia y se declaró culpable de un cargo de posesión de sustancia controlada para la venta. Esa misma tarde fue sentenciado a seis años en prisión estatal. Cumplió cinco años y ocho meses.',
-    'El análisis de laboratorio de lo que le incautaron salió negativo: no se detectó ninguna sustancia controlada. Esa es la afirmación que este expediente existe para probar, y el documento que la resolvería es el certificado de análisis. Si se sostiene, la base fáctica que se recitó para la declaración no podía ser cierta: el artículo 1192.5 del Código Penal exige que la corte encuentre una, y donde no hay sustancia controlada no hay corpus delicti.',
-    'Pidió desde adentro. El 14 de octubre de 2010 escribió a la corte sobre los resultados de las pruebas de laboratorio. La corte recibió la carta el 21 de octubre de 2010. El 1 de noviembre de 2010, una orden minutada negó la petición, y se le notificó. Sin audiencia. Sin abogado designado. Sin informe.',
-    'El aviso sobre ese análisis llegó a la dirección de su madre, no al centro de reclusión. Su madre se lo dio a su hermana. Su hermana se lo leyó por teléfono mientras él estaba bajo custodia. Así se enteró de que el análisis era negativo: no por el papel, que nunca ha leído.',
-    'Su hermana murió antes de que él volviera a casa, pero ya le había contado lo que decía el papel. La familia cree que la carta se guardó, probablemente en casa de su madre. No la he visto, así que la describo como no confirmada, no como perdida.',
+    'El 3 de marzo de 2009, en una audiencia preliminar en Victorville, retiré mi declaración de inocencia y me declaré culpable de un cargo de posesión de sustancia controlada para la venta. Esa misma tarde me sentenciaron a seis años en prisión estatal. Cumplí cinco años y ocho meses.',
+    'El laboratorio analizó lo incautado y no encontró sustancia controlada. Eso es lo que este expediente existe para probar, y el documento que lo resolvería es el certificado de análisis. Si el resultado es correcto, la base fáctica que la corte recitó para mi declaración no pudo ser cierta. El artículo 1192.5 del Código Penal exige que la corte encuentre una base fáctica. Donde no hay sustancia controlada, no hay corpus delicti.',
+    'Pedí desde adentro, en mi propio caso, el resultado sobre el que corrió toda la condena. El 14 de octubre de 2010 escribí a la corte sobre las pruebas de laboratorio. La corte recibió mi carta el 21 de octubre de 2010. El 1 de noviembre de 2010 una orden negó el pedido. Me notificaron. No hubo audiencia. No me asignaron abogado. Nunca recibí el informe.',
+    'El aviso sobre el análisis llegó a la casa de mi madre, no a la prisión. Mi madre se lo dio a mi hermana. Mi hermana no leía bien el inglés. No pudo leer la carta completa. Entendió lo suficiente para saber qué significaba —que yo iba a salir antes— y me lo dijo por teléfono. Yo nunca la he leído.',
+    'Mi hermana murió antes de que yo saliera. Ya me había dicho lo que entendió. Mi familia cree que la carta se guardó, probablemente con mi madre. No la he visto. La describo como no confirmada, no como perdida.',
     'No le pido que me crea. Le pido el papel.',
   ],
-  pull: 'Cinco años y ocho meses no es una condena que cumples y terminas. Es un cuarto en el que sigues parado.',
+  pull: '',
 }
 
 export const timeline = {
   number: '02',
   eyebrow: 'Secuencia',
-  title: 'Cómo le llegó el resultado — y cuán tarde.',
+  title: 'Cómo me llegó el resultado, y cuánto tardó.',
   intro:
-    'Las fechas y entradas de abajo están transcritas del registro del caso n.º FVI802230. Donde el registro calla —el resultado negativo en sí, la ruta que tomó el aviso— la afirmación se marca como afirmación. El relato de la familia sobre el aviso es testimonio, no documento, hasta que se produzca una declaración jurada o la carta.',
+    'Las fechas y entradas de abajo están transcritas del expediente del caso n.º FVI802230. Donde el expediente calla —el resultado del laboratorio, el camino que tomó el aviso— el planteamiento se presenta como planteamiento. El relato de mi familia sobre el aviso es testimonio, no documento, hasta que se produzca una declaración o la carta.',
   events: [
     {
-      marker: '27 / 10 / 2008',
-      title: 'Le leen los cargos en Victorville. Fianza de $250,000.',
-      body: 'La acusación imputa posesión de sustancia controlada para la venta, con un agravante por pandilla callejera y una condena previa grave (strike). Se le designa un defensor público, que se declara no culpable por él.',
-      tag: 'Entrada del expediente',
+      marker: '10 / 27 / 2008',
+      title: 'Arraigo en Victorville. Fianza de $250,000.',
+      body: 'La acusación imputa posesión de sustancia controlada para la venta, con una agravante de pandilla y una condena previa alegada. Me asignan un defensor público, que presenta una declaración de inocencia por mí.',
+      tag: 'Entrada del expediente · Antes de la declaración',
       kind: 'docket',
     },
     {
       marker: 'Antes de la declaración',
-      title: 'El laboratorio entrega un resultado negativo.',
-      body: 'El análisis de sustancias controladas sale negativo. Si eso es cierto, el Estado tenía en sus manos un documento que debilitaba la base fáctica de su propio cargo — y el hombre al que acusaba no sabía que existía. El certificado de análisis confirmará o destruirá esta afirmación.',
+      title: 'El laboratorio devuelve un resultado negativo.',
+      body: 'El análisis de sustancias controladas sale negativo. Si eso es correcto, el Estado tenía en sus manos un documento que desarmaba la base fáctica de su propio cargo, y yo no sabía que existía. Esto es lo que el certificado de análisis confirmará o destruirá.',
       tag: 'En disputa',
       kind: 'contested',
     },
     {
       marker: '03 / 03 / 2009',
-      title: 'Se declara culpable en la audiencia preliminar. Lo sentencian ese mismo día.',
-      body: 'Retira su declaración de inocencia y se declara culpable del cargo uno. La minuta registra que la corte consideró la declaración libre y consciente, impone cuatro años duplicados por la condena previa grave más dos años consecutivos, y fija una condena total de seis años, con 195 días de abono. La semana siguiente el paquete carcelario se envía al Centro de Detención West Valley. La minuta también nombra una taquígrafa judicial certificada presente, registra que se estableció una base fáctica y deja constancia de un formulario de declaración PC 859A presentado — sin decir cuál era esa base. Ni el formulario ni la transcripción están en mi poder.',
+      title: 'Retiré mi declaración de inocencia y me declaré culpable. Me sentenciaron ese mismo día.',
+      body: 'Retiré la declaración que se había presentado por mí en el arraigo y me declaré culpable del cargo uno. La minuta registra que la corte encontró mi declaración libre y consciente, impuso cuatro años duplicados por la condena previa más dos años consecutivos, y fijó una condena total de seis años, con 195 días de abono. El paquete carcelario se envió al Centro de Detención West Valley la semana siguiente. La minuta nombra una taquígrafa judicial certificada, registra que se estableció una base fáctica y deja constancia de un formulario de declaración PC 859A presentado. No dice cuál era esa base. Ni el formulario ni la transcripción están en mi poder.',
       tag: 'Entrada del expediente',
       kind: 'docket',
     },
     {
-      marker: '21 / 10 / 2010',
-      title: 'Llega a la corte una carta fechada el 14 de octubre.',
-      body: 'La entrada dice: «carta fechada 10/14/2010 recibida del acusado en relación con los resultados de las pruebas de laboratorio». Estaba en prisión estatal, escribiéndole a la corte él mismo, pidiendo el resultado de la prueba en su propio caso.',
+      marker: '10 / 21 / 2010',
+      title: 'Pedí el resultado de mi propio caso.',
+      body: 'Una carta fechada el 14 de octubre llega a la corte. La entrada dice: letter dated 10/14/2010 received from defendant re: results of lab drug testing. Yo estaba en prisión estatal, año y medio dentro de una condena de seis años, pidiéndole a la corte el resultado del caso que estaba cumpliendo. No pedía un favor. Pedía el documento sobre el que se construyó mi condena. Un hombre tiene derecho a pedirle a la corte el expediente de su propio caso.',
       tag: 'Entrada del expediente',
       kind: 'docket',
     },
     {
-      marker: '01 / 11 / 2010',
-      title: 'La petición se niega por orden minutada.',
-      body: 'La entrada dice, en inglés: «DEFT REQUEST IS DENIED PER JUDGE TOMBERLIN» — la petición del acusado se niega. Otra entrada registra que se le notificó. El expediente no muestra audiencia, ni designación de abogado, ni entrega del informe.',
+      marker: '11 / 01 / 2010',
+      title: 'El pedido se niega por orden.',
+      body: 'La entrada dice: DEFT REQUEST IS DENIED PER JUDGE TOMBERLIN. Otra entrada registra que se notificó al acusado. El expediente no muestra audiencia, ni abogado asignado, ni entrega del informe.',
       tag: 'Entrada del expediente',
       kind: 'docket',
     },
     {
       marker: '68 meses',
-      title: 'Cumple el resto de la condena.',
-      body: 'Sale después de cinco años y ocho meses. La condena no termina con la salida. Según la doctrina federal vigente, esa distinción es el muro entre él y cualquier remedio civil en este país.',
+      title: 'Cumplí el resto de la condena.',
+      body: 'La custodia terminó a los cinco años y ocho meses. La condena no terminó.',
       tag: 'Punto del expediente',
       kind: 'record',
     },
     {
       marker: '2010 → hoy',
-      title: 'El resultado le llegó de segunda mano.',
-      body: 'El aviso llegó a la dirección de su madre. Ella se lo dio a su hermana, que se lo leyó por teléfono mientras él estaba bajo custodia; se enteró de que el análisis era negativo por ella, no por la carta. Su hermana murió antes de que él volviera a casa. La familia cree que la carta se guardó. Mientras no se produzca, el registro se queda ahí.',
+      title: 'El resultado me llegó de segunda mano.',
+      body: 'El aviso llegó a la casa de mi madre. Ella se lo dio a mi hermana. Mi hermana no leía bien el inglés y no pudo leer la carta completa. Entendió lo suficiente para saber qué significaba —que yo iba a salir antes— y me lo dijo por teléfono. Yo nunca la he leído. Ella tampoco pudo leerla entera. Mi hermana murió antes de que yo saliera. Mi familia cree que la carta se guardó. Hasta que se produzca, ahí está el expediente.',
       tag: 'Relato de la familia',
       kind: 'open',
     },
@@ -138,73 +134,95 @@ export const timeline = {
 
 export const facts = {
   number: '03',
-  eyebrow: 'Los cuatro hechos que importan',
-  title: 'Todo lo demás depende de esto.',
+  eyebrow: 'Cuestiones de hecho',
+  title: 'Todo lo que sigue depende de esto.',
   items: [
     {
       n: '01',
       title: 'Una sola tarde',
-      claim: 'La declaración de culpabilidad y la sentencia ocurrieron el mismo día.',
+      claim: 'La declaración y la sentencia fueron el mismo día.',
       detail:
-        'La minuta del 3 de marzo de 2009 registra el cambio de declaración en la audiencia preliminar, la sentencia inmediata, la renuncia a la remisión a libertad condicional y la conclusión de que la declaración fue libre y consciente. Esa conclusión es justamente lo que una moción del artículo 1473.7 tiene que vencer — y por eso importa el análisis retenido.',
+        'La minuta del 3 de marzo de 2009 registra mi cambio de declaración en la audiencia preliminar, la sentencia inmediata, la renuncia a la remisión a libertad condicional y la conclusión de que mi declaración fue libre y consciente. Esa conclusión es lo que una moción del artículo 1473.7 tiene que vencer. Por eso importa el análisis retenido.',
       source: 'Minuta, 3/3/2009',
     },
     {
       n: '02',
-      title: 'Pidió, desde adentro',
-      claim: 'La corte recibió su petición y la negó en un renglón.',
+      title: 'Pedí, desde adentro',
+      claim: 'La corte recibió mi pedido y lo negó en una línea.',
       detail:
-        'El 21 de octubre de 2010 la corte recibió su carta sobre las pruebas de laboratorio. El 1 de noviembre de 2010 la petición fue negada por orden minutada y se le notificó. Nada en el expediente muestra una audiencia, un abogado o el informe mismo. Ese es el registro de diligencia.',
+        'El 21 de octubre de 2010 la corte recibió mi carta sobre las pruebas de laboratorio: un pedido del único documento sobre el que corrió el caso, en mi propio caso, mientras lo cumplía. El 1 de noviembre de 2010 el pedido se negó por orden y me notificaron. Nada en el expediente muestra audiencia, abogado ni el informe. Ese es mi registro de diligencia.',
       source: 'Entradas del expediente, 21/10/2010 y 1/11/2010',
     },
     {
       n: '03',
-      title: 'Aviso a una dirección familiar',
-      claim: 'El aviso llegó a casa de su madre, no al centro de reclusión.',
+      title: 'El aviso llegó a una dirección familiar',
+      claim: 'El aviso llegó a la casa de mi madre, no a la prisión.',
       detail:
-        'Mullane exige una notificación calculada razonablemente para llegar a la persona. El condado tenía su dirección custodial: sus propias hojas de envío lo muestran. Pero la familia sí lo alcanzó: su madre le entregó la carta a su hermana, y su hermana se la leyó por teléfono. Eso convierte esto en un problema de debido proceso por demora y rodeo, no en un aviso que nunca llegó. Es la más débil de las afirmaciones, y el sitio lo dice.',
+        'Mullane exige un aviso razonablemente calculado para llegar a mí. El condado tenía mi dirección en custodia: sus propios envíos lo muestran. Pero la familia sí me alcanzó, hasta donde pudo: mi madre le entregó la carta a mi hermana, y mi hermana, que no leía bien el inglés, entendió lo suficiente para saber qué significaba y me dijo por teléfono que yo iba a salir antes. Así que esto es un problema de debido proceso por demora y rodeo, no un aviso que nunca llegó. Es el más débil de los planteamientos, y este sitio lo dice.',
       source: 'Libros de correo, hojas de envío, cartas del DOC del 23/4/2009 y 29/4/2009',
     },
     {
       n: '04',
-      title: 'Un resultado negativo — y una base fáctica falsa',
+      title: 'Un hallazgo negativo y una base fáctica falsa',
       claim: 'Sin sustancia controlada no hay corpus delicti.',
       detail:
-        'El artículo 1192.5 del Código Penal exige que la corte encuentre una base fáctica para la declaración, en el registro. Si el análisis era negativo, la base fáctica del artículo 11378 del Código de Salud y Seguridad era falsa: sin sustancia, no hay delito. La minuta recita que se estableció una base fáctica; no dice qué la sostenía. Una declaración hecha sobre una base que la propia prueba del Estado contradice no es una declaración con conocimiento bajo Boykin. Esto —no el aviso— es el argumento más fuerte del expediente.',
+        'El artículo 1192.5 del Código Penal exige que la corte encuentre una base fáctica para la declaración, en el acta. Si el análisis era negativo, la base fáctica del artículo 11378 del Código de Salud y Seguridad era falsa. Sin sustancia no hay delito. La minuta dice que se estableció una base fáctica. No dice qué la sostenía. Una declaración hecha sobre una base que la propia prueba del Estado contradice no es una declaración con conocimiento bajo Boykin. Esto, y no el aviso, es el planteamiento más fuerte del expediente.',
       source: 'Certificado de análisis, formulario PC 859A, interrogatorio de la declaración',
     },
   ],
-  floor: {
-    title: 'Las reglas que esos hechos activan.',
-    intro:
-      'Negociar una declaración es legal: Brady v. United States (1970), Santobello v. New York (1971), Corbitt v. New Jersey (1978). El argumento aquí no es que un acuerdo sea un acuerdo. Es que esta declaración no cumplió el piso que toda declaración tiene que cumplir.',
-    rules: [
-      {
-        cite: 'Boykin v. Alabama (1969)',
-        text: 'La declaración de culpabilidad debe ser consciente, inteligente y voluntaria, y el registro tiene que mostrarlo, no suponerlo.',
-      },
-      {
-        cite: 'Henderson v. Morgan (1976)',
-        text: 'Antes de declararse, el acusado debe ser informado de la naturaleza del cargo.',
-      },
-      {
-        cite: 'Código Penal de California § 1192.5',
-        text: 'La corte debe encontrar una base fáctica para la declaración. Un análisis negativo no deja ninguna para un cargo de posesión para la venta.',
-      },
-      {
-        cite: 'Brady v. Maryland (1963)',
-        text: 'La prueba exculpatoria debe divulgarse. Retener el análisis negativo antes de la declaración es la violación del debido proceso.',
-      },
-      {
-        cite: 'Napue v. Illinois (1959)',
-        text: 'El Estado no puede dejar en pie prueba falsa sin corregirla, incluida una base fáctica falsa que él mismo recitó.',
-      },
-      {
-        cite: 'Mullane v. Central Hanover Bank (1950)',
-        text: 'La notificación debe calcularse razonablemente para llegar a la persona. Argumento de apoyo, no principal: la familia sí lo alcanzó.',
-      },
-    ],
-  },
+}
+
+export const question = {
+  number: '04',
+  eyebrow: 'La pregunta que el expediente no responde',
+  title: 'Algo me hizo hacerlo.',
+  paragraphs: [
+    'Retiré una declaración de inocencia y me declaré culpable la tarde del 3 de marzo de 2009.',
+    'El expediente no dice qué. La minuta nombra una taquígrafa certificada, un formulario de declaración PC 859A y una base fáctica. No dice qué me dijeron, qué me mostraron ni qué pusieron delante de mí antes de que me levantara y cambiara mi declaración.',
+    'Esto es lo que sé. Las mismas personas que me presionaban para aceptar el acuerdo tenían el único papel que me habría dejado libre. No solo habría terminado el caso: me habría dejado libre. Si el resultado del laboratorio hubiera estado en mis manos antes de esa tarde, no me habría declarado culpable. No habría base fáctica de la cual declararse. Habría ido a casa.',
+    'El debido proceso es un procedimiento justo sobre la prueba, con aviso al hombre que tiene que vivir con el resultado. El lado que tenía la carta fue el lado que decidió qué se me permitía saber. ¿En qué realidad eso es justo?',
+    'En cambio cumplí casi seis años por una declaración apoyada en un hecho que la propia prueba del Estado contradice.',
+  ],
+}
+
+export const deal = {
+  number: '05',
+  eyebrow: 'El acuerdo y el papel',
+  title: 'Un acuerdo de culpabilidad es un contrato. Nadie firma un contrato sin una copia.',
+  paragraphs: [
+    'A mí no me dieron copia. El Estado tenía el resultado del laboratorio. El Estado sabía que el cargo dependía de la sustancia incautada. Firmé de todos modos —en la sala, en el acta, dentro de un sistema que no me dijo qué estaba firmando. Tenía derecho al papel antes de hablar. El Estado tenía la obligación de dármelo.',
+  ],
+  rulesTitle: 'Las reglas que este expediente pone en juego:',
+  rules: [
+    {
+      cite: 'Boykin v. Alabama (1969)',
+      text: 'La declaración tiene que ser libre, consciente y voluntaria. Yo no podía declararme con conocimiento sobre un hecho que nunca me dejaron ver.',
+    },
+    {
+      cite: 'Henderson v. Morgan (1976)',
+      text: 'La declaración es con conocimiento solo si sabía el cargo y los hechos detrás. El cargo era posesión para la venta. Los hechos eran negativos.',
+    },
+    {
+      cite: 'Código Penal de California, art. 1192.5',
+      text: 'La corte debe encontrar una base fáctica para la declaración. Sin sustancia controlada no hay base fáctica. Sin base fáctica no hay declaración.',
+    },
+    {
+      cite: 'Brady v. Maryland (1963)',
+      text: 'La acusación tiene que entregar la prueba que ayuda a la defensa. El análisis negativo era esa prueba. Nunca me la dieron.',
+    },
+    {
+      cite: 'Napue v. Illinois (1959)',
+      text: 'El Estado no puede dejar en pie una base fáctica falsa sin corregirla, incluida una que él mismo recitó.',
+    },
+    {
+      cite: 'Mullane v. Central Hanover Bank (1950)',
+      text: 'El aviso tiene que ser razonablemente calculado para llegar a mí. El aviso llegó a la casa de mi madre, en inglés, que mi familia no podía leer.',
+    },
+    {
+      cite: 'Brady v. United States (1970), Santobello (1971), Corbitt (1978)',
+      text: 'Estas dicen que negociar una declaración es legal. Ninguna dice que una declaración sea legal cuando el Estado retuvo el único documento que habría matado el cargo. Los acuerdos legales no son excusa para esconder prueba.',
+    },
+  ],
 }
 
 export const evidence = {
@@ -217,199 +235,132 @@ export const evidence = {
     {
       entity: 'Secretaría de la Corte Superior · caso n.º FVI802230',
       objective:
-        'Copia certificada del registro del caso, la minuta de la declaración y sentencia del 3 de marzo de 2009, el formulario de declaración PC 859A y la transcripción de esas actuaciones — la minuta nombra una taquígrafa certificada presente.',
+        'Copia certificada del resumen del expediente, la minuta de la declaración y sentencia del 3 de marzo de 2009, el formulario de declaración PC 859A y la transcripción de esas actuaciones. La minuta nombra una taquígrafa certificada.',
       proof:
-        'Qué base fáctica se puso realmente en el registro antes de la declaración — y si la corte tenía alguna base una vez que el análisis se pone al lado.',
+        'Qué base fáctica se puso realmente en el acta antes de mi declaración, y si la corte tenía alguna base cuando el análisis se pone al lado.',
       status: 'Solicitud de certificación',
     },
     {
       entity: 'Laboratorio forense',
       objective:
-        'Notas del analista, el certificado de análisis negativo finalizado, la cadena de custodia y las fechas de envío de lo incautado.',
-      proof:
-        'La fecha exacta en que existió el resultado exculpatorio — y por lo tanto exactamente cuánto tiempo se retuvo antes de la declaración.',
+        'Notas de trabajo, el certificado negativo finalizado, la cadena de custodia y las marcas de tiempo de envío de lo incautado.',
+      proof: '',
       status: 'Solicitud CPRA',
     },
     {
-      entity: 'Sheriff del Condado de San Bernardino',
+      entity: 'Alguacil del condado de San Bernardino',
       objective:
-        'Registros de ingreso y propiedad, traslados, historial de alojamiento y libros de correo recibido durante todo el encierro.',
-      proof:
-        'Que el condado tenía conocimiento continuo y documentado de dónde estaba él, mientras el aviso oficial iba a una dirección familiar.',
+        'Registros de ingreso y de propiedad, registros de transporte bajo custodia, historial de alojamiento y libros de correo recibido durante todo mi encierro.',
+      proof: '',
       status: 'Solicitud CPRA',
     },
     {
-      entity: 'Fiscalía de Distrito',
+      entity: 'Fiscalía del distrito',
       objective:
-        'Entradas del libro de correo, notas de admisión del caso, hojas de envío de descubrimiento y cualquier registro de lo que la Fiscalía sabía del análisis antes del 3 de marzo de 2009.',
-      proof:
-        'Si el resultado negativo se conocía y no se compartió: la diferencia entre una falla administrativa y la indiferencia ante una base fáctica falsa.',
+        'Entradas del libro de correo, notas de ingreso del caso, hojas de envío de descubrimiento y cualquier registro de lo que la Fiscalía sabía del análisis antes del 3 de marzo de 2009.',
+      proof: '',
       status: 'Exigencia de preservación',
     },
     {
       entity: 'Departamento de Correcciones y Rehabilitación',
       objective:
-        'La carta del 23 de abril de 2009, la copia del 29 de abril de 2009 a la unidad de libertad condicional y las entradas de dirección registrada durante toda la condena.',
-      proof:
-        'La prueba del propio Estado de que tenía su dirección custodial — lo que convierte el envío a una casa familiar en una decisión, no en una necesidad.',
+        'La carta del 23 de abril de 2009, la copia del 29 de abril de 2009 a la unidad de libertad condicional y las entradas de dirección registrada del departamento durante toda la condena.',
+      proof: '',
       status: 'Solicitud CPRA',
     },
   ],
 }
 
-export const immunity = {
-  number: '07',
-  eyebrow: 'El problema de la inmunidad',
-  title: 'Dos puertas. Solo una se abre.',
-  intro:
-    'Los casos de derechos civiles no se ganan por lo mal que se portó alguien. Se ganan por la función que esa persona cumplía cuando lo hizo.',
-  cards: [
-    {
-      kind: 'Absoluta',
-      title: 'Inmunidad del fiscal',
-      scope: 'Actuación como abogado en la fase judicial',
-      body: 'Un fiscal que sostiene cargos, presenta un caso o negocia una declaración en la corte tiene inmunidad absoluta frente a daños. La malicia no la atraviesa. La mala fe tampoco.',
-      canPierce: false,
-      note: 'No construir la demanda aquí.',
-    },
-    {
-      kind: 'Calificada',
-      title: 'Inmunidad en la investigación y la administración',
-      scope: 'Laboratorios, correo interno, secretarías, personal del sheriff y fiscales fuera de su función de abogado',
-      body: 'La inmunidad calificada cae cuando la conducta viola un derecho claramente establecido — o cuando el expediente muestra indiferencia deliberada y no un error. Desviar un aviso obligatorio de una dirección custodial conocida es el tipo de hecho que vive aquí.',
-      canPierce: true,
-      note: 'Aquí es donde tiene que caer la demanda.',
-    },
-  ],
-  takeaway:
-    'La frase que gana en la demanda no es que se equivocaron. Es que sabían dónde estaba, y aun así lo mandaron a otro lado.',
-}
-
 export const archive = {
-  number: '08',
+  number: '07',
   eyebrow: 'El archivo',
   title: 'Lo que tengo. Lo que falta.',
-  intro:
-    'La impresión del expediente fechada el 10 de noviembre de 2026 es el único registro en mano, y no está certificada. Nada en esta página se describe como verificado hasta que una copia certificada lo esté. El relato de la familia sobre el aviso —la madre lo recibió, la hermana se lo leyó por teléfono— es testimonio, no documento, y así queda hasta que se produzca una declaración jurada o la carta.',
+  intro: 'La impresión del expediente fechada el 10 de noviembre de 2026 es el único registro que tengo en la mano.',
   docs: [
     {
-      title: 'Registro certificado del caso — FVI802230',
+      title: 'Resumen del expediente — FVI802230',
       type: 'Registro judicial',
       status: 'requested',
-      note: 'Certificado por la secretaría, con la declaración del 3/3/2009, la carta del 21/10/2010 y la orden minutada del 1/11/2010.',
+      note: 'De la secretaría, con la declaración del 3/3/2009, la carta del 21/10/2010 y la orden del 1/11/2010.',
     },
     {
-      title: 'Certificado de análisis de laboratorio — negativo',
+      title: 'Certificado de análisis del laboratorio — negativo',
       type: 'Registro forense',
       status: 'requested',
-      note: 'El documento ancla. Solicitado con notas del analista, cadena de custodia y fechas de envío.',
+      note: 'El documento ancla. Pedido con notas de trabajo, cadena de custodia y marcas de tiempo de envío.',
     },
     {
       title: 'Declaración PC 859A y transcripción de la taquígrafa',
       type: 'Registro judicial',
       status: 'requested',
-      note: 'La minuta dice que se estableció una base fáctica y que el formulario se presentó. Ni el formulario ni la transcripción están en mi poder; la transcripción es lo que termina la discusión.',
+      note: 'La minuta dice que se estableció una base fáctica y que el formulario se presentó. Ni el formulario ni la transcripción están en mi poder. La transcripción es lo que termina la discusión.',
     },
     {
-      title: 'Registros de alojamiento y correo',
+      title: 'Registros de alojamiento y correo bajo custodia',
       type: 'Registro de custodia',
       status: 'demand',
-      note: 'La prueba del propio Estado de que conocía su dirección durante 68 meses.',
+      note: 'La prueba del propio Estado de que conocía mi dirección durante 68 meses.',
     },
     {
       title: 'Registro de avisos y envíos',
       type: 'Registro de agencia',
       status: 'demand',
-      note: 'A qué dirección iba el aviso y cuándo salió del edificio.',
+      note: 'A qué dirección se envió el aviso, y cuándo salió del edificio.',
     },
     {
-      title: 'El aviso, según la familia',
+      title: 'El aviso, guardado por la familia',
       type: 'Registro familiar',
       status: 'requested',
-      note: 'La familia cree que su madre lo guardó. Si existe, resuelve la pregunta del envío; mientras tanto está sin confirmar, no perdido.',
+      note: 'Mi familia cree que mi madre lo guardó. Si existe, resuelve la pregunta del envío. Hasta entonces está sin confirmar, no perdido.',
     },
   ],
   statusLabels: {
-    requested: 'Solicitado',
+    requested: 'Pedido',
     demand: 'Exigencia de preservación',
-    missing: 'No recuperada',
+    missing: 'Sin recuperar',
     held: 'Copia certificada en mano',
   },
 }
 
-export const protocol = {
-  number: '09',
-  eyebrow: 'Norma de publicación',
-  title: 'Las reglas que yo me impongo.',
-  intro:
-    'La atención solo vale algo si está limpia. Estas son las reglas que yo me impongo, escritas para que se me puedan exigir.',
-  rules: [
-    {
-      n: '01',
-      statement: 'Registros antes que adjetivos.',
-      detail:
-        'Publicamos presentaciones, correspondencia, recibos y registros. Si una frase no se puede rastrear hasta un documento, no sube.',
-    },
-    {
-      n: '02',
-      statement: 'Instituciones, no personas.',
-      detail:
-        'Escribo sobre oficinas, procedimientos y fallas — no sobre personas nombradas que no hayan sido nombradas en una presentación judicial. Cuando un registro nombra a un funcionario, cito el registro y no le agrego nada.',
-    },
-    {
-      n: '03',
-      statement: 'Llamar alegato al alegato.',
-      detail:
-        'La afirmación de que las drogas fueron sembradas es un alegato. El análisis negativo es la prueba. El aviso es la narrativa. No pesan lo mismo, y esta página no los presenta como si pesaran lo mismo.',
-    },
-    {
-      n: '04',
-      statement: 'Poner fecha a todo.',
-      detail:
-        'Cada afirmación lleva la fecha en que se publicó y la versión del documento en que se apoya, para que el expediente no se pueda reescribir en silencio.',
-    },
-    {
-      n: '05',
-      statement: 'Corregir en público.',
-      detail:
-        'Un error se corrige en la página, con la fecha, no se borra. Un registro que se edita a sí mismo no es un registro.',
-    },
-  ],
+export const docket = {
+  number: '08',
+  eyebrow: 'El expediente mismo',
+  title: 'Lee el expediente.',
+  note: 'El resumen del caso n.º FVI802230, impreso el 10 de noviembre de 2026.',
 }
 
 export const dispatch = {
-  number: '10',
+  number: '09',
   eyebrow: 'Difusión',
+  lead: 'La corrupción solo puede operar en la oscuridad. Este caso vive de la atención. La atención tiene reloj.',
   title: 'Mándalo a donde lo lean.',
-  body: 'Del silencio vive esto. No pido lástima: pido distribución y pido registros. Si tienes cualquiera de las dos, quiero saber de ti.',
+  body: 'No pido lástima. Pido difusión y pido registros. Si tienes cualquiera de las dos, quiero saber de ti.',
   needs: [
     {
-      title: 'Abogado post-condena',
-      detail:
-        'Un abogado que haya anulado una declaración por una base fáctica falsa o por prueba exculpatoria retenida. Las presentaciones van a su nombre; la ayuda detrás importa.',
+      title: 'En pro per',
+      detail: 'Me represento a mí mismo.',
     },
     {
       title: 'Registros certificados',
       detail:
-        'Cualquiera que pueda ayudar a soltar el archivo del laboratorio, el formulario PC 859A, el libro de correo o el registro de 68 meses de un condado que ha tenido dieciocho años para perderlo.',
+        'El archivo del laboratorio. El formulario PC 859A. El libro de correo. El registro de 68 meses de alojamiento. Un condado que ha tenido dieciocho años para perderlos.',
     },
     {
       title: 'La carta y el expediente de la declaración',
       detail:
-        'Si alguna vez viste, copiaste, fotografiaste o recibiste correspondencia sobre este caso — o tienes el papeleo de la declaración — eso es lo que busco.',
+        'Viste, copiaste, fotografiaste o recibiste correspondencia sobre este caso. Tienes el papeleo de la declaración. Mándalo.',
     },
     {
-      title: 'Distribución',
-      detail:
-        'Publícalo, mándalo por correo, pásalo a un periodista que cubra las cortes de San Bernardino. La atención tiene reloj.',
+      title: 'Difusión',
+      detail: 'Publícalo. Mándalo por correo. Ponlo en manos de un periodista que cubra las cortes de San Bernardino.',
     },
   ],
   shareSummary:
-    'El Pueblo contra Horacio Campos, Corte Superior de San Bernardino, caso n.º FVI802230: seis años de condena por una declaración hecha en una sola tarde, y un análisis de laboratorio de lo incautado que salió negativo. Si ese resultado es real, la base fáctica de la declaración era falsa y el corpus delicti nunca existió. Escribió a la corte desde prisión en octubre de 2010 pidiendo el informe; se recibió el 21 de octubre y se negó por orden minutada el 1 de noviembre. El aviso llegó a la dirección de su madre, ella se lo dio a su hermana, y su hermana se lo leyó por teléfono — así que se enteró del resultado de segunda mano, cuando la declaración ya era definitiva. La familia cree que la carta se guardó. El expediente no está en duda.',
+    'People v. Horacio Campos, Corte Superior de San Bernardino, caso n.º FVI802230: seis años por una declaración hecha en una sola tarde, y un análisis de laboratorio de lo incautado que salió negativo. Si ese resultado es real, la base fáctica de la declaración era falsa y el corpus delicti nunca existió. Escribió a la corte desde prisión en octubre de 2010 pidiendo el informe; se recibió el 21 de octubre y se negó por orden el 1 de noviembre. El aviso llegó a la dirección de su madre, ella se lo dio a su hermana y su hermana se lo dijo por teléfono: supo el resultado de segunda mano, cuando la declaración ya era firme. La familia cree que la carta se guardó.',
 }
 
 export const footer = {
   disclaimer:
-    'Este sitio es un archivo público y de defensa, independiente, mantenido por una persona que apoya a la persona nombrada en el caso, con su conocimiento. Él se representa a sí mismo, en pro per; yo no soy abogado. No es representación legal, no da asesoría legal y no crea una relación abogado-cliente. Todas las presentaciones se hacen en pro per, a nombre del peticionario. Las entradas del expediente están transcritas de una impresión del resumen del caso fechada el 10 de noviembre de 2026 y todavía no están certificadas. El relato del aviso —que se envió a la dirección de su madre, que ella se lo dio a su hermana y que su hermana se lo leyó por teléfono— es testimonio de la familia, no está confirmado por ningún documento en mi poder, y se publica como tal; la familia cree que la carta se guardó, no que se perdió. Las afirmaciones sobre hechos en disputa —incluido el resultado negativo del laboratorio y cualquier afirmación de que las drogas fueron sembradas— son alegatos hasta que un tribunal o los registros los establezcan, y se publican con fines de rendición de cuentas y reparación. El análisis negativo es la prueba de este expediente; la afirmación sobre las drogas sembradas es un alegato y no se presenta como establecida. Los seis años son la condena que recita la minuta del 3 de marzo de 2009; los cinco años y ocho meses son el tiempo que en realidad estuvo en prisión. El argumento de la base fáctica bajo el artículo 1192.5 del Código Penal y el argumento del corpus delicti son posturas jurídicas, no conclusiones judiciales. La cifra del artículo 4900 es un cálculo a la tasa legal, no un derecho adquirido ni una promesa de pago. Los artículos, las inmunidades y los plazos varían por jurisdicción y cambian; nada aquí sustituye a un abogado con licencia en California.',
+    'Este sitio es un archivo de defensa sobre People v. Campos, Corte Superior de San Bernardino, caso n.º FVI802230. Me represento a mí mismo, en pro per. No soy abogado. Esto no es representación legal, no da asesoría legal y no crea una relación abogado-cliente. Los plazos, las leyes y los procedimientos varían según la jurisdicción y cambian. Nada de esto sustituye a un abogado con licencia en California.',
   closing: 'Nada de esto ha terminado.',
 }
