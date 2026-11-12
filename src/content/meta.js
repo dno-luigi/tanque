@@ -9,18 +9,18 @@ export const meta = {
     lang: 'en',
     title: 'A Letter Never Read',
     description:
-      'Six years on a plea entered in one afternoon, and a laboratory result I have never read. The record, in my own words.',
+      'Three gang allegations and a strike, stacked on one possession count. Six years imposed. The lab result is a document I have never read.',
     ogTitle: 'A Letter Never Read',
     ogDescription:
-      'A lab result I have never read. Five years and eight months served. The record, assembled in public.',
+      'No arrest date on the docket. 131 actual days in custody. Six years imposed. The record of People v. Campos, FVI802230.',
   },
   es: {
     lang: 'es',
     title: 'Una carta que nunca se leyó',
     description:
-      'Seis años por una declaración hecha en una sola tarde, y un resultado de laboratorio que nunca leí. El expediente, en mis propias palabras.',
+      'Tres agravantes de pandilla y una condena previa, apiladas sobre un solo cargo de posesión. Seis años impuestos. El resultado del laboratorio es un documento que nunca leí.',
     ogTitle: 'Una carta que nunca se leyó',
     ogDescription:
-      'Un resultado de laboratorio que nunca leí. Cinco años y ocho meses. El expediente, armado en público.',
+      'Sin fecha de arresto en el expediente. 131 días efectivos bajo custodia. Seis años impuestos. El expediente de People v. Campos, FVI802230.',
   },
 }
