@@ -166,7 +166,7 @@ export const sections = [
   {
     id: 'deal',
     number: '05',
-    title: 'A fair deal',
+    title: 'No deal',
     blocks: [
       {
         type: 'p',
@@ -177,7 +177,7 @@ export const sections = [
         text: 'If I understood what I signed, why wasn’t I given a copy of it as I was signing it?',
       },
       { type: 'p', text: 'Is that fair?', strong: true },
-      { type: 'p', text: 'What kind of fair deal is it when one party doesn’t even get a copy?' },
+      { type: 'p', text: 'How can you understand a plea you’re not given a copy of?' },
       { type: 'p', text: 'The Golden Rule applies here, too. Treat others as you would expect to be treated.' },
     ],
   },

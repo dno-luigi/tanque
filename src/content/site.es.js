@@ -166,7 +166,7 @@ export const sections = [
   {
     id: 'deal',
     number: '05',
-    title: 'Un trato justo',
+    title: 'Sin trato',
     blocks: [
       {
         type: 'p',
@@ -177,7 +177,7 @@ export const sections = [
         text: 'Si entendía lo que firmaba, ¿por qué no me dieron una copia mientras lo firmaba?',
       },
       { type: 'p', text: '¿Eso es justo?', strong: true },
-      { type: 'p', text: '¿Qué clase de trato justo es cuando una de las partes ni siquiera recibe una copia?' },
+      { type: 'p', text: '¿Cómo vas a entender una declaración de la que no te dan copia?' },
       { type: 'p', text: 'La regla de oro también aplica aquí. Trata a los demás como esperarías que te trataran.' },
     ],
   },
