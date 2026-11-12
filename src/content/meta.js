@@ -9,18 +9,18 @@ export const meta = {
     lang: 'en',
     title: 'A Letter Never Read',
     description:
-      'Six years on a plea entered in one afternoon, and a negative laboratory analysis I was never shown. The record, in my own words.',
+      'Six years on a plea entered in one afternoon, and a laboratory result I have never read. The record, in my own words.',
     ogTitle: 'A Letter Never Read',
     ogDescription:
-      'A negative lab result I never saw. Five years and eight months served. The record, assembled in public.',
+      'A lab result I have never read. Five years and eight months served. The record, assembled in public.',
   },
   es: {
     lang: 'es',
     title: 'Una carta que nunca se leyó',
     description:
-      'Seis años por una declaración hecha en una sola tarde, y un análisis de laboratorio negativo que nunca vi. El expediente, en mis propias palabras.',
+      'Seis años por una declaración hecha en una sola tarde, y un resultado de laboratorio que nunca leí. El expediente, en mis propias palabras.',
     ogTitle: 'Una carta que nunca se leyó',
     ogDescription:
-      'Un resultado de laboratorio negativo que nunca vi. Cinco años y ocho meses. El expediente, armado en público.',
+      'Un resultado de laboratorio que nunca leí. Cinco años y ocho meses. El expediente, armado en público.',
   },
 }

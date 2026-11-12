@@ -27,7 +27,7 @@ export const hero = {
   stats: [
     { value: '5y 8m', label: 'custody served' },
     { value: '6 yrs', label: 'term imposed, 2009' },
-    { value: 'Negative', label: 'laboratory analysis' },
+    { value: 'Never read', label: 'laboratory result' },
     { value: '2010', label: 'request denied' },
   ],
   note: 'They played poker with me and didn’t explain the rules.',
@@ -65,7 +65,7 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'The complaint carried three gang allegations — two under Penal Code 186.22(b) and one under 186.22(a) — two prior prison terms, and a strike. The strike doubled the base term. All of it sat on a possession count whose substance tested negative.',
+        text: 'The complaint carried three gang allegations — two under Penal Code 186.22(b) and one under 186.22(a) — two prior prison terms, and a strike. The strike doubled the base term. All of it sat on one possession count.',
       },
       {
         type: 'table',
@@ -99,11 +99,18 @@ export const sections = [
     title: 'The laboratory result',
     blocks: [
       { type: 'p', text: 'The seized items were submitted for laboratory analysis.' },
-      { type: 'p', text: 'The reported result was negative: no controlled substance detected.', strong: true },
-      { type: 'p', text: 'That result goes to the heart of the charge to which I pled guilty.' },
+      { type: 'p', text: 'I have never seen the result.', strong: true },
       {
         type: 'p',
-        text: 'How long does it take to test a seized item? I was in custody from October 23 to March 3 — 131 actual days — and no test result was ever put in front of me. A drug test does not take four months. The result was negative, and there was time for it to arrive.',
+        text: 'What I was told, over the phone by my family, was that the analysis came back negative: no controlled substance found. I have never read that paper. I do not know what it says.',
+      },
+      {
+        type: 'p',
+        text: 'That is what I hope it says. It is also the document I have been asking the court for since 2010.',
+      },
+      {
+        type: 'p',
+        text: 'How long does it take to test a seized item? I was in custody 131 actual days, and no test result was ever put in front of me. A drug test does not take four months.',
       },
       {
         type: 'p',
@@ -111,7 +118,7 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'The result is not a minor detail. It is evidence directly related to the substance underlying the charge.',
+        text: 'Nobody has ever put the paper in front of me.',
       },
     ],
   },
@@ -149,16 +156,11 @@ export const sections = [
         type: 'p',
         text: 'My mother received it and passed it to my sister. My sister could not read English well enough to understand the entire letter, but she understood enough to tell me that I was coming home early.',
       },
-      { type: 'p', text: 'I learned about the result secondhand.' },
       {
         type: 'p',
         text: 'My sister died before I came home.',
       },
-      { type: 'p', text: 'I have never personally read the letter.' },
-      {
-        type: 'p',
-        text: 'The distinction matters: my family received information about the result, but I did not receive and read the notice myself.',
-      },
+      { type: 'p', text: 'I have never read the letter.' },
     ],
   },
   {

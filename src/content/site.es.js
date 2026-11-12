@@ -27,7 +27,7 @@ export const hero = {
   stats: [
     { value: '5a 8m', label: 'tiempo cumplido' },
     { value: '6 años', label: 'condena impuesta, 2009' },
-    { value: 'Negativo', label: 'análisis de laboratorio' },
+    { value: 'Sin leer', label: 'resultado del laboratorio' },
     { value: '2010', label: 'pedido negado' },
   ],
   note: 'Jugaron al póker conmigo y no me explicaron las reglas.',
@@ -65,7 +65,7 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'La acusación llevaba tres agravantes de pandilla — dos bajo el artículo 186.22(b) y una bajo el 186.22(a) —, dos condenas previas de prisión y una condena previa grave. La condena previa duplicó la base. Todo eso se apiló sobre un cargo de posesión cuya sustancia dio negativo.',
+        text: 'La acusación llevaba tres agravantes de pandilla — dos bajo el artículo 186.22(b) y una bajo el 186.22(a) —, dos condenas previas de prisión y una condena previa grave. La condena previa duplicó la base. Todo eso se apiló sobre un solo cargo de posesión.',
       },
       {
         type: 'table',
@@ -99,11 +99,18 @@ export const sections = [
     title: 'El resultado del laboratorio',
     blocks: [
       { type: 'p', text: 'Lo incautado se envió a análisis de laboratorio.' },
-      { type: 'p', text: 'El resultado reportado fue negativo: no se detectó sustancia controlada.', strong: true },
-      { type: 'p', text: 'Ese resultado va al centro del cargo del que me declaré culpable.' },
+      { type: 'p', text: 'Nunca he visto el resultado.', strong: true },
       {
         type: 'p',
-        text: '¿Cuánto tarda analizar lo incautado? Estuve bajo custodia del 23 de octubre al 3 de marzo — 131 días efectivos — y nunca me pusieron un resultado de análisis por delante. Una prueba de drogas no tarda cuatro meses. El resultado era negativo, y hubo tiempo para que llegara.',
+        text: 'Lo que me dijeron, por teléfono, por medio de mi familia, fue que el análisis salió negativo: no se encontró sustancia controlada. Nunca he leído ese papel. No sé qué dice.',
+      },
+      {
+        type: 'p',
+        text: 'Eso es lo que espero que diga. También es el documento que le vengo pidiendo a la corte desde 2010.',
+      },
+      {
+        type: 'p',
+        text: '¿Cuánto tarda analizar lo incautado? Estuve bajo custodia 131 días efectivos, y nunca me pusieron un resultado de análisis por delante. Una prueba de drogas no tarda cuatro meses.',
       },
       {
         type: 'p',
@@ -111,7 +118,7 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'El resultado no es un detalle menor. Es prueba directamente relacionada con la sustancia en la que se apoyaba el cargo.',
+        text: 'Nadie me ha puesto ese papel por delante.',
       },
     ],
   },
@@ -149,16 +156,11 @@ export const sections = [
         type: 'p',
         text: 'Mi madre lo recibió y se lo pasó a mi hermana. Mi hermana no leía el inglés lo suficiente para entender la carta completa, pero entendió lo necesario para decirme que iba a salir antes.',
       },
-      { type: 'p', text: 'Supe del resultado de segunda mano.' },
       {
         type: 'p',
         text: 'Mi hermana murió antes de que yo saliera.',
       },
-      { type: 'p', text: 'Yo nunca he leído la carta personalmente.' },
-      {
-        type: 'p',
-        text: 'La distinción importa: mi familia recibió información sobre el resultado, pero yo no recibí ni leí el aviso.',
-      },
+      { type: 'p', text: 'Nunca he leído la carta.' },
     ],
   },
   {
