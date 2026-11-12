@@ -23,11 +23,28 @@ export const hero = {
   line1: 'A letter',
   line2: 'never read.',
   line3: 'I pled guilty anyway.',
-  paragraphs: [
-    'The docket says my plea was knowing and intelligent. It says there was a factual basis, a waiver, and a declaration under Penal Code section 859a. None of that paperwork is in the file. None of it can be downloaded.',
-    'There is no booking number. There is no arrest date. The only thing pointing back before the arraignment is the 195 days of credit, which counts back to August 2008 — two months before I first appear in this docket at all.',
-    'The charge rested on a drug test. The test is not in the file either.',
+  paragraphs: [],
+  stats: [
+    { value: '5y 8m', label: 'custody served' },
+    { value: '6 yrs', label: 'term imposed, 2009' },
+    { value: 'Negative', label: 'laboratory analysis' },
+    { value: '2010', label: 'request denied' },
   ],
+  artifact: {
+    label: 'Illustrative reconstruction',
+    caption:
+      'No official document is reproduced here. This is a diagram of what the record is alleged to show. Certified copies will replace it as they are obtained.',
+    header: 'Official notice — laboratory analysis',
+    rows: [
+      { label: 'Form', value: 'FORM 12-B' },
+      { label: 'Case', value: 'FVI802230' },
+      { label: 'Analysis', value: 'Controlled substance screening' },
+      { label: 'Result', value: 'Negative — none detected', neg: true },
+      { label: 'Mailed to', value: 'Family address — my mother' },
+    ],
+    stamp: 'Reached me secondhand',
+    stampSub: 'Told to me by phone',
+  },
   note: '',
 }
 

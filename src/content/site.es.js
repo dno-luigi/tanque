@@ -23,11 +23,28 @@ export const hero = {
   line1: 'Una carta',
   line2: 'que nunca se leyó.',
   line3: 'Me declaré culpable de todos modos.',
-  paragraphs: [
-    'El expediente dice que mi declaración fue libre y consciente. Dice que hubo una base fáctica, una renuncia y una declaración bajo el artículo 859a del Código Penal. Nada de ese papeleo está en el archivo. Nada de eso se puede descargar.',
-    'No hay número de registro. No hay fecha de arresto. Lo único que apunta antes del arraigo son los 195 días de abono, que se cuentan hasta agosto de 2008: dos meses antes de que yo aparezca por primera vez en este expediente.',
-    'El cargo dependía de una prueba de drogas. La prueba tampoco está en el archivo.',
+  paragraphs: [],
+  stats: [
+    { value: '5a 8m', label: 'tiempo cumplido' },
+    { value: '6 años', label: 'condena impuesta, 2009' },
+    { value: 'Negativo', label: 'análisis de laboratorio' },
+    { value: '2010', label: 'pedido negado' },
   ],
+  artifact: {
+    label: 'Reconstrucción ilustrativa',
+    caption:
+      'Aquí no se reproduce ningún documento oficial. Esto es un esquema de lo que el expediente supuestamente muestra. Las copias certificadas lo reemplazarán a medida que se obtengan.',
+    header: 'Aviso oficial — análisis de laboratorio',
+    rows: [
+      { label: 'Formulario', value: 'FORM 12-B' },
+      { label: 'Caso', value: 'FVI802230' },
+      { label: 'Análisis', value: 'Detección de sustancias controladas' },
+      { label: 'Resultado', value: 'Negativo — no se detectó nada', neg: true },
+      { label: 'Enviado a', value: 'Dirección de la familia — mi madre' },
+    ],
+    stamp: 'Me llegó de segunda mano',
+    stampSub: 'Me lo dijeron por teléfono',
+  },
   note: '',
 }
 

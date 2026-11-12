@@ -2836,3 +2836,14 @@ h3 {
 .dispatch h2 {
   max-width: 20ch;
 }
+
+/* ── hero: case line ───────────────────────────────────────────────────── */
+
+.hero-firm {
+  margin: -6px 0 22px;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--bone-dim);
+}
