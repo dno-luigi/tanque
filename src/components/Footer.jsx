@@ -16,7 +16,6 @@ export default function Footer() {
 
           <nav className="footer-links" aria-label={ui.footer.aria}>
             <a href="#archive">{ui.footer.archive}</a>
-            <a href="#gate">{ui.footer.gate}</a>
             <a href="#dispatch">{ui.footer.dispatch}</a>
             <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
             {ui.altLocale.href ? (

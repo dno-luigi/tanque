@@ -1,5 +1,4 @@
 import { hero, ui } from '../content/active.js'
-import { Arrow } from './Shared.jsx'
 
 function LetterArtifact() {
   const { artifact } = hero
@@ -65,9 +64,6 @@ export default function Hero() {
             <div className="hero-actions">
               <a className="btn btn-primary" href="#story">
                 {ui.hero.readRecord}
-              </a>
-              <a className="btn btn-ghost" href="#gate">
-                {ui.hero.whyCannotSue} <Arrow />
               </a>
             </div>
 

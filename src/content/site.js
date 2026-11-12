@@ -38,7 +38,7 @@ export const hero = {
   line2: 'negative.',
   line3: 'He pleaded guilty before he knew it.',
   sub: 'Six years imposed. Five years and eight months served. The laboratory analysis of what was seized came back negative. He asked the court for it from prison in 2010 and was refused by minute order. The notice went to his mother’s address; she gave it to his sister, who read it to him over the phone. The result reached him — late, secondhand, after the plea was already final.',
-  note: 'He represents himself, in pro per. I am telling the story. A foundation supports the work — not a law firm, and nothing owed to anyone here.',
+  note: 'This is his story. I am the one telling it.',
   stats: [
     { value: '5y 8m', label: 'custody served' },
     { value: '6 yrs', label: 'term imposed, 2009' },

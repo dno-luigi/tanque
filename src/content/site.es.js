@@ -38,7 +38,7 @@ export const hero = {
   line2: 'negativa.',
   line3: 'Se declaró culpable antes de saberlo.',
   sub: 'Seis años de condena. Cinco años y ocho meses en prisión. El análisis de laboratorio de lo que le incautaron salió negativo. En 2010 pidió el informe desde la cárcel y se lo negaron por orden minutada. El aviso llegó a la dirección de su madre; ella se lo dio a su hermana, y su hermana se lo leyó por teléfono. El resultado le llegó tarde, de segunda mano, cuando la declaración ya era definitiva.',
-  note: 'Él se representa a sí mismo, en pro per. Yo cuento la historia. Una fundación apoya el trabajo — no un despacho, y nada que se le deba a nadie aquí.',
+  note: 'Esta es su historia. Yo la cuento.',
   stats: [
     { value: '5a 8m', label: 'tiempo en prisión' },
     { value: '6 años', label: 'condena impuesta, 2009' },

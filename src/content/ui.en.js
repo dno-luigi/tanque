@@ -13,8 +13,6 @@ export const ui = {
   skip: 'Skip to the record',
   nav: {
     story: 'Story',
-    gate: 'Gate',
-    plan: 'Plan',
     archive: 'Archive',
     dispatch: 'Dispatch',
     sections: 'Sections',
@@ -24,7 +22,6 @@ export const ui = {
   },
   hero: {
     readRecord: 'Read the record',
-    whyCannotSue: 'Why he can’t sue yet',
     paperRef: 'FORM 12-B',
     paperNote: 'Subject address on file with the department.',
   },
@@ -36,8 +33,6 @@ export const ui = {
     nextFiling: 'Next filing',
     nextFilingValue: 'motion to vacate',
   },
-  heck: { groupAria: 'Status of the criminal conviction', ourRoute: 'His route' },
-  phases: { label: 'Phase', output: 'Output' },
   evidence: { proves: 'What it proves' },
   immunity: { takeawayLabel: 'The sentence that matters' },
   archive: {
@@ -65,7 +60,6 @@ export const ui = {
   footer: {
     aria: 'Footer',
     archive: 'The archive',
-    gate: 'The legal gate',
     dispatch: 'Send records',
     source: 'Source',
     notLegal: 'Not legal advice',

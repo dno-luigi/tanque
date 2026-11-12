@@ -12,8 +12,6 @@ export const ui = {
   skip: 'Ir al expediente',
   nav: {
     story: 'Historia',
-    gate: 'Barrera',
-    plan: 'Plan',
     archive: 'Archivo',
     dispatch: 'Difusión',
     sections: 'Secciones',
@@ -23,7 +21,6 @@ export const ui = {
   },
   hero: {
     readRecord: 'Leer el expediente',
-    whyCannotSue: 'Por qué él todavía no puede demandar',
     paperRef: 'FORMULARIO 12-B',
     paperNote: 'Dirección registrada en el departamento.',
   },
@@ -35,8 +32,6 @@ export const ui = {
     nextFiling: 'Próxima presentación',
     nextFilingValue: 'moción para anular',
   },
-  heck: { groupAria: 'Estado de la condena penal', ourRoute: 'Su ruta' },
-  phases: { label: 'Etapa', output: 'Resultado' },
   evidence: { proves: 'Qué demuestra' },
   immunity: { takeawayLabel: 'La frase que importa' },
   archive: {
@@ -64,7 +59,6 @@ export const ui = {
   footer: {
     aria: 'Pie de página',
     archive: 'El archivo',
-    gate: 'La barrera legal',
     dispatch: 'Enviar documentos',
     source: 'Código fuente',
     notLegal: 'No es asesoría legal',

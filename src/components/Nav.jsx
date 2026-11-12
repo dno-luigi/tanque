@@ -3,8 +3,6 @@ import { site, ui } from '../content/active.js'
 
 const links = [
   { id: 'story', label: ui.nav.story },
-  { id: 'gate', label: ui.nav.gate },
-  { id: 'plan', label: ui.nav.plan },
   { id: 'archive', label: ui.nav.archive },
   { id: 'dispatch', label: ui.nav.dispatch },
 ]

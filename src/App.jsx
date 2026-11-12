@@ -4,8 +4,6 @@ import Hero from './components/Hero.jsx'
 import Story from './components/Story.jsx'
 import Timeline from './components/Timeline.jsx'
 import Facts from './components/Facts.jsx'
-import HeckGate from './components/HeckGate.jsx'
-import Phases from './components/Phases.jsx'
 import Evidence from './components/Evidence.jsx'
 import Immunity from './components/Immunity.jsx'
 import Archive from './components/Archive.jsx'
@@ -63,8 +61,6 @@ export default function App() {
         <Story />
         <Timeline />
         <Facts />
-        <HeckGate />
-        <Phases />
         <Evidence />
         <Immunity />
         <Archive />
