@@ -45,7 +45,7 @@ export const hero = {
     stamp: 'Reached me secondhand',
     stampSub: 'Told to me by phone',
   },
-  note: '',
+  note: 'They played poker with me and didn’t explain the rules.',
 }
 
 export const sections = [
@@ -63,6 +63,10 @@ export const sections = [
       {
         type: 'p',
         text: 'I had been in jail for almost a year by then. I was scared. I was convinced I was looking at thirty years. So I withdrew my not-guilty plea and pled guilty. Why would anyone do that?',
+      },
+      {
+        type: 'p',
+        text: 'The docket never records an arrest. It starts at the arraignment, two months after the 195 days of credit begin. Thirty years on paper, and paper was what they had.',
       },
       {
         type: 'p',
@@ -160,6 +164,7 @@ export const sections = [
         type: 'p',
         text: 'If I understood what I signed, why wasn’t I given a copy of it as I was signing it?',
       },
+      { type: 'p', text: 'Is that fair?', strong: true },
       { type: 'p', text: 'What kind of fair deal is it when one party doesn’t even get a copy?' },
       { type: 'p', text: 'The Golden Rule applies here, too. Treat others as you would expect to be treated.' },
     ],

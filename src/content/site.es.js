@@ -45,7 +45,7 @@ export const hero = {
     stamp: 'Me llegó de segunda mano',
     stampSub: 'Me lo dijeron por teléfono',
   },
-  note: '',
+  note: 'Jugaron al póker conmigo y no me explicaron las reglas.',
 }
 
 export const sections = [
@@ -63,6 +63,10 @@ export const sections = [
       {
         type: 'p',
         text: 'Para entonces llevaba casi un año en la cárcel. Tenía miedo. Estaba convencido de que me enfrentaba a treinta años. Así que retiré mi declaración de inocencia y me declaré culpable. ¿Por qué haría alguien eso?',
+      },
+      {
+        type: 'p',
+        text: 'El expediente nunca registra un arresto. Empieza en el arraigo, dos meses después de que comiencen los 195 días de abono. Treinta años en el papel, y papel era lo que tenían.',
       },
       {
         type: 'p',
@@ -160,6 +164,7 @@ export const sections = [
         type: 'p',
         text: 'Si entendía lo que firmaba, ¿por qué no me dieron una copia mientras lo firmaba?',
       },
+      { type: 'p', text: '¿Eso es justo?', strong: true },
       { type: 'p', text: '¿Qué clase de trato justo es cuando una de las partes ni siquiera recibe una copia?' },
       { type: 'p', text: 'La regla de oro también aplica aquí. Trata a los demás como esperarías que te trataran.' },
     ],
