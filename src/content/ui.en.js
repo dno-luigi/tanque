@@ -24,7 +24,7 @@ export const ui = {
   },
   hero: {
     readRecord: 'Read the record',
-    whyCannotSue: 'Why we can’t sue yet',
+    whyCannotSue: 'Why he can’t sue yet',
     paperRef: 'FORM 12-B',
     paperNote: 'Subject address on file with the department.',
   },
