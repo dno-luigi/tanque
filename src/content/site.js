@@ -101,7 +101,7 @@ export const timeline = {
     {
       marker: '03 / 03 / 2009',
       title: 'He pleads guilty at the preliminary hearing. Sentenced the same day.',
-      body: 'He withdraws his not-guilty plea and pleads to count one. The minute order records the court finding the plea knowing and intelligent, imposes four years doubled under the prior strike plus two consecutive years, and fixes a total term of six years, with 195 days of credit. The prison packet is forwarded to West Valley Detention Center the following week. The PC 859A plea form — the only contemporaneous record of the factual basis — is not in hand.',
+      body: 'He withdraws his not-guilty plea and pleads to count one. The minute order records the court finding the plea knowing and intelligent, imposes four years doubled under the prior strike plus two consecutive years, and fixes a total term of six years, with 195 days of credit. The prison packet is forwarded to West Valley Detention Center the following week. The minutes also name a certified court reporter present, record that a factual basis was established, and note a PC 859A declaration form filed — without saying what that basis was. Neither the form nor the transcript is in hand.',
       tag: 'Docket entry',
       kind: 'docket',
     },
@@ -170,7 +170,7 @@ export const facts = {
       title: 'A negative finding — and a false factual basis',
       claim: 'No controlled substance means no corpus delicti.',
       detail:
-        'Penal Code § 1192.5 requires the court to find a factual basis for the plea, on the record. If the analysis was negative, the factual basis for Health and Safety Code § 11378 was false: no substance, no crime. A plea entered on a basis the state’s own evidence contradicts is not a knowing plea under Boykin. This — not the notice — is the strongest argument in the file.',
+        'Penal Code § 1192.5 requires the court to find a factual basis for the plea, on the record. If the analysis was negative, the factual basis for Health and Safety Code § 11378 was false: no substance, no crime. The minutes recite that a factual basis was established; they do not say what supported it. A plea entered on a basis the state’s own evidence contradicts is not a knowing plea under Boykin. This — not the notice — is the strongest argument in the file.',
       source: 'Certificate of analysis, PC 859A form, plea colloquy',
     },
   ],
@@ -332,7 +332,7 @@ export const evidence = {
     {
       entity: 'Superior Court clerk · No. FVI802230',
       objective:
-        'A certified copy of the case summary docket, the 3 March 2009 plea and sentencing minutes, and the PC 859A plea form with the colloquy that recites the factual basis.',
+        'A certified copy of the case summary docket, the 3 March 2009 plea and sentencing minutes, the PC 859A declaration form, and the reporter’s transcript of those proceedings — the minutes name a certified reporter present.',
       proof:
         'What factual basis was actually placed on the record before the plea — and whether the court had any basis at all once the analysis is set beside it.',
       status: 'Certification request',
@@ -420,10 +420,10 @@ export const archive = {
       note: 'The anchor document. Requested with bench notes, chain of custody and transmittal timestamps.',
     },
     {
-      title: 'PC 859A plea form and plea colloquy',
+      title: 'PC 859A declaration and reporter’s transcript',
       type: 'Court record',
       status: 'requested',
-      note: 'The only contemporaneous record of the factual basis recited for the plea — and the document the motion turns on.',
+      note: 'The minutes say a factual basis was established and that the declaration form was filed. Neither the form nor the transcript is in hand; the transcript is what ends the argument.',
     },
     {
       title: 'Custodial housing & mail logs',

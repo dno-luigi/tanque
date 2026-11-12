@@ -101,7 +101,7 @@ export const timeline = {
     {
       marker: '03 / 03 / 2009',
       title: 'Se declara culpable en la audiencia preliminar. Lo sentencian ese mismo día.',
-      body: 'Retira su declaración de inocencia y se declara culpable del cargo uno. La minuta registra que la corte consideró la declaración libre y consciente, impone cuatro años duplicados por la condena previa grave más dos años consecutivos, y fija una condena total de seis años, con 195 días de abono. La semana siguiente el paquete carcelario se envía al Centro de Detención West Valley. El formulario de declaración PC 859A —el único registro contemporáneo de la base fáctica— no está en nuestro poder.',
+      body: 'Retira su declaración de inocencia y se declara culpable del cargo uno. La minuta registra que la corte consideró la declaración libre y consciente, impone cuatro años duplicados por la condena previa grave más dos años consecutivos, y fija una condena total de seis años, con 195 días de abono. La semana siguiente el paquete carcelario se envía al Centro de Detención West Valley. La minuta también nombra una taquígrafa judicial certificada presente, registra que se estableció una base fáctica y deja constancia de un formulario de declaración PC 859A presentado — sin decir cuál era esa base. Ni el formulario ni la transcripción están en nuestro poder.',
       tag: 'Entrada del expediente',
       kind: 'docket',
     },
@@ -170,7 +170,7 @@ export const facts = {
       title: 'Un resultado negativo — y una base fáctica falsa',
       claim: 'Sin sustancia controlada no hay corpus delicti.',
       detail:
-        'El artículo 1192.5 del Código Penal exige que la corte encuentre una base fáctica para la declaración, en el registro. Si el análisis era negativo, la base fáctica del artículo 11378 del Código de Salud y Seguridad era falsa: sin sustancia, no hay delito. Una declaración hecha sobre una base que la propia prueba del Estado contradice no es una declaración con conocimiento bajo Boykin. Esto —no el aviso— es el argumento más fuerte del expediente.',
+        'El artículo 1192.5 del Código Penal exige que la corte encuentre una base fáctica para la declaración, en el registro. Si el análisis era negativo, la base fáctica del artículo 11378 del Código de Salud y Seguridad era falsa: sin sustancia, no hay delito. La minuta recita que se estableció una base fáctica; no dice qué la sostenía. Una declaración hecha sobre una base que la propia prueba del Estado contradice no es una declaración con conocimiento bajo Boykin. Esto —no el aviso— es el argumento más fuerte del expediente.',
       source: 'Certificado de análisis, formulario PC 859A, interrogatorio de la declaración',
     },
   ],
@@ -332,7 +332,7 @@ export const evidence = {
     {
       entity: 'Secretaría de la Corte Superior · caso n.º FVI802230',
       objective:
-        'Copia certificada del registro del caso, la minuta de la declaración y sentencia del 3 de marzo de 2009, y el formulario PC 859A con el interrogatorio que recita la base fáctica.',
+        'Copia certificada del registro del caso, la minuta de la declaración y sentencia del 3 de marzo de 2009, el formulario de declaración PC 859A y la transcripción de esas actuaciones — la minuta nombra una taquígrafa certificada presente.',
       proof:
         'Qué base fáctica se puso realmente en el registro antes de la declaración — y si la corte tenía alguna base una vez que el análisis se pone al lado.',
       status: 'Solicitud de certificación',
@@ -420,10 +420,10 @@ export const archive = {
       note: 'El documento ancla. Solicitado con notas del analista, cadena de custodia y fechas de envío.',
     },
     {
-      title: 'Formulario PC 859A e interrogatorio de la declaración',
+      title: 'Declaración PC 859A y transcripción de la taquígrafa',
       type: 'Registro judicial',
       status: 'requested',
-      note: 'El único registro contemporáneo de la base fáctica recitada — y el documento del que depende la moción.',
+      note: 'La minuta dice que se estableció una base fáctica y que el formulario se presentó. Ni el formulario ni la transcripción están en nuestro poder; la transcripción es lo que termina la discusión.',
     },
     {
       title: 'Registros de alojamiento y correo',

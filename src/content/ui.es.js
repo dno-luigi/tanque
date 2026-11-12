@@ -43,6 +43,15 @@ export const ui = {
     footCertified: '{held} de {total} documentos certificados y publicados',
     footUpdated: 'Última actualización al publicarse cada documento · sin cargas sin verificar',
   },
+  docket: {
+    eyebrow: 'El registro mismo',
+    title: 'Lea el expediente.',
+    note: 'El resumen del caso tal como se imprimió el 10 de noviembre de 2026, reproducido sin ediciones, incluidas las entradas de 2010 citadas arriba. No está certificado. Donde el expediente calla —el análisis, el envío, la base fáctica— aquí también calla.',
+    open: 'Abrir el resumen del caso — n.º FVI802230',
+    download: 'Descargar el texto',
+    meta: '13.6 KB · impresión sin certificar · 10 de noviembre de 2026',
+    file: '/record/FVI802230-case-summary.txt',
+  },
   dispatch: {
     copySummary: 'Copiar el resumen',
     copyLink: 'Copiar el enlace',

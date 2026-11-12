@@ -44,6 +44,15 @@ export const ui = {
     footCertified: '{held} of {total} documents certified and published',
     footUpdated: 'Last updated on publication of each record · no unverified uploads',
   },
+  docket: {
+    eyebrow: 'The record itself',
+    title: 'Read the docket.',
+    note: 'The case summary as printed on 10 November 2026, reproduced without edits, including the 2010 entries quoted above. It is not certified. Where the docket is silent — the analysis, the mailing, the factual basis — it is silent here too.',
+    open: 'Open the case summary — No. FVI802230',
+    download: 'Download the plain text',
+    meta: '13.6 KB · uncertified printout · 10 November 2026',
+    file: '/record/FVI802230-case-summary.txt',
+  },
   dispatch: {
     copySummary: 'Copy the summary',
     copyLink: 'Copy the link',
