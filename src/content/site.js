@@ -20,8 +20,8 @@ export const site = {
 export const hero = {
   kicker: 'People v. Campos',
   firm: 'San Bernardino Superior Court · Case No. FVI802230',
-  line1: 'The laboratory result',
-  line2: 'was negative.',
+  line1: 'A letter',
+  line2: 'never read.',
   line3: 'I pled guilty without having read it.',
   paragraphs: [
     'I served five years and eight months in state prison. The court record shows that I later asked for the laboratory results from prison. The court denied my request.',
@@ -48,6 +48,10 @@ export const sections = [
         type: 'p',
         text: 'The minute order reflects a knowing and intelligent plea, a factual basis, and a sentence consisting of a doubled four-year base term plus two consecutive years. It also records 195 days of credit.',
       },
+      {
+        type: 'p',
+        text: 'The complaint had alleged a gang enhancement and a prior strike. The strike doubled the base term. Those allegations were stacked on a possession count whose substance tested negative.',
+      },
       { type: 'p', text: 'I served five years and eight months.' },
       {
         type: 'p',
@@ -63,6 +67,10 @@ export const sections = [
       { type: 'p', text: 'The seized items were submitted for laboratory analysis.' },
       { type: 'p', text: 'The reported result was negative: no controlled substance detected.', strong: true },
       { type: 'p', text: 'That result goes to the heart of the charge to which I pled guilty.' },
+      {
+        type: 'p',
+        text: 'How long does it take to test seized items? The docket credits 195 days in custody before my plea, more than six months. That is the part of the timeline worth pressing: the result was negative, and there was time for it to reach the case before I pleaded.',
+      },
       {
         type: 'p',
         text: 'The laboratory certificate, bench notes, chain-of-custody records, and transmittal history are necessary to establish exactly what was tested, when the testing occurred, and when the result became available.',

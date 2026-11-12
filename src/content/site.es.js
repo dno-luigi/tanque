@@ -20,8 +20,8 @@ export const site = {
 export const hero = {
   kicker: 'People v. Campos',
   firm: 'Corte Superior de San Bernardino · caso n.º FVI802230',
-  line1: 'El resultado del laboratorio',
-  line2: 'fue negativo.',
+  line1: 'Una carta',
+  line2: 'que nunca se leyó.',
   line3: 'Me declaré culpable sin haberlo leído.',
   paragraphs: [
     'Cumplí cinco años y ocho meses en prisión estatal. El expediente de la corte muestra que después, desde prisión, pedí los resultados del laboratorio. La corte negó mi pedido.',
@@ -48,6 +48,10 @@ export const sections = [
         type: 'p',
         text: 'La minuta refleja una declaración libre y consciente, una base fáctica y una sentencia de cuatro años base duplicados más dos años consecutivos. También registra 195 días de abono.',
       },
+      {
+        type: 'p',
+        text: 'La acusación había alegado una agravante de pandilla y una condena previa. La condena previa duplicó la base. Esas alegaciones se apilaron sobre un cargo de posesión cuya sustancia dio negativo.',
+      },
       { type: 'p', text: 'Cumplí cinco años y ocho meses.' },
       {
         type: 'p',
@@ -63,6 +67,10 @@ export const sections = [
       { type: 'p', text: 'Lo incautado se envió a análisis de laboratorio.' },
       { type: 'p', text: 'El resultado reportado fue negativo: no se detectó sustancia controlada.', strong: true },
       { type: 'p', text: 'Ese resultado va al centro del cargo del que me declaré culpable.' },
+      {
+        type: 'p',
+        text: '¿Cuánto tarda analizar lo incautado? El expediente abona 195 días en custodia antes de mi declaración, más de seis meses. Ahí está la parte de la cronología que hay que apretar: el resultado era negativo, y hubo tiempo para que llegara al caso antes de que yo me declarara.',
+      },
       {
         type: 'p',
         text: 'El certificado del laboratorio, las notas de trabajo, los registros de cadena de custodia y el historial de envíos son necesarios para establecer exactamente qué se analizó, cuándo se hizo el análisis y cuándo estuvo disponible el resultado.',
