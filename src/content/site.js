@@ -67,6 +67,25 @@ export const sections = [
         type: 'p',
         text: 'The complaint carried three gang allegations — two under Penal Code 186.22(b) and one under 186.22(a) — two prior prison terms, and a strike. The strike doubled the base term. All of it sat on a possession count whose substance tested negative.',
       },
+      {
+        type: 'table',
+        head: ['Count', 'Charge', 'Disposition'],
+        rows: [
+          ['001', 'PC 186.22(b)(1)(A) — street gang enhancement', 'Denied; certified 3/3/2009'],
+          ['002', 'PC 186.22(b)(1)(A) — street gang enhancement', 'Stricken 3/3/2009'],
+          ['1', 'HS 11378 — possession of a controlled substance for sale', 'Guilty 3/3/2009'],
+          ['2', 'PC 186.22(a) — street terrorism', 'Dismissed 3/3/2009'],
+          ['999', 'PC 667.5(b) — prior prison term (two counts)', 'Denied; stricken 3/3/2009'],
+        ],
+      },
+      {
+        type: 'p',
+        text: 'An enhancement cannot stand by itself. It rides on a charge, and the charge rested on a drug test.',
+      },
+      {
+        type: 'p',
+        text: 'At the time of my arrest I was working construction. I was employed and I was earning. I was not using drugs, and I was clean. That is the man they stacked those enhancements onto.',
+      },
       { type: 'p', text: 'I served five years and eight months.' },
       {
         type: 'p',

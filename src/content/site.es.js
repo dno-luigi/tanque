@@ -67,6 +67,25 @@ export const sections = [
         type: 'p',
         text: 'La acusación llevaba tres agravantes de pandilla — dos bajo el artículo 186.22(b) y una bajo el 186.22(a) —, dos condenas previas de prisión y una condena previa grave. La condena previa duplicó la base. Todo eso se apiló sobre un cargo de posesión cuya sustancia dio negativo.',
       },
+      {
+        type: 'table',
+        head: ['Cargo', 'Delito', 'Resultado'],
+        rows: [
+          ['001', 'PC 186.22(b)(1)(A) — agravante de pandilla callejera', 'Negado; certificado 3/3/2009'],
+          ['002', 'PC 186.22(b)(1)(A) — agravante de pandilla callejera', 'Anulado 3/3/2009'],
+          ['1', 'HS 11378 — posesión de sustancia controlada para la venta', 'Culpable 3/3/2009'],
+          ['2', 'PC 186.22(a) — terrorismo callejero', 'Desestimado 3/3/2009'],
+          ['999', 'PC 667.5(b) — condena previa de prisión (dos cargos)', 'Negado; anulado 3/3/2009'],
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Una agravante no se sostiene sola. Va montada sobre un cargo, y el cargo descansaba en una prueba de drogas.',
+      },
+      {
+        type: 'p',
+        text: 'Cuando me arrestaron yo trabajaba en construcción. Tenía empleo y estaba ganando. No consumía drogas, estaba limpio. Ese es el hombre al que le apilaron esas agravantes.',
+      },
       { type: 'p', text: 'Cumplí cinco años y ocho meses.' },
       {
         type: 'p',
