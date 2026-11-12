@@ -45,8 +45,9 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'La línea del arresto en el expediente está en blanco. Ni fecha de arresto, ni número de registro, ni agencia. La primera entrada es el arraigo del 27 de octubre de 2008, donde aparecí por video desde la cárcel del condado y fijaron la fianza en $250,000.',
+        text: 'La línea del arresto en el expediente está en blanco. Ni fecha, ni número de registro, ni agencia. El único lugar donde aparece el arresto es el abono: 131 días efectivos, del 23 de octubre al día en que me declaré culpable. Todo lo demás en este expediente empieza cuando yo ya estaba bajo custodia.',
       },
+      { type: 'p', text: 'Le dije a mi abogado defensor que eso no era mío.' },
       { type: 'p', text: 'El 3 de marzo de 2009 me presenté en una audiencia preliminar en Victorville.' },
       {
         type: 'p',
@@ -55,12 +56,12 @@ export const sections = [
       { type: 'p', text: 'Esa misma tarde me sentenciaron a seis años en prisión estatal.' },
       {
         type: 'p',
-        text: 'Para entonces llevaba casi un año en la cárcel. Tenía miedo. Estaba convencido de que me enfrentaba a treinta años. Así que retiré mi declaración de inocencia y me declaré culpable. ¿Por qué haría alguien eso?',
+        text: 'Para entonces llevaba cuatro meses bajo custodia. Tenía miedo. Estaba convencido de que me enfrentaba a treinta años. Así que retiré mi declaración de inocencia y me declaré culpable. ¿Por qué haría alguien eso?',
       },
       { type: 'p', text: 'Imagínese jugar al póker contra alguien que no sabía que se podía mentir.', strong: true },
       {
         type: 'p',
-        text: 'La minuta refleja una declaración libre y consciente, una base fáctica y una sentencia de cuatro años base duplicados más dos años consecutivos. También registra 195 días de abono.',
+        text: 'La minuta dice que renuncié a mi derecho de confrontar y contrainterrogar a los testigos en mi contra. Dice que mi declaración fue libre y consciente, y fija la sentencia en cuatro años base duplicados más dos años consecutivos.',
       },
       {
         type: 'p',
@@ -83,7 +84,7 @@ export const sections = [
       { type: 'p', text: 'Ese resultado va al centro del cargo del que me declaré culpable.' },
       {
         type: 'p',
-        text: '¿Cuánto tarda analizar lo incautado? El expediente abona 195 días al sentenciar, y cuando me declaré culpable llevaba casi un año bajo custodia. Un análisis de laboratorio no tarda eso. El resultado era negativo, y hubo tiempo para que llegara.',
+        text: '¿Cuánto tarda analizar lo incautado? Estuve bajo custodia del 23 de octubre al 3 de marzo — 131 días efectivos — y nunca me pusieron un resultado de análisis por delante. Una prueba de drogas no tarda cuatro meses. El resultado era negativo, y hubo tiempo para que llegara.',
       },
       {
         type: 'p',
@@ -148,7 +149,7 @@ export const sections = [
     blocks: [
       {
         type: 'p',
-        text: 'En el mundo real, cuando dos partes firman un contrato, cada una recibe una copia. Cada una tiene la oportunidad de saber a qué se comprometió.',
+        text: 'Imagínese firmar un contrato con alguien y no recibir copia — y a la cárcel directo después de firmarlo.',
       },
       {
         type: 'p',

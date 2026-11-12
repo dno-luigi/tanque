@@ -45,8 +45,9 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'The arrest line on the docket is blank. No arrest date, no booking number, no arresting agency. The first entry is the arraignment on October 27, 2008, where I appeared by video from the county jail and bail was set at $250,000.',
+        text: 'The arrest line on the docket is blank. No arrest date, no booking number, no arresting agency. The only place the arrest shows up is the credit: 131 days actual, which runs from October 23 to the day I pled. Everything else in this record starts after I was already in custody.',
       },
+      { type: 'p', text: 'I told my defense counsel it wasn’t my stuff.' },
       { type: 'p', text: 'On March 3, 2009, I appeared at a preliminary hearing in Victorville.' },
       {
         type: 'p',
@@ -55,12 +56,12 @@ export const sections = [
       { type: 'p', text: 'That same afternoon, I was sentenced to six years in state prison.' },
       {
         type: 'p',
-        text: 'I had been in jail for almost a year by then. I was scared. I was convinced I was looking at thirty years. So I withdrew my not-guilty plea and pled guilty. Why would anyone do that?',
+        text: 'I had been in custody four months. I was scared. I was convinced I was looking at thirty years. So I withdrew my not-guilty plea and pled guilty. Why would anyone do that?',
       },
       { type: 'p', text: 'Imagine playing poker against someone who didn’t know you could bluff.', strong: true },
       {
         type: 'p',
-        text: 'The minute order reflects a knowing and intelligent plea, a factual basis, and a sentence consisting of a doubled four-year base term plus two consecutive years. It also records 195 days of credit.',
+        text: 'The minute order says I waived my right to confront and cross-examine the witnesses against me. It says my plea was knowledgeable and intelligently made, and it fixes the sentence at a doubled four-year base term plus two consecutive years.',
       },
       {
         type: 'p',
@@ -83,7 +84,7 @@ export const sections = [
       { type: 'p', text: 'That result goes to the heart of the charge to which I pled guilty.' },
       {
         type: 'p',
-        text: 'How long does it take to test seized items? The docket credits 195 days at sentencing, and by the time I pled I had been in custody almost a year. A laboratory analysis does not take that long. The result was negative, and there was time for it to arrive.',
+        text: 'How long does it take to test a seized item? I was in custody from October 23 to March 3 — 131 actual days — and no test result was ever put in front of me. A drug test does not take four months. The result was negative, and there was time for it to arrive.',
       },
       {
         type: 'p',
@@ -148,7 +149,7 @@ export const sections = [
     blocks: [
       {
         type: 'p',
-        text: 'In the real world, when two parties enter into a contract, both get a copy. Both have the opportunity to know what they agreed to.',
+        text: 'Imagine signing a contract with someone and not getting a copy of it — and going straight to jail right after.',
       },
       {
         type: 'p',
