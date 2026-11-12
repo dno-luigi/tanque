@@ -36,7 +36,7 @@ export const ui = {
     nextFiling: 'Next filing',
     nextFilingValue: 'motion to vacate',
   },
-  heck: { groupAria: 'Status of the criminal conviction', ourRoute: 'Our route' },
+  heck: { groupAria: 'Status of the criminal conviction', ourRoute: 'His route' },
   phases: { label: 'Phase', output: 'Output' },
   evidence: { proves: 'What it proves' },
   immunity: { takeawayLabel: 'The sentence that matters' },

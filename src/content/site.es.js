@@ -38,7 +38,7 @@ export const hero = {
   line2: 'negativa.',
   line3: 'Se declaró culpable antes de saberlo.',
   sub: 'Seis años de condena. Cinco años y ocho meses en prisión. El análisis de laboratorio de lo que le incautaron salió negativo. En 2010 pidió el informe desde la cárcel y se lo negaron por orden minutada. El aviso llegó a la dirección de su madre; ella se lo dio a su hermana, y su hermana se lo leyó por teléfono. El resultado le llegó tarde, de segunda mano, cuando la declaración ya era definitiva.',
-  note: 'Presentado a su nombre, sin abogado (pro per). Hecho por dos personas que no van a parar.',
+  note: 'Él se representa a sí mismo, en pro per. Yo cuento la historia. Una fundación apoya el trabajo — no un despacho, y nada que se le deba a nadie aquí.',
   stats: [
     { value: '5a 8m', label: 'tiempo en prisión' },
     { value: '6 años', label: 'condena impuesta, 2009' },
@@ -71,8 +71,8 @@ export const story = {
     'El análisis de laboratorio de lo que le incautaron salió negativo: no se detectó ninguna sustancia controlada. Esa es la afirmación que este expediente existe para probar, y el documento que la resolvería es el certificado de análisis. Si se sostiene, la base fáctica que se recitó para la declaración no podía ser cierta: el artículo 1192.5 del Código Penal exige que la corte encuentre una, y donde no hay sustancia controlada no hay corpus delicti.',
     'Pidió desde adentro. El 14 de octubre de 2010 escribió a la corte sobre los resultados de las pruebas de laboratorio. La corte recibió la carta el 21 de octubre de 2010. El 1 de noviembre de 2010, una orden minutada negó la petición, y se le notificó. Sin audiencia. Sin abogado designado. Sin informe.',
     'El aviso sobre ese análisis llegó a la dirección de su madre, no al centro de reclusión. Su madre se lo dio a su hermana. Su hermana se lo leyó por teléfono mientras él estaba bajo custodia. Así se enteró de que el análisis era negativo: no por el papel, que nunca ha leído.',
-    'Su hermana murió antes de que él volviera a casa, pero ya le había contado lo que decía el papel. La familia cree que la carta se guardó, probablemente en casa de su madre. No la hemos visto, así que la describimos como no confirmada, no como perdida.',
-    'No le pedimos que nos crea. Le pedimos el papel.',
+    'Su hermana murió antes de que él volviera a casa, pero ya le había contado lo que decía el papel. La familia cree que la carta se guardó, probablemente en casa de su madre. No la he visto, así que la describo como no confirmada, no como perdida.',
+    'No le pido que me crea. Le pido el papel.',
   ],
   pull: 'Cinco años y ocho meses no es una condena que cumples y terminas. Es un cuarto en el que sigues parado.',
 }
@@ -101,7 +101,7 @@ export const timeline = {
     {
       marker: '03 / 03 / 2009',
       title: 'Se declara culpable en la audiencia preliminar. Lo sentencian ese mismo día.',
-      body: 'Retira su declaración de inocencia y se declara culpable del cargo uno. La minuta registra que la corte consideró la declaración libre y consciente, impone cuatro años duplicados por la condena previa grave más dos años consecutivos, y fija una condena total de seis años, con 195 días de abono. La semana siguiente el paquete carcelario se envía al Centro de Detención West Valley. La minuta también nombra una taquígrafa judicial certificada presente, registra que se estableció una base fáctica y deja constancia de un formulario de declaración PC 859A presentado — sin decir cuál era esa base. Ni el formulario ni la transcripción están en nuestro poder.',
+      body: 'Retira su declaración de inocencia y se declara culpable del cargo uno. La minuta registra que la corte consideró la declaración libre y consciente, impone cuatro años duplicados por la condena previa grave más dos años consecutivos, y fija una condena total de seis años, con 195 días de abono. La semana siguiente el paquete carcelario se envía al Centro de Detención West Valley. La minuta también nombra una taquígrafa judicial certificada presente, registra que se estableció una base fáctica y deja constancia de un formulario de declaración PC 859A presentado — sin decir cuál era esa base. Ni el formulario ni la transcripción están en mi poder.',
       tag: 'Entrada del expediente',
       kind: 'docket',
     },
@@ -210,10 +210,10 @@ export const facts = {
 export const heck = {
   number: '04',
   eyebrow: 'La barrera',
-  title: 'Por qué todavía no podemos demandar — y exactamente qué abre la puerta.',
+  title: 'Por qué él todavía no puede demandar — y exactamente qué abre la puerta.',
   body: [
     'Bajo Heck v. Humphrey, 512 U.S. 477 (1994), una demanda de derechos civiles por daños que necesariamente implicaría la invalidez de una condena penal vigente queda bloqueada desde el umbral. Un tribunal civil no va a dejar que una demanda haga el trabajo de una apelación posterior a la condena.',
-    'Esto no es un tecnicismo que podamos esquivar, y no es lo mismo que un plazo de prescripción. Es una puerta, y tiene cuatro llaves. Nuestro camino es la tercera: que un tribunal estatal invalide la sentencia. Esa ruta tiene número de artículo —el 1473.7 del Código Penal de California— y número de caso: FVI802230.',
+    'Esto no es un tecnicismo que se pueda esquivar, y no es lo mismo que un plazo de prescripción. Es una puerta, y tiene cuatro llaves. Su camino es la tercera: que un tribunal estatal invalide la sentencia. Esa ruta tiene número de artículo —el 1473.7 del Código Penal de California— y número de caso: FVI802230.',
   ],
   citation:
     'Heck v. Humphrey, 512 U.S. 477 (1994) · 42 U.S.C. § 1983 · Cal. Penal Code §§ 1473, 1473.7',
@@ -237,7 +237,7 @@ export const heck = {
     {
       title: 'Invalidada por un tribunal estatal',
       detail:
-        'Un tribunal competente anula la sentencia. Esta es nuestra ruta: una moción del artículo 1473.7 para anular, presentada en la Corte Superior de San Bernardino, construida sobre el análisis negativo retenido.',
+        'Un tribunal competente anula la sentencia. Esta es su ruta: una moción del artículo 1473.7 para anular, presentada en la Corte Superior de San Bernardino, construida sobre el análisis negativo retenido.',
       ours: true,
     },
     {
@@ -324,7 +324,7 @@ export const phases = {
 
 export const evidence = {
   number: '06',
-  eyebrow: 'Lo que estamos exigiendo',
+  eyebrow: 'Lo que estoy pidiendo',
   title: 'Cinco instituciones. Cinco preguntas que solo el papel puede contestar.',
   intro:
     'Cada fila es una solicitud de registros públicos, una exigencia de preservación y un futuro objetivo de citación. Abre una fila para ver qué prueba.',
@@ -403,7 +403,7 @@ export const immunity = {
 export const archive = {
   number: '08',
   eyebrow: 'El archivo',
-  title: 'Lo que tenemos. Lo que nos deben.',
+  title: 'Lo que tengo. Lo que falta.',
   intro:
     'La impresión del expediente fechada el 10 de noviembre de 2026 es el único registro en mano, y no está certificada. Nada en esta página se describe como verificado hasta que una copia certificada lo esté. El relato de la familia sobre el aviso —la madre lo recibió, la hermana se lo leyó por teléfono— es testimonio, no documento, y así queda hasta que se produzca una declaración jurada o la carta.',
   docs: [
@@ -455,9 +455,9 @@ export const archive = {
 export const protocol = {
   number: '09',
   eyebrow: 'Norma de publicación',
-  title: 'Cómo publicamos sin regalarles un caso de difamación.',
+  title: 'Las reglas que yo me impongo.',
   intro:
-    'La atención solo es presión si está limpia. Estas son las reglas que esta página se impone, en público, para que se nos puedan exigir.',
+    'La atención solo vale algo si está limpia. Estas son las reglas que yo me impongo, escritas para que se me puedan exigir.',
   rules: [
     {
       n: '01',
@@ -469,7 +469,7 @@ export const protocol = {
       n: '02',
       statement: 'Instituciones, no personas.',
       detail:
-        'Escribimos sobre oficinas, procedimientos y fallas — no sobre personas nombradas a las que no hemos acusado en una presentación judicial. Cuando un registro nombra a un funcionario, citamos el registro y no le agregamos nada.',
+        'Escribo sobre oficinas, procedimientos y fallas — no sobre personas nombradas que no hayan sido nombradas en una presentación judicial. Cuando un registro nombra a un funcionario, cito el registro y no le agrego nada.',
     },
     {
       n: '03',
@@ -496,7 +496,7 @@ export const dispatch = {
   number: '10',
   eyebrow: 'Difusión',
   title: 'Mándalo a donde lo lean.',
-  body: 'La corrupción vive del silencio. Lo que pedimos no es lástima: es distribución y son registros. Si tienes cualquiera de las dos, queremos saber de ti.',
+  body: 'Del silencio vive esto. No pido lástima: pido distribución y pido registros. Si tienes cualquiera de las dos, quiero saber de ti.',
   needs: [
     {
       title: 'Abogado post-condena',
@@ -511,7 +511,7 @@ export const dispatch = {
     {
       title: 'La carta y el expediente de la declaración',
       detail:
-        'Si alguna vez viste, copiaste, fotografiaste o recibiste correspondencia sobre este caso — o tienes el papeleo de la declaración — eso es lo que buscamos.',
+        'Si alguna vez viste, copiaste, fotografiaste o recibiste correspondencia sobre este caso — o tienes el papeleo de la declaración — eso es lo que busco.',
     },
     {
       title: 'Distribución',
@@ -525,6 +525,6 @@ export const dispatch = {
 
 export const footer = {
   disclaimer:
-    'Este sitio es un archivo público y de defensa, independiente, mantenido por la persona nombrada en el caso y por personas que la apoyan. No es representación legal, no da asesoría legal y no crea una relación abogado-cliente. Todas las presentaciones se hacen en pro per, a nombre del peticionario. Las entradas del expediente están transcritas de una impresión del resumen del caso fechada el 10 de noviembre de 2026 y todavía no están certificadas. El relato del aviso —que se envió a la dirección de su madre, que ella se lo dio a su hermana y que su hermana se lo leyó por teléfono— es testimonio de la familia, no está confirmado por ningún documento en nuestro poder, y se publica como tal; la familia cree que la carta se guardó, no que se perdió. Las afirmaciones sobre hechos en disputa —incluido el resultado negativo del laboratorio y cualquier afirmación de que las drogas fueron sembradas— son alegatos hasta que un tribunal o los registros los establezcan, y se publican con fines de rendición de cuentas y reparación. El análisis negativo es la prueba de este expediente; la afirmación sobre las drogas sembradas es un alegato y no se presenta como establecida. Los seis años son la condena que recita la minuta del 3 de marzo de 2009; los cinco años y ocho meses son el tiempo que en realidad estuvo en prisión. El argumento de la base fáctica bajo el artículo 1192.5 del Código Penal y el argumento del corpus delicti son posturas jurídicas, no conclusiones judiciales. La cifra del artículo 4900 es un cálculo a la tasa legal, no un derecho adquirido ni una promesa de pago. Los artículos, las inmunidades y los plazos varían por jurisdicción y cambian; nada aquí sustituye a un abogado con licencia en California.',
+    'Este sitio es un archivo público y de defensa, independiente, mantenido por una persona que apoya a la persona nombrada en el caso, con su conocimiento. Él se representa a sí mismo, en pro per; yo no soy abogado. No es representación legal, no da asesoría legal y no crea una relación abogado-cliente. Todas las presentaciones se hacen en pro per, a nombre del peticionario. Las entradas del expediente están transcritas de una impresión del resumen del caso fechada el 10 de noviembre de 2026 y todavía no están certificadas. El relato del aviso —que se envió a la dirección de su madre, que ella se lo dio a su hermana y que su hermana se lo leyó por teléfono— es testimonio de la familia, no está confirmado por ningún documento en mi poder, y se publica como tal; la familia cree que la carta se guardó, no que se perdió. Las afirmaciones sobre hechos en disputa —incluido el resultado negativo del laboratorio y cualquier afirmación de que las drogas fueron sembradas— son alegatos hasta que un tribunal o los registros los establezcan, y se publican con fines de rendición de cuentas y reparación. El análisis negativo es la prueba de este expediente; la afirmación sobre las drogas sembradas es un alegato y no se presenta como establecida. Los seis años son la condena que recita la minuta del 3 de marzo de 2009; los cinco años y ocho meses son el tiempo que en realidad estuvo en prisión. El argumento de la base fáctica bajo el artículo 1192.5 del Código Penal y el argumento del corpus delicti son posturas jurídicas, no conclusiones judiciales. La cifra del artículo 4900 es un cálculo a la tasa legal, no un derecho adquirido ni una promesa de pago. Los artículos, las inmunidades y los plazos varían por jurisdicción y cambian; nada aquí sustituye a un abogado con licencia en California.',
   closing: 'Nada de esto ha terminado.',
 }

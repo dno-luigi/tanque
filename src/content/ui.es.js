@@ -35,7 +35,7 @@ export const ui = {
     nextFiling: 'Próxima presentación',
     nextFilingValue: 'moción para anular',
   },
-  heck: { groupAria: 'Estado de la condena penal', ourRoute: 'Nuestra ruta' },
+  heck: { groupAria: 'Estado de la condena penal', ourRoute: 'Su ruta' },
   phases: { label: 'Etapa', output: 'Resultado' },
   evidence: { proves: 'Qué demuestra' },
   immunity: { takeawayLabel: 'La frase que importa' },

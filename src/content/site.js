@@ -38,7 +38,7 @@ export const hero = {
   line2: 'negative.',
   line3: 'He pleaded guilty before he knew it.',
   sub: 'Six years imposed. Five years and eight months served. The laboratory analysis of what was seized came back negative. He asked the court for it from prison in 2010 and was refused by minute order. The notice went to his mother’s address; she gave it to his sister, who read it to him over the phone. The result reached him — late, secondhand, after the plea was already final.',
-  note: 'Filed in his own name, in pro per. Built by two people who are not going to stop.',
+  note: 'He represents himself, in pro per. I am telling the story. A foundation supports the work — not a law firm, and nothing owed to anyone here.',
   stats: [
     { value: '5y 8m', label: 'custody served' },
     { value: '6 yrs', label: 'term imposed, 2009' },
@@ -71,8 +71,8 @@ export const story = {
     'The laboratory analysis of the seized items came back negative — no controlled substance detected. That is the claim this record exists to prove, and the document that would settle it is the certificate of analysis. If it holds, the factual basis recited for the plea could not have been true: Penal Code section 1192.5 requires the court to find one, and where there is no controlled substance there is no corpus delicti.',
     'He asked from inside. On 14 October 2010 he wrote to the court about the results of the laboratory drug testing. The court received the letter on 21 October 2010. On 1 November 2010 a minute order denied the request, and he was notified. No hearing. No appointment of counsel. No report.',
     'The notice about that analysis went to his mother’s address, not to the facility. His mother gave it to his sister. His sister read it to him over the phone while he was in custody. That is how he learned the analysis was negative — not from the page, which he has never read.',
-    'His sister died before he came home, but she had already told him what the paper said. The family believes the letter was kept, most likely by his mother. We have not seen it, so we describe it as unconfirmed rather than lost.',
-    'We are not asking you to take our word for it. We are asking for the paper.',
+    'His sister died before he came home, but she had already told him what the paper said. The family believes the letter was kept, most likely by his mother. I have not seen it, so I describe it as unconfirmed rather than lost.',
+    'I am not asking you to take my word for it. I am asking for the paper.',
   ],
   pull: 'Five years and eight months is not a sentence you serve and finish. It is a room you are still standing in.',
 }
@@ -210,10 +210,10 @@ export const facts = {
 export const heck = {
   number: '04',
   eyebrow: 'The gate',
-  title: 'Why we cannot sue yet — and exactly what opens the door.',
+  title: 'Why he cannot sue yet — and exactly what opens the door.',
   body: [
     'Under Heck v. Humphrey, 512 U.S. 477 (1994), a civil rights claim for damages that would necessarily imply the invalidity of a standing criminal conviction is barred at the threshold. A civil court will not let a lawsuit do the work of a post-conviction appeal.',
-    'This is not a technicality we can argue around, and it is not the same as a statute of limitations. It is a gate, and it has four keys. Our path is the third one: a state tribunal invalidating the judgment. That route has a statute number — California Penal Code section 1473.7 — and a case number: FVI802230.',
+    'This is not a technicality that can be argued around, and it is not the same as a statute of limitations. It is a gate, and it has four keys. His path is the third one: a state tribunal invalidating the judgment. That route has a statute number — California Penal Code section 1473.7 — and a case number: FVI802230.',
   ],
   citation:
     'Heck v. Humphrey, 512 U.S. 477 (1994) · 42 U.S.C. § 1983 · Cal. Penal Code §§ 1473, 1473.7',
@@ -237,7 +237,7 @@ export const heck = {
     {
       title: 'Invalidated by a state tribunal',
       detail:
-        'A court of competent jurisdiction vacates the judgment. This is our route: a § 1473.7 motion to vacate filed in San Bernardino Superior Court, built on the withheld negative analysis.',
+        'A court of competent jurisdiction vacates the judgment. This is his route: a § 1473.7 motion to vacate filed in San Bernardino Superior Court, built on the withheld negative analysis.',
       ours: true,
     },
     {
@@ -324,7 +324,7 @@ export const phases = {
 
 export const evidence = {
   number: '06',
-  eyebrow: 'What we are demanding',
+  eyebrow: 'What I am asking for',
   title: 'Five institutions. Five questions only paper can answer.',
   intro:
     'Every row below is a public records request, a preservation demand, and a future subpoena target. Expand a row for what it proves.',
@@ -403,7 +403,7 @@ export const immunity = {
 export const archive = {
   number: '08',
   eyebrow: 'The archive',
-  title: 'What we have. What we are owed.',
+  title: 'What I have. What is missing.',
   intro:
     'The docket printout dated 10 November 2026 is the only record currently in hand, and it is not certified. Nothing on this page is described as verified until a certified copy is. The family’s account of the notice — mother received it, sister read it to him by phone — is testimony, not a document, and stays labelled that way until a declaration or the letter is produced.',
   docs: [
@@ -455,9 +455,9 @@ export const archive = {
 export const protocol = {
   number: '09',
   eyebrow: 'Publishing standard',
-  title: 'How we publish without handing them a defamation case.',
+  title: 'The rules I hold myself to.',
   intro:
-    'Attention is only leverage if it is clean. These are the rules this site holds itself to, in public, so they can be enforced against us.',
+    'Attention is only worth something if it is clean. These are the rules I hold myself to, written down so they can be held against me.',
   rules: [
     {
       n: '01',
@@ -469,7 +469,7 @@ export const protocol = {
       n: '02',
       statement: 'Institutions, not individuals.',
       detail:
-        'We write about offices, procedures and failures — not about named people we have not accused in a filed pleading. Where a record names an official, we quote the record and add nothing to it.',
+        'I write about offices, procedures and failures — not about named people who have not been named in a filed pleading. Where a record names an official, I quote the record and add nothing to it.',
     },
     {
       n: '03',
@@ -496,7 +496,7 @@ export const dispatch = {
   number: '10',
   eyebrow: 'Dispatch',
   title: 'Send it where it will be read.',
-  body: 'Corruption survives on quiet. The ask is not sympathy — it is distribution, and it is records. If you have either, we want to hear from you.',
+  body: 'Quiet is what this survives on. I am not asking for sympathy — I am asking for distribution, and for records. If you have either, I want to hear from you.',
   needs: [
     {
       title: 'Post-conviction counsel',
@@ -511,7 +511,7 @@ export const dispatch = {
     {
       title: 'The letter and the plea file',
       detail:
-        'If you ever saw, copied, photographed or received correspondence about this case — or you hold the plea paperwork — that is what we are looking for.',
+        'If you ever saw, copied, photographed or received correspondence about this case — or you hold the plea paperwork — that is what I am looking for.',
     },
     {
       title: 'Distribution',
@@ -525,6 +525,6 @@ export const dispatch = {
 
 export const footer = {
   disclaimer:
-    'This site is an independent public record and advocacy archive, maintained by the person named in the case and by supporters. It is not legal representation, does not give legal advice, and creates no attorney-client relationship. All pleadings are filed in pro per, in the petitioner’s own name. Docket entries are transcribed from a case summary printout dated 10 November 2026 and are not yet certified. The account of the notice — that it was mailed to his mother’s address, that she gave it to his sister, and that his sister read it to him by telephone — is the family’s testimony, is unconfirmed by any document we hold, and is published as such; the letter is believed kept by the family, not lost. Statements about contested events — including the negative laboratory result and any claim that the drugs were planted — are allegations until a court or the records establish them, and are published for the purpose of accountability and redress. The negative analysis is the evidence in this file; the planting claim is an allegation and is not presented as established. The six-year term is the sentence recited in the 3 March 2009 minute order; five years and eight months is the custody actually served. The factual-basis argument under Penal Code section 1192.5 and the corpus delicti argument are legal contentions, not findings. The § 4900 figure is a statutory-rate estimate, not an entitlement or a promise of recovery. Statutes, immunities and deadlines vary by jurisdiction and change; nothing here substitutes for licensed counsel in California.',
+    'This site is an independent public record and advocacy archive, maintained by a supporter of the person named in the case, with his knowledge. He represents himself, in pro per; I am not a lawyer. It is not legal representation, does not give legal advice, and creates no attorney-client relationship. All pleadings are filed in pro per, in the petitioner’s own name. Docket entries are transcribed from a case summary printout dated 10 November 2026 and are not yet certified. The account of the notice — that it was mailed to his mother’s address, that she gave it to his sister, and that his sister read it to him by telephone — is the family’s testimony, is unconfirmed by any document I hold, and is published as such; the letter is believed kept by the family, not lost. Statements about contested events — including the negative laboratory result and any claim that the drugs were planted — are allegations until a court or the records establish them, and are published for the purpose of accountability and redress. The negative analysis is the evidence in this file; the planting claim is an allegation and is not presented as established. The six-year term is the sentence recited in the 3 March 2009 minute order; five years and eight months is the custody actually served. The factual-basis argument under Penal Code section 1192.5 and the corpus delicti argument are legal contentions, not findings. The § 4900 figure is a statutory-rate estimate, not an entitlement or a promise of recovery. Statutes, immunities and deadlines vary by jurisdiction and change; nothing here substitutes for licensed counsel in California.',
   closing: 'Nothing about this is over.',
 }
