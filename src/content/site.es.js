@@ -9,8 +9,8 @@
  */
 
 export const site = {
-  name: 'La carta que nunca se leyó',
-  short: 'La carta',
+  name: 'Una carta que nunca se leyó',
+  short: 'Una carta',
   tagline: 'People v. Campos · Corte Superior de San Bernardino, caso n.º FVI802230',
   contactEmail: 'record@example.com',
   repoUrl: '',
@@ -22,7 +22,7 @@ export const hero = {
   firm: 'Corte Superior de San Bernardino · caso n.º FVI802230',
   line1: 'Una carta',
   line2: 'que nunca se leyó.',
-  line3: 'Me declaré culpable sin haberlo leído.',
+  line3: 'Me declaré culpable de todos modos.',
   paragraphs: [
     'Cumplí cinco años y ocho meses en prisión estatal. El expediente de la corte muestra que después, desde prisión, pedí los resultados del laboratorio. La corte negó mi pedido.',
     'Un aviso sobre el resultado se envió a mi familia. Mi hermana entendió lo suficiente de la carta para decirme que iba a salir antes. Ella murió antes de que yo saliera.',
@@ -44,6 +44,10 @@ export const sections = [
         text: 'Retiré mi declaración de inocencia y me declaré culpable de un cargo de posesión de sustancia controlada para la venta.',
       },
       { type: 'p', text: 'Esa misma tarde me sentenciaron a seis años en prisión estatal.' },
+      {
+        type: 'p',
+        text: 'Para entonces llevaba casi un año en la cárcel. Tenía miedo. Estaba convencido de que me enfrentaba a treinta años. Así que retiré mi declaración de inocencia y me declaré culpable. ¿Por qué haría alguien eso?',
+      },
       {
         type: 'p',
         text: 'La minuta refleja una declaración libre y consciente, una base fáctica y una sentencia de cuatro años base duplicados más dos años consecutivos. También registra 195 días de abono.',
@@ -69,7 +73,7 @@ export const sections = [
       { type: 'p', text: 'Ese resultado va al centro del cargo del que me declaré culpable.' },
       {
         type: 'p',
-        text: '¿Cuánto tarda analizar lo incautado? El expediente abona 195 días al sentenciar. Contados hacia atrás desde el 3 de marzo de 2009, eso cae en el 20 de agosto de 2008: seis meses y doce días en custodia antes de retirar mi declaración, y 127 días después del arraigo del 27 de octubre de 2008. El resultado era negativo, y el caso estuvo abierto el tiempo suficiente para que llegara.',
+        text: '¿Cuánto tarda analizar lo incautado? El expediente abona 195 días al sentenciar, y cuando me declaré culpable llevaba casi un año bajo custodia. Un análisis de laboratorio no tarda eso. El resultado era negativo, y hubo tiempo para que llegara.',
       },
       {
         type: 'p',
@@ -135,6 +139,10 @@ export const sections = [
       {
         type: 'p',
         text: 'En el mundo real, cuando dos partes firman un contrato, cada una recibe una copia. Cada una tiene la oportunidad de saber a qué se comprometió.',
+      },
+      {
+        type: 'p',
+        text: 'Si entendía lo que firmaba, ¿por qué no me dieron una copia mientras lo firmaba?',
       },
       { type: 'p', text: '¿Qué clase de trato justo es cuando una de las partes ni siquiera recibe una copia?' },
       { type: 'p', text: 'La regla de oro también aplica aquí. Trata a los demás como esperarías que te trataran.' },

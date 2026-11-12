@@ -9,8 +9,8 @@
  */
 
 export const site = {
-  name: 'The Letter Never Read',
-  short: 'The Letter',
+  name: 'A Letter Never Read',
+  short: 'A Letter',
   tagline: 'People v. Campos · San Bernardino Superior Court No. FVI802230',
   contactEmail: 'record@example.com',
   repoUrl: '',
@@ -22,7 +22,7 @@ export const hero = {
   firm: 'San Bernardino Superior Court · Case No. FVI802230',
   line1: 'A letter',
   line2: 'never read.',
-  line3: 'I pled guilty without having read it.',
+  line3: 'I pled guilty anyway.',
   paragraphs: [
     'I served five years and eight months in state prison. The court record shows that I later asked for the laboratory results from prison. The court denied my request.',
     'A notice about the result was sent to my family. My sister understood enough of the letter to tell me I was coming home early. She died before I came home.',
@@ -44,6 +44,10 @@ export const sections = [
         text: 'I withdrew my not-guilty plea and pled guilty to one count of possession of a controlled substance for sale.',
       },
       { type: 'p', text: 'That same afternoon, I was sentenced to six years in state prison.' },
+      {
+        type: 'p',
+        text: 'I had been in jail for almost a year by then. I was scared. I was convinced I was looking at thirty years. So I withdrew my not-guilty plea and pled guilty. Why would anyone do that?',
+      },
       {
         type: 'p',
         text: 'The minute order reflects a knowing and intelligent plea, a factual basis, and a sentence consisting of a doubled four-year base term plus two consecutive years. It also records 195 days of credit.',
@@ -69,7 +73,7 @@ export const sections = [
       { type: 'p', text: 'That result goes to the heart of the charge to which I pled guilty.' },
       {
         type: 'p',
-        text: 'How long does it take to test seized items? The docket credits 195 days at sentencing. Counted back from March 3, 2009, that lands on August 20, 2008 — six months and twelve days in custody before I withdrew my plea, and 127 days after the October 27, 2008 arraignment. The result was negative, and the case sat long enough for it to arrive.',
+        text: 'How long does it take to test seized items? The docket credits 195 days at sentencing, and by the time I pled I had been in custody almost a year. A laboratory analysis does not take that long. The result was negative, and there was time for it to arrive.',
       },
       {
         type: 'p',
@@ -135,6 +139,10 @@ export const sections = [
       {
         type: 'p',
         text: 'In the real world, when two parties enter into a contract, both get a copy. Both have the opportunity to know what they agreed to.',
+      },
+      {
+        type: 'p',
+        text: 'If I understood what I signed, why wasn’t I given a copy of it as I was signing it?',
       },
       { type: 'p', text: 'What kind of fair deal is it when one party doesn’t even get a copy?' },
       { type: 'p', text: 'The Golden Rule applies here, too. Treat others as you would expect to be treated.' },
