@@ -2783,3 +2783,56 @@ h3 {
   text-transform: uppercase;
   color: var(--sun);
 }
+
+/* ── sheet: block-level layout ─────────────────────────────────────────── */
+
+.sheet-body > .tl,
+.sheet-body > .needs,
+.sheet-body > .archive-grid,
+.sheet-body > .sheet-table-wrap,
+.sheet-body > .docket {
+  max-width: none;
+}
+
+.sheet-needs {
+  margin: 26px 0;
+}
+
+.need ul {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.need li {
+  position: relative;
+  margin: 0 0 7px;
+  padding-left: 16px;
+  color: var(--bone-dim);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.need li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--mute);
+}
+
+.archive-grid .doc h3 {
+  font-size: 0.98rem;
+  line-height: 1.45;
+}
+
+.dispatch .sheet-body {
+  max-width: 62ch;
+}
+
+.dispatch .sheet-body p {
+  color: var(--bone-dim);
+}
+
+.dispatch h2 {
+  max-width: 20ch;
+}
