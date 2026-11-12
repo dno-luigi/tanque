@@ -10,7 +10,7 @@
 
 export const site = {
   name: 'La carta que nunca se leyó',
-  short: 'La carta que nunca se leyó',
+  short: 'La carta',
   tagline: 'People v. Campos · Corte Superior de San Bernardino, caso n.º FVI802230',
   contactEmail: 'record@example.com',
   repoUrl: '',

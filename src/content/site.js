@@ -10,7 +10,7 @@
 
 export const site = {
   name: 'The Letter Never Read',
-  short: 'The Letter Never Read',
+  short: 'The Letter',
   tagline: 'People v. Campos · San Bernardino Superior Court No. FVI802230',
   contactEmail: 'record@example.com',
   repoUrl: '',
