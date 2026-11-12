@@ -3,7 +3,13 @@ export function SectionHead({ number, eyebrow, title, intro }) {
     <header className="section-head reveal">
       <div className="head-main">
         <p className="section-num">
-          {number} <span className="slash">/</span> {eyebrow}
+          {number}
+          {eyebrow ? (
+            <>
+              {' '}
+              <span className="slash">/</span> {eyebrow}
+            </>
+          ) : null}
         </p>
         <h2 className="section-title">{title}</h2>
       </div>

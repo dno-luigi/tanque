@@ -1,10 +1,9 @@
 import { footer, site, ui } from '../content/active.js'
 
-const words = site.name.split(' ')
-const lastWord = words.pop()
-
 export default function Footer() {
   const year = new Date().getFullYear()
+  const words = site.name.split(' ')
+  const lastWord = words.pop()
 
   return (
     <footer className="footer">
@@ -15,8 +14,9 @@ export default function Footer() {
           </p>
 
           <nav className="footer-links" aria-label={ui.footer.aria}>
-            <a href="#archive">{ui.footer.archive}</a>
-            <a href="#dispatch">{ui.footer.dispatch}</a>
+            <a href="#plea">{ui.footer.plea}</a>
+            <a href="#records">{ui.footer.records}</a>
+            <a href="#attention">{ui.footer.attention}</a>
             <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
             {ui.altLocale.href ? (
               <a
@@ -38,13 +38,14 @@ export default function Footer() {
 
         <div className="footer-rule" />
 
+        <p className="notice-title">{footer.title}</p>
         <p className="disclaimer">{footer.disclaimer}</p>
 
         <div className="footer-base">
           <span>
             {year} · {site.name}
           </span>
-          <span className="closing">{footer.closing}</span>
+          {footer.closing ? <span className="closing">{footer.closing}</span> : null}
           <span>{ui.footer.notLegal}</span>
         </div>
       </div>

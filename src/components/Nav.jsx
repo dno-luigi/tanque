@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react'
 import { site, ui } from '../content/active.js'
 
 const links = [
-  { id: 'story', label: ui.nav.story },
-  { id: 'archive', label: ui.nav.archive },
-  { id: 'dispatch', label: ui.nav.dispatch },
+  { id: 'plea', label: ui.nav.plea },
+  { id: 'records', label: ui.nav.records },
+  { id: 'attention', label: ui.nav.attention },
 ]
 
 export default function Nav() {
@@ -62,7 +62,7 @@ export default function Nav() {
           ))}
         </nav>
 
-        <a className="nav-cta" href="#dispatch">
+        <a className="nav-cta" href="#attention">
           {ui.nav.cta}
         </a>
 
