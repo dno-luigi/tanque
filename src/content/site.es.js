@@ -45,9 +45,9 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'La línea del arresto en el expediente está en blanco. Ni fecha, ni número de registro, ni agencia. El único lugar donde aparece el arresto es el abono: 131 días efectivos, del 23 de octubre al día en que me declaré culpable. Todo lo demás en este expediente empieza cuando yo ya estaba bajo custodia.',
+        text: 'La línea del arresto en el expediente está en blanco. Ni fecha, ni número de registro, ni agencia. El único lugar donde aparece el arresto es el abono: 131 días efectivos, contados hasta el día en que me declaré culpable.',
       },
-      { type: 'p', text: 'Le dije a mi abogado defensor que eso no era mío.' },
+      { type: 'p', text: 'Le dije a mi abogado que eso no era mío.' },
       { type: 'p', text: 'El 3 de marzo de 2009 me presenté en una audiencia preliminar en Victorville.' },
       {
         type: 'p',
@@ -61,11 +61,11 @@ export const sections = [
       { type: 'p', text: 'Imagínese jugar al póker contra alguien que no sabía que se podía mentir.', strong: true },
       {
         type: 'p',
-        text: 'La minuta dice que renuncié a mi derecho de confrontar y contrainterrogar a los testigos en mi contra. Dice que mi declaración fue libre y consciente, y fija la sentencia en cuatro años base duplicados más dos años consecutivos.',
+        text: 'La minuta dice que renuncié a mi derecho de confrontar y contrainterrogar a los testigos en mi contra. Llama a mi declaración libre y consciente. Cuatro años, duplicados, más dos consecutivos.',
       },
       {
         type: 'p',
-        text: 'La acusación llevaba tres agravantes de pandilla — dos bajo el artículo 186.22(b) y una bajo el 186.22(a) —, dos condenas previas de prisión y una condena previa grave. La condena previa duplicó la base. Todo eso se apiló sobre un solo cargo de posesión.',
+        text: 'Tres agravantes de pandilla — dos bajo el 186.22(b), una bajo el 186.22(a) —, dos condenas previas de prisión y una condena previa grave. La previa duplicó la base. Todo sobre un solo cargo de posesión.',
       },
       {
         type: 'table',
@@ -80,16 +80,16 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'Una agravante no se sostiene sola. Va montada sobre un cargo, y el cargo descansaba en una prueba de drogas.',
+        text: 'Una agravante no se sostiene sola. Va montada sobre un cargo. Esta iba montada sobre una prueba de drogas.',
       },
       {
         type: 'p',
-        text: 'Cuando me arrestaron yo trabajaba en construcción. Tenía empleo y estaba ganando. No consumía drogas, estaba limpio. Ese es el hombre al que le apilaron esas agravantes.',
+        text: 'Cuando me arrestaron yo trabajaba en construcción. Tenía trabajo y estaba ganando. No consumía, estaba limpio. A ese le apilaron las agravantes.',
       },
       { type: 'p', text: 'Cumplí cinco años y ocho meses.' },
       {
         type: 'p',
-        text: 'La pregunta en el centro de este archivo es simple: qué sabía yo sobre las pruebas de laboratorio cuando me declaré culpable.',
+        text: '¿Qué sabía yo de las pruebas de laboratorio cuando me declaré culpable?',
       },
     ],
   },
@@ -102,23 +102,19 @@ export const sections = [
       { type: 'p', text: 'Nunca he visto el resultado.', strong: true },
       {
         type: 'p',
-        text: 'Lo que me dijeron, por teléfono, por medio de mi familia, fue que el análisis salió negativo: no se encontró sustancia controlada. Nunca he leído ese papel. No sé qué dice.',
+        text: 'Mi familia me dijo por teléfono que la prueba salió negativa. No se encontró sustancia controlada. Nunca he leído ese papel. No sé qué dice.',
       },
       {
         type: 'p',
-        text: 'Eso es lo que espero que diga. También es el documento que le vengo pidiendo a la corte desde 2010.',
+        text: 'Eso es lo que espero que diga. También es el documento que le llevo pidiendo a la corte desde 2010.',
       },
       {
         type: 'p',
-        text: '¿Cuánto tarda analizar lo incautado? Estuve bajo custodia 131 días efectivos, y nunca me pusieron un resultado de análisis por delante. Una prueba de drogas no tarda cuatro meses.',
+        text: '¿Cuánto tarda una prueba de drogas? Estuve 131 días y nadie me puso un resultado por delante. Una prueba de drogas no tarda cuatro meses.',
       },
       {
         type: 'p',
-        text: 'El certificado del laboratorio, las notas de trabajo, los registros de cadena de custodia y el historial de envíos son necesarios para establecer exactamente qué se analizó, cuándo se hizo el análisis y cuándo estuvo disponible el resultado.',
-      },
-      {
-        type: 'p',
-        text: 'Nadie me ha puesto ese papel por delante.',
+        text: 'El certificado del laboratorio, las notas de trabajo, la cadena de custodia y los registros de envío son los que muestran qué se analizó, cuándo, y cuándo regresó la respuesta.',
       },
     ],
   },
@@ -150,11 +146,11 @@ export const sections = [
     blocks: [
       {
         type: 'p',
-        text: 'El aviso sobre el resultado del laboratorio se envió a la dirección de mi madre, no a mí en prisión.',
+        text: 'El aviso sobre el resultado llegó a la dirección de mi madre, no a mí en prisión.',
       },
       {
         type: 'p',
-        text: 'Mi madre lo recibió y se lo pasó a mi hermana. Mi hermana no leía el inglés lo suficiente para entender la carta completa, pero entendió lo necesario para decirme que iba a salir antes.',
+        text: 'Mi madre lo recibió y se lo dio a mi hermana. Mi hermana no sabía suficiente inglés para leerlo todo, pero entendió lo necesario para decirme que iba a salir antes.',
       },
       {
         type: 'p',
@@ -186,7 +182,7 @@ export const sections = [
     number: '06',
     title: 'Lo que muestra el expediente',
     blocks: [
-      { type: 'p', text: 'El expediente disponible establece la siguiente secuencia:' },
+      { type: 'p', text: 'El expediente muestra este orden:' },
       {
         type: 'table',
         head: ['Fecha', 'Registro'],
@@ -214,11 +210,11 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'La declaración y la transcripción de la taquígrafa son registros importantes porque pueden mostrar qué base fáctica se presentó para la declaración y qué se dijo al tomarla.',
+        text: 'La declaración del 859a y la transcripción mostrarían qué base fáctica quedó en el acta y qué se dijo de verdad cuando me declaré culpable.',
       },
       {
         type: 'p',
-        text: 'El expediente es el registro disponible hoy en este archivo. No responde todas las preguntas.',
+        text: 'El expediente es el único registro que tengo. No responde todo.',
       },
     ],
   },
@@ -227,7 +223,7 @@ export const sections = [
     number: '07',
     title: 'Los registros',
     blocks: [
-      { type: 'p', text: 'Estos son los registros centrales para establecer la cronología completa.' },
+      { type: 'p', text: 'Estos son los registros que establecerían la cronología.' },
       {
         type: 'groups',
         groups: [
@@ -279,7 +275,7 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'En conjunto, estos registros pueden establecer qué se analizó, qué mostró el resultado, cuándo lo recibió cada parte y qué información existía cuando me declaré culpable.',
+        text: 'En conjunto muestran qué se analizó, cómo salió, y quién recibió el resultado y cuándo.',
       },
     ],
   },
@@ -293,7 +289,7 @@ export const sections = [
       { type: 'p', text: 'Publicado: 0 de 6 categorías principales de registros.', strong: true },
       {
         type: 'p',
-        text: 'El archivo se construye sobre los registros, no sobre suposiciones acerca de lo que mostrarán.',
+        text: 'Esto lo estoy construyendo sobre los registros reales, no sobre lo que supongo que dicen.',
       },
       { type: 'p', text: 'Los documentos centrales son:' },
       {
@@ -309,7 +305,7 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'El expediente establece que pedí los resultados del laboratorio y que la corte negó el pedido. Los demás registros son necesarios para completar la cronología probatoria.',
+        text: 'El expediente muestra que pedí los resultados del laboratorio y que la corte dijo no. Todo lo demás sigue faltando.',
       },
       { type: 'docket', label: 'Expediente de la corte', meta: '13.6 KB · 10 de noviembre de 2026' },
     ],
@@ -327,9 +323,9 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'Le pido a la gente que lea el expediente, que preserve los documentos y que comparta este archivo con cualquiera que pueda ayudar a llevar la prueba a la vista pública.',
+        text: 'Lee el expediente. Guarda los documentos. Mándale esto a cualquiera que pueda ayudar a sacar la prueba a la luz.',
       },
-      { type: 'p', text: 'Me represento a mí mismo. Comparezco en pro per.' },
+      { type: 'p', text: 'Me represento a mí mismo.' },
       { type: 'p', text: 'No pido que se crea en mi palabra. Pido que se examinen los registros.' },
       { type: 'sign', lines: ['People v. Campos', 'Corte Superior de San Bernardino, n.º FVI802230'] },
     ],

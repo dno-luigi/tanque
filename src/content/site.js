@@ -45,9 +45,9 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'The arrest line on the docket is blank. No arrest date, no booking number, no arresting agency. The only place the arrest shows up is the credit: 131 days actual, which runs from October 23 to the day I pled. Everything else in this record starts after I was already in custody.',
+        text: 'The docket’s arrest line is blank. No arrest date, no booking number, no agency. The only place the arrest shows up is the credit: 131 actual days, counted to the day I pled.',
       },
-      { type: 'p', text: 'I told my defense counsel it wasn’t my stuff.' },
+      { type: 'p', text: 'I told my lawyer it wasn’t my stuff.' },
       { type: 'p', text: 'On March 3, 2009, I appeared at a preliminary hearing in Victorville.' },
       {
         type: 'p',
@@ -61,11 +61,11 @@ export const sections = [
       { type: 'p', text: 'Imagine playing poker against someone who didn’t know you could bluff.', strong: true },
       {
         type: 'p',
-        text: 'The minute order says I waived my right to confront and cross-examine the witnesses against me. It says my plea was knowledgeable and intelligently made, and it fixes the sentence at a doubled four-year base term plus two consecutive years.',
+        text: 'The minute order says I waived my right to confront and cross-examine the witnesses against me. It calls my plea knowing and intelligent. Four years, doubled, plus two consecutive.',
       },
       {
         type: 'p',
-        text: 'The complaint carried three gang allegations — two under Penal Code 186.22(b) and one under 186.22(a) — two prior prison terms, and a strike. The strike doubled the base term. All of it sat on one possession count.',
+        text: 'Three gang allegations — two under 186.22(b), one under 186.22(a) — two prior prison terms, and a strike. The strike doubled the base. All of it on one possession count.',
       },
       {
         type: 'table',
@@ -80,16 +80,16 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'An enhancement cannot stand by itself. It rides on a charge, and the charge rested on a drug test.',
+        text: 'An enhancement can’t stand on its own. It rides on a charge. This one rode on a drug test.',
       },
       {
         type: 'p',
-        text: 'At the time of my arrest I was working construction. I was employed and I was earning. I was not using drugs, and I was clean. That is the man they stacked those enhancements onto.',
+        text: 'When I was arrested I was working construction. I had a job and I was earning. I wasn’t using, I was clean. That’s who they stacked the enhancements on.',
       },
       { type: 'p', text: 'I served five years and eight months.' },
       {
         type: 'p',
-        text: 'The question at the center of this archive is straightforward: what did I know about the laboratory testing when I entered that plea?',
+        text: 'What did I know about the lab testing when I pled?',
       },
     ],
   },
@@ -102,23 +102,19 @@ export const sections = [
       { type: 'p', text: 'I have never seen the result.', strong: true },
       {
         type: 'p',
-        text: 'What I was told, over the phone by my family, was that the analysis came back negative: no controlled substance found. I have never read that paper. I do not know what it says.',
+        text: 'My family told me on the phone that the test came back negative. No controlled substance found. I have never read that paper. I don’t know what it says.',
       },
       {
         type: 'p',
-        text: 'That is what I hope it says. It is also the document I have been asking the court for since 2010.',
+        text: 'That’s what I hope it says. It’s also the document I’ve been asking the court for since 2010.',
       },
       {
         type: 'p',
-        text: 'How long does it take to test a seized item? I was in custody 131 actual days, and no test result was ever put in front of me. A drug test does not take four months.',
+        text: 'How long does a drug test take? I sat 131 days and nobody ever put a result in front of me. A drug test doesn’t take four months.',
       },
       {
         type: 'p',
-        text: 'The laboratory certificate, bench notes, chain-of-custody records, and transmittal history are necessary to establish exactly what was tested, when the testing occurred, and when the result became available.',
-      },
-      {
-        type: 'p',
-        text: 'Nobody has ever put the paper in front of me.',
+        text: 'The lab certificate, the bench notes, the chain of custody and the transmittal records are what show what was tested, when, and when the answer came back.',
       },
     ],
   },
@@ -150,11 +146,11 @@ export const sections = [
     blocks: [
       {
         type: 'p',
-        text: 'The notice concerning the laboratory result was sent to my mother’s address rather than to me in prison.',
+        text: 'The notice about the result went to my mother’s address, not to me in prison.',
       },
       {
         type: 'p',
-        text: 'My mother received it and passed it to my sister. My sister could not read English well enough to understand the entire letter, but she understood enough to tell me that I was coming home early.',
+        text: 'My mother received it and gave it to my sister. My sister’s English wasn’t good enough to read all of it, but she understood enough to tell me I was coming home early.',
       },
       {
         type: 'p',
@@ -186,7 +182,7 @@ export const sections = [
     number: '06',
     title: 'What the court record shows',
     blocks: [
-      { type: 'p', text: 'The available docket establishes the following sequence:' },
+      { type: 'p', text: 'The docket shows this order:' },
       {
         type: 'table',
         head: ['Date', 'Record'],
@@ -214,9 +210,9 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'The declaration and reporter’s transcript are important records because they may show what factual basis was presented for the plea and what was said when the plea was entered.',
+        text: 'The 859a declaration and the transcript would show what factual basis was put on the record and what was actually said when I pled.',
       },
-      { type: 'p', text: 'The docket is the record currently available in this archive. It does not answer every question.' },
+      { type: 'p', text: 'The docket is the only record I have. It doesn’t answer everything.' },
     ],
   },
   {
@@ -224,7 +220,7 @@ export const sections = [
     number: '07',
     title: 'The records',
     blocks: [
-      { type: 'p', text: 'These are the records central to establishing the complete timeline.' },
+      { type: 'p', text: 'These are the records that would establish the timeline.' },
       {
         type: 'groups',
         groups: [
@@ -276,7 +272,7 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'Together, these records can establish what was tested, what the result showed, when each party received it, and what information was available when I pled guilty.',
+        text: 'Together they show what was tested, what it came back as, and who got the result and when.',
       },
     ],
   },
@@ -290,7 +286,7 @@ export const sections = [
       { type: 'p', text: 'Published: 0 of 6 principal record categories.', strong: true },
       {
         type: 'p',
-        text: 'The archive is being built around the underlying records, not assumptions about what they will show.',
+        text: 'I’m building this around the actual records, not around what I assume they say.',
       },
       { type: 'p', text: 'The central documents are:' },
       {
@@ -306,7 +302,7 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'The docket establishes that I asked for the laboratory results and that the court denied the request. The remaining records are needed to complete the evidentiary timeline.',
+        text: 'The docket shows I asked for the lab results and the court said no. Everything else is still missing.',
       },
       { type: 'docket', label: 'Court docket', meta: '13.6 KB · November 10, 2026' },
     ],
@@ -324,9 +320,9 @@ export const sections = [
       },
       {
         type: 'p',
-        text: 'I am asking people to read the record, preserve the documents, and share this archive with anyone who can help bring the underlying evidence into public view.',
+        text: 'Read the record. Keep the documents. Send this to anyone who can help get the evidence out in the open.',
       },
-      { type: 'p', text: 'I represent myself. I am proceeding in pro per.' },
+      { type: 'p', text: 'I’m representing myself.' },
       { type: 'p', text: 'This is not a request to take my word for anything. It is a request to examine the records.' },
       { type: 'sign', lines: ['People v. Campos', 'San Bernardino Superior Court No. FVI802230'] },
     ],
