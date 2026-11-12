@@ -47,7 +47,6 @@ export const sections = [
         type: 'p',
         text: 'La línea del arresto en el expediente está en blanco. Ni fecha, ni número de registro, ni agencia. El único lugar donde aparece el arresto es el abono: 131 días efectivos, contados hasta el día en que me declaré culpable.',
       },
-      { type: 'p', text: 'Le dije a mi abogado que eso no era mío.' },
       { type: 'p', text: 'El 3 de marzo de 2009 me presenté en una audiencia preliminar en Victorville.' },
       {
         type: 'p',

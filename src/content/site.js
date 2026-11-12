@@ -47,7 +47,6 @@ export const sections = [
         type: 'p',
         text: 'The docket’s arrest line is blank. No arrest date, no booking number, no agency. The only place the arrest shows up is the credit: 131 actual days, counted to the day I pled.',
       },
-      { type: 'p', text: 'I told my lawyer it wasn’t my stuff.' },
       { type: 'p', text: 'On March 3, 2009, I appeared at a preliminary hearing in Victorville.' },
       {
         type: 'p',
