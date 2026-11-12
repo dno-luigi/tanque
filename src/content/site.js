@@ -23,7 +23,11 @@ export const hero = {
   line1: 'A letter',
   line2: 'never read.',
   line3: 'I pled guilty anyway.',
-  paragraphs: [],
+  paragraphs: [
+    'The docket says my plea was knowing and intelligent. It says there was a factual basis, a waiver, and a declaration under Penal Code section 859a. None of that paperwork is in the file. None of it can be downloaded.',
+    'There is no booking number. There is no arrest date. The only thing pointing back before the arraignment is the 195 days of credit, which counts back to August 2008 — two months before I first appear in this docket at all.',
+    'The charge rested on a drug test. The test is not in the file either.',
+  ],
   note: '',
 }
 

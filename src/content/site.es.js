@@ -23,7 +23,11 @@ export const hero = {
   line1: 'Una carta',
   line2: 'que nunca se leyó.',
   line3: 'Me declaré culpable de todos modos.',
-  paragraphs: [],
+  paragraphs: [
+    'El expediente dice que mi declaración fue libre y consciente. Dice que hubo una base fáctica, una renuncia y una declaración bajo el artículo 859a del Código Penal. Nada de ese papeleo está en el archivo. Nada de eso se puede descargar.',
+    'No hay número de registro. No hay fecha de arresto. Lo único que apunta antes del arraigo son los 195 días de abono, que se cuentan hasta agosto de 2008: dos meses antes de que yo aparezca por primera vez en este expediente.',
+    'El cargo dependía de una prueba de drogas. La prueba tampoco está en el archivo.',
+  ],
   note: '',
 }
 
